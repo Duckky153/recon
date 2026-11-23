@@ -563,42 +563,21 @@
       p("The AI reads the supplier documents and customer payment notes and picks from fixed options. Code checks every number and writes every reason and note.");
       return;
     }
-    var a = S.ai.documents;
-    p("October, read once by the AI after its questions were locked. Its answer key was written by AI before that read. The key clears " + a.clean + " of the " + D.counts.documents + " documents and holds or sets aside " + a.problems + ".");
-    body.appendChild(scoreTable(S));
-    var wrong = 0;
-    Object.keys(S.ai.fields || {}).forEach(function (k) { wrong += S.ai.fields[k].wrong; });
-    if (a.unsure.length) {
-      var para = el("p", "small");
-      para.appendChild(document.createTextNode("It held " + a.unsure.length + " for a person because it wasn't sure. Open one to see the line: "));
-      a.unsure.forEach(function (u, k) {
-        var r0 = res.filter(function (x) { return x.doc === u.doc; })[0];
-        var btn = el("button", "open", (r0 ? r0.from_name : u.doc) + ", " + u.what);
-        btn.type = "button";
-        btn.addEventListener("click", function () {
-          (PHONE.matches ? document.querySelector(".out") : document.getElementById("term")).scrollIntoView({ behavior: FILM ? "auto" : "smooth", block: "start" });
-          log.textContent = "";
-          typeAndRun("recon doc " + u.doc);
-        });
-        if (k) para.appendChild(document.createTextNode("; "));
-        para.appendChild(btn);
-      });
-      para.appendChild(document.createTextNode(". " + (wrong ? wrong + " of the answers it counted were wrong." : "None of the answers it counted was wrong.")));
-      body.appendChild(para);
-    }
-    p("This month the no-AI reader matched or beat the AI on every decision. What the AI added was the sender's own reason, quoted.", "small");
-    p("Not blind: the questions were written knowing the kinds of problems planted in the sample, and two pieces of the reader's code were written while looking at October documents (they shaped 6 bills). The AI itself hadn't read October before. The no-AI reader was written while looking at these same documents, so its score is likely higher than it would be on documents it hadn't seen.", "small");
     var F = D.fair_test && D.fair_test.readers;
+    var run = S.ai.run || {}, frun = F && F.ai && F.ai.run;
+    p("October, scored against an answer key written by AI.");
+    body.appendChild(scoreTable(S));
+    p("The no-AI reader matched or beat the AI on every decision. Only the AI quoted the sender's reason.", "line");
     if (F && F.ai && F.no_ai) {
       body.appendChild(el("h3", "", "Fair test"));
-      p("A second set of October documents neither reader had seen, written by three new AI writers after both readers were frozen. Every supplier and customer name is new, part numbers have a new supplier prefix, and order, bill and invoice numbers are new. The planted cases and amounts are the same as the first set and some layouts are close to it, so this tests freshly written documents, not new kinds of problem. The AI read them once.");
+      p("Freshly written documents neither reader had seen, with the same planted cases.");
       body.appendChild(scoreTable(F));
-      p("Neither reader cleared anything it shouldn't have, and the no-AI reader was again slightly ahead on decisions. Both tripped on H-1001, which puts each field on a row of its own: the no-AI reader read its price as $0, and the AI step's code couldn't join its part to its quantity. The AI's other two holds were real doubts.", "small");
-      p("The no-AI reader's first run stopped with an error on H-1008. The test script was then changed to hold such a document for a person, as it already did for a broken AI reply, and run again before the AI read.", "small");
+      p("The no-AI reader was again slightly ahead.", "line");
     }
-    var run = S.ai.run || {}, frun = F && F.ai && F.ai.run;
-    if (run.cost_dollars !== undefined) p("The AI step cost $" + run.cost_dollars.toFixed(3) + " for October" + (frun ? ", $" + frun.cost_dollars.toFixed(3) + " for the fair test, and $" + frun.spent_so_far_dollars.toFixed(3) : " and $" + run.spent_so_far_dollars.toFixed(3)) + " for the whole build with practice.", "small");
-    p("The AI reads the supplier documents and customer payment notes and picks from fixed options. Code checks every number and writes every reason and note.", "small");
+    if (run.cost_dollars !== undefined) {
+      var c1 = "$" + run.cost_dollars.toFixed(3), c2 = frun ? "$" + frun.cost_dollars.toFixed(3) : null;
+      p(c2 === null ? "The AI cost " + c1 + "." : c1 === c2 ? "The AI cost " + c1 + " for each of the two tests." : "The AI cost " + c1 + " for October and " + c2 + " for the fair test.", "line");
+    }
   }
   $("scores-link").addEventListener("click", function (e) {
     e.preventDefault();

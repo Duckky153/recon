@@ -25,8 +25,10 @@ def check(name, ok, detail=""):
         FAILS.append(name)
 
 
+# the demo film's code (site/film.js, film/) is private and never published, so it is left out like local/
+PRIVATE = (".git", "local", "cache", "node_modules", ".venv", "film")
 CODE = [p for p in ROOT.rglob("*") if p.is_file() and (p.suffix in (".py", ".js") or p.name == "recon")
-        and not any(x in p.parts for x in (".git", "local", "cache", "node_modules", ".venv"))]
+        and not any(x in p.parts for x in PRIVATE) and p.name != "film.js"]
 
 # 1. network hosts
 hosts = {}
@@ -47,7 +49,7 @@ check("the command and the deciding code make no network call",
 name = "Panto" + "graph"
 places = []
 for p in ROOT.rglob("*"):
-    if p.is_file() and not any(x in p.parts for x in (".git", "local", "cache", "node_modules", ".venv", "study", "plan", "reviews", "docs")) \
+    if p.is_file() and not any(x in p.parts for x in PRIVATE + ("study", "plan", "reviews", "docs")) and p.name != "film.js" \
             and p.suffix in (".md", ".html", ".js", ".json", ".py", ".css", ".yml", ".sh", ".txt") or p.name == "recon":
         if (re.fullmatch(r"[A-Z]+\.md", p.name) and p.name not in ("README.md", "CHANGES.md")) or p.name == "publish.sh" or not p.is_file():
             continue

@@ -28,3 +28,6 @@ All logged in `lock.json`.
 - Known slips, left as locked: H-1013's sender line cites RMA-VT-3317 (from the reworded line), while the books have the return as RMA-VT-3454; returns are matched by supplier, part and quantity, so no score depends on it. H-1017's bill number came out as GW-2163-10 from the number shift.
 - Two description strings inside the locked files keep the wording written before the reads: `holdout/slots-2026-10.json` says "read once by each" (the no-AI reader was run twice, above) and `holdout/books.json` says "every name and code new" (part numbers kept their bodies, and the credit note and statement numbers their digits). Changing them would break the lock.
 - The page's Scores and the README show both tables. The command's `export` adds the fair-test scores to the page's data.
+
+## Less text on the page
+- The Scores section was cut to the two tables, one line under each, the cost and a link to this README's "How it was tested". No number changed; the detail that was there is in the README.
