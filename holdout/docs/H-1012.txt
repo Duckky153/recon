@@ -1,0 +1,22 @@
+Vistrell Optics  |  Portland, OR
+--------------------------------------------------------------
+INVOICE VT-55257
+
+Date ........... 10/16/2026
+Your order ..... PO-4206
+Terms .......... Net 30 days
+Bill to ........ Halden Robotics, Oakland, CA
+
+Quantity  Unit  Part number    Description                                   Price each      Amount
+24        EA    VT-CAM-8MP-B   Camera module, 8 MP, global shutter (rev B)       $96.50   $2,316.00
+
+VT-CAM-8MP-B is the replacement for VT-CAM-8MP-A, which is discontinued. It fits the same and costs the same.
+
+Subtotal:     $2,316.00
+Freight:      $0.00
+Tax:          $0.00
+Amount due:   $2,316.00
+
+Please remit to Vistrell Optics, Portland, OR, and reference the invoice number.
+
+Sample document. Every name and number is made up.

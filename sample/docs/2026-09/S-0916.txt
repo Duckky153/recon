@@ -1,0 +1,19 @@
+From: invoices@lanyard-ic.example
+To: ap@halden-robotics.example
+Date: 2026-09-26
+Subject: Lanyard Interconnect invoice LI-60371
+
+Hi,
+
+Invoice LI-60371, dated 2026-09-26, terms Net 30.
+
+Part #        Qty  U/M  Description                    Unit Price   Line Total
+LI-HRN-24      10  EA   Wiring harness, main, 24 V         $31.00      $310.00
+
+Invoice total: $310.00
+
+Regards,
+Accounts Receivable
+Lanyard Interconnect, Santa Clara, CA
+
+Sample document. Every name and number is made up.

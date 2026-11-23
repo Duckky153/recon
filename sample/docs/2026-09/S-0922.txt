@@ -1,0 +1,24 @@
+From: billing@brightcut-metal.example
+To: ap@halden-robotics.example
+Date: Sep 30, 2026
+Subject: Statement of account STMT-2026-09 from Brightcut Metalworks
+
+Hello,
+
+Your statement of account is below.
+
+Statement STMT-2026-09
+Date: Sep 30, 2026
+Terms: Net 30
+
+Invoice       Date              Amount
+BM-7741       Sep 13, 2026   $1,360.00
+BM-7760       Sep 21, 2026   $3,780.00
+
+Statement total: $5,140.00
+
+Thanks,
+Brightcut Metalworks billing
+Hayward, CA
+
+Sample document. Every name and number is made up.

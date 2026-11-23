@@ -1,0 +1,22 @@
+From: Corriden Wheel Co. Billing <billing@corridenwheel.example>
+To: ap@halden-robotics.example
+Date: 2026-10-20
+Subject: Statement of account STMT-2026-10
+
+Hi,
+
+Here is your statement of account as of 2026-10-20. This is a statement only, not a new invoice.
+
+Statement: STMT-2026-10
+Date: 2026-10-20
+
+- CR-3427: paid
+- CR-3445: $5,480.00, open
+
+Balance due: $5,480.00
+
+Thanks,
+Billing
+Corriden Wheel Co., Sacramento, CA
+
+Sample document. Every name and number is made up.

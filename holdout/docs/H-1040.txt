@@ -1,0 +1,14 @@
+From: Ebberley Labs Payables <payables@ebberleylabs.example>
+To: ap@halden-robotics.example
+Date: 10/31/2026
+Subject: Payment sent for INV-5067
+
+Hello,
+
+We sent a payment of $1,680.00 to Halden Robotics today. It covers invoice INV-5067.
+
+Regards,
+Payables
+Ebberley Labs, Seattle, WA
+
+Sample document. Every name and number is made up.

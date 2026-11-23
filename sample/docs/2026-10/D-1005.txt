@@ -1,0 +1,24 @@
+From: ar@ferrowcircuits.example
+To: ap@halden-robotics.example
+Date: 2026-10-21
+Subject: Resending invoice FC-2291 (PO-1195)
+
+Hello,
+
+We are resending invoice FC-2291 below in case the first copy did not reach you. Could you let us know whether it was received?
+
+Invoice No.:  FC-2291
+Customer PO:  PO-1195
+Terms:        Net 30
+
+Item      Description                  Qty  Unit  Unit Price     Amount
+FC-MB-R4  Main board assembly, rev 4    12  EA       $185.00  $2,220.00
+
+Total: $2,220.00
+
+Thank you,
+Accounts Receivable
+Ferrow Circuits
+Fremont, CA
+
+Sample document. Every name and number is made up.

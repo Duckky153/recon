@@ -1,0 +1,15 @@
+From: accounts@pembrellfacilities.example
+To: ap@halden-robotics.example
+Date: Oct 28, 2026
+Subject: Payment sent - INV-2064
+
+Hi,
+
+Just a note that we paid invoice INV-2064 today, $6,000.00 by ACH.
+
+Thanks,
+Accounts Payable
+Pembrell Facilities
+Tucson, AZ
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,25 @@
+Scarrow Compute
+Austin, TX
+
+PRO FORMA INVOICE
+
+Pro forma no.    PF-SC-2207
+Date             10/21/2026
+Terms            30% deposit before shipment, balance Net 30
+Bill to: Halden Robotics, Oakland, CA
+
+This is a pro forma invoice for a future order. It is not a bill for goods shipped.
+
+Description            SKU          Quantity  Unit  Unit Cost  Line Total
+---------------------  -----------  --------  ----  ---------  ----------
+Compute module, 8 GB   SC-CM-NX8          10  EA      $389.00   $3,890.00
+
+Subtotal                 $3,890.00
+Freight                      $0.00
+Tax                          $0.00
+Pro forma total          $3,890.00
+
+We ask for a 30% deposit before this order ships. The order is released once the deposit is received.
+Remit to Scarrow Compute, Austin, TX.
+
+Sample document. Every name and number is made up.

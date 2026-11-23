@@ -1,0 +1,25 @@
+From: billing@wexbywheel.example
+To: ap@halden-robotics.example
+Date: Oct 10, 2026
+Subject: Wexby Wheel Co. invoice WX-3308 / PO-1193
+
+Hi Halden Robotics AP,
+
+Our invoice WX-3308 for your PO-1193 is below. Terms are Net 30.
+
+  Invoice: WX-3308
+  Date: Oct 10, 2026
+  Your PO: PO-1193
+
+  - WX-WHL-200 | Wheel, 200 mm, polyurethane | 200 EA @ $27.40 = $5,480.00
+
+  Invoice total: $5,480.00
+
+Remaining 80 wheels to follow by October 30.
+
+Thanks for the order,
+Trina
+Billing, Wexby Wheel Co.
+Sacramento, CA
+
+Sample document. Every name and number is made up.

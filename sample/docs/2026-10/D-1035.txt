@@ -1,0 +1,21 @@
+From: payables@pellnorris.example
+To: ap@halden-robotics.example
+Date: 10/30/2026
+Subject: Remittance advice, invoice INV-2062
+
+Hello,
+
+Pell & Norris Inspection sent a payment of $23,800.00 today for invoice INV-2062.
+
+We have deducted $1,200.00 for the damaged bumper reported on delivery.
+
+  Payment date: 10/30/2026
+  Invoice paid: INV-2062
+  Amount paid:  $23,800.00
+
+Regards,
+Accounts Payable
+Pell & Norris Inspection
+Tulsa, OK
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,24 @@
+From: billing@wexbywheel.example
+To: ap@halden-robotics.example
+Date: Oct 20, 2026
+Subject: Wexby Wheel Co. statement of account STMT-2026-10
+
+Hi Halden Robotics AP,
+
+Your statement of account is below. This is a statement only, not a new invoice.
+
+  Statement: STMT-2026-10
+  Date: Oct 20, 2026
+  Terms: Net 30
+
+  - WX-3290 | paid
+  - WX-3308 | $5,480.00 | open
+
+  Balance due: $5,480.00
+
+Thanks,
+Trina
+Billing, Wexby Wheel Co.
+Sacramento, CA
+
+Sample document. Every name and number is made up.

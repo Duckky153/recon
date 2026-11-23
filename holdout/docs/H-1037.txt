@@ -1,0 +1,15 @@
+From: payables@quillby-survey.example
+To: ap@halden-robotics.example
+Date: 10/31/2026
+Subject: Payment sent for INV-5041
+
+Hello Halden Robotics,
+
+We sent a payment of $2,520.00 today for invoice INV-5041.
+
+Thanks,
+Accounts Payable
+Quillby Survey Co.
+Boise, ID
+
+Sample document. Every name and number is made up.

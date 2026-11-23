@@ -1,0 +1,21 @@
+Fennick Fasteners - Stockton, CA
+------------------------------------------------------------------
+Invoice # FN-11356                              Date: 10/14/2026
+Customer order: PO-4190, PO-4207
+Payment terms: Net 30 days
+
+Bill to: Halden Robotics, Oakland, CA
+
+Quantity | Unit | Part No.    | Description               | Price Each | Amount
+---------+------+-------------+---------------------------+------------+-------
+800      | EA   | FN-SCR-M412 | Screw, M4 x 12, stainless | $0.06      | $48.00
+400      | EA   | FN-SCR-M412 | Screw, M4 x 12, stainless | $0.06      | $24.00
+
+Subtotal:    $72.00
+Freight:     $0.00
+Tax:         $0.00
+Total due:   $72.00
+
+Make payment to Fennick Fasteners, Stockton, CA. Thank you for your order.
+
+Sample document. Every name and number is made up.

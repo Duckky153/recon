@@ -1,0 +1,4 @@
+Posting Date,Payer,Amount,Reference
+10/29/2026,Faircombe Field Services,"$6,000.00",ACH CREDIT FAIRCOMBE FIELD SERVICES HOUSTON TX
+
+Sample document. Every name and number is made up.

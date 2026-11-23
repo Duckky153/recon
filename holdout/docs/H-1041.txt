@@ -1,0 +1,18 @@
+From: remittance@stourton-utilities.example
+To: ap@halden-robotics.example
+Date: Oct 16, 2026
+Subject: Remittance advice - Stourton Utilities
+
+REMITTANCE ADVICE
+
+Payer:          Stourton Utilities, Spokane, WA
+Payee:          Halden Robotics, Oakland, CA
+Payment date:   Oct 16, 2026
+Amount paid:    $840.00
+Applied to:     INV-5052
+
+Payment sent by ACH.
+
+Stourton Utilities Accounts Payable
+
+Sample document. Every name and number is made up.

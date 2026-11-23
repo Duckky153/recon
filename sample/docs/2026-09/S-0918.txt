@@ -1,0 +1,23 @@
+From: accounts@calvane-optics.example
+To: ap@halden-robotics.example
+Date: Sep 27, 2026
+Subject: Resend: Invoice CV-55010
+
+Hello,
+
+Resending invoice CV-55010 for your records.
+
+Invoice number    CV-55010
+Purchase order    PO-1169
+Payment terms     Net 30
+
+Quantity  Unit  Description                           Part No.         Price      Amount
+      12  EA    Camera module, 8 MP, global shutter   CV-CAM-8MP-A    $96.50   $1,158.00
+
+Amount due: $1,158.00
+
+Thank you,
+Calvane Optics accounts
+Portland, OR
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,22 @@
+Abernook Drives
+San Jose, CA                                  Tel (408) 555-0167
+================================================================
+
+BILL                                        Bill No.  AB-24608
+                                            Date      10/24/2026
+
+Bill to: Halden Robotics, Oakland, CA
+Customer Order: PO-4219                Payment Terms: Net 30
+
+Quantity | Unit | Part No.     | Description                  | Price Each | Amount
+---------+------+--------------+------------------------------+------------+-----------
+      30 | EA   | AB-BL48-220  | Brushless motor, 48 V, 220 W |    $142.00 | $4,260.00
+
+                                   Merchandise      $4,260.00
+                                   Freight              $0.00
+                                   Sales Tax            $0.00
+                                   AMOUNT DUE       $4,260.00
+
+Make payment to Abernook Drives, San Jose, CA. Quote Bill No. AB-24608.
+
+Sample document. Every name and number is made up.

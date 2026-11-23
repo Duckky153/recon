@@ -1,0 +1,21 @@
+LANYARD INTERCONNECT
+Santa Clara, CA
+
+INVOICE
+----------------------------------------------------------------------
+Number:     LI-60310             Date:    2026-09-14
+Order ref:  PO-1166              Terms:   Net 30
+----------------------------------------------------------------------
+Bill to: Halden Robotics, Oakland, CA
+
+Part #        Qty  U/M  Description                    Unit Price   Line Total
+LI-HRN-24      30  EA   Wiring harness, main, 24 V         $30.50      $915.00
+----------------------------------------------------------------------
+                                      Subtotal                  $915.00
+                                      Freight                     $0.00
+                                      Tax                         $0.00
+                                      Invoice total             $915.00
+
+Remit to Lanyard Interconnect, Santa Clara, CA.
+
+Sample document. Every name and number is made up.

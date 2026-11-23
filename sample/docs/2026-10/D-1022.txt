@@ -1,0 +1,18 @@
+ONDREY SUPPLY | Phoenix, AZ | (602) 555-0167
+Distributor invoice, billed on behalf of the manufacturer
+------------------------------------------------------------------------------
+Invoice #: OS-778201                      Invoice date: 10/22/2026
+Terms: Net 30
+Bill to: Halden Robotics, Oakland, CA
+------------------------------------------------------------------------------
+Line  Part Number    Qty  UM  Description                               Each   Extended
+   1  CV-CAM-8MP-A    16  EA  Camera module, 8 MP, global shutter     $96.50  $1,544.00
+------------------------------------------------------------------------------
+Subtotal      $1,544.00
+Freight           $0.00
+Tax               $0.00
+Amount Due    $1,544.00
+
+Remit to Ondrey Supply, Phoenix, AZ. Please include the invoice number with payment.
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,22 @@
+Vistrell Optics  |  Portland, OR
+--------------------------------------------------------------
+CREDIT NOTE VT-CN-0098
+
+Date ........... 10/17/2026
+Your order ..... PO-4160
+Terms .......... Net 30 days
+Credit to ...... Halden Robotics, Oakland, CA
+
+Quantity  Unit  Part number    Description                                       Price each      Amount
+-2        EA    VT-CAM-8MP-A   Camera module, 8 MP, global shutter, returned        $96.50    -$193.00
+
+This credits RMA-VT-3317, the two modules you returned on October 3.
+
+Subtotal:       -$193.00
+Freight:        $0.00
+Tax:            $0.00
+Total credit:   -$193.00
+
+This credit will be applied to your account with Vistrell Optics, Portland, OR.
+
+Sample document. Every name and number is made up.

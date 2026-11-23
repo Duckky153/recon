@@ -1,0 +1,18 @@
+From: ap@brackwell-utilities.example
+To: ap@halden-robotics.example
+Date: 10/16/2026
+Subject: Payment issued: INV-2052
+
+Halden Robotics,
+
+Brackwell Utilities issued payment on 10/16/2026.
+
+  Payment amount:  $840.00
+  Applied to:      INV-2052
+  Method:          ACH
+
+Regards,
+Brackwell Utilities Accounts Payable
+Spokane, WA
+
+Sample document. Every name and number is made up.

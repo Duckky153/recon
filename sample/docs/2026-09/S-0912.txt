@@ -1,0 +1,19 @@
+Brightcut Metalworks
+Hayward, CA
+
+Invoice #BM-7760                      Date: Sep 21, 2026
+Your PO: PO-1172                      Terms: Net 30
+
+Bill to: Halden Robotics, Oakland, CA
+
+Description                     Part          Qty   Unit     Rate        Amount
+Enclosure, aluminum, rev 3     BC-ENC-AL3     15   EA     $238.00    $3,570.00
+
+Subtotal: $3,570.00
+Freight: $210.00
+Tax: $0.00
+Total: $3,780.00
+
+Make checks payable to Brightcut Metalworks, Hayward, CA.
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,17 @@
+From: payables@astersurvey.example
+To: ap@halden-robotics.example
+Date: Oct 31, 2026
+Subject: Remittance advice - INV-2041
+
+Hello,
+
+We sent a payment of $2,520.00 to Halden Robotics today, Oct 31, 2026, by ACH.
+
+Invoice paid: INV-2041
+Amount: $2,520.00
+
+Thank you,
+Accounts Payable
+Aster Survey Co., Boise, ID
+
+Sample document. Every name and number is made up.

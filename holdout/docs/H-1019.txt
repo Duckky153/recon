@@ -1,0 +1,22 @@
+From: Sumwick Billing <billing@sumwick.example>
+To: ap@halden-robotics.example
+Date: Oct 2, 2026
+Subject: Your Sumwick invoice SW-41327
+
+Hello,
+
+Your Sumwick invoice for October is ready.
+
+Invoice number    SW-41327
+Invoice date      Oct 2, 2026
+Payment terms     Net 30
+
+Description                      Qty   Unit   Price      Amount
+Sumwick Growth plan, October       1   MO     $320.00    $320.00
+
+Amount due: $320.00
+
+Sumwick Billing
+Boston, MA
+
+Sample document. Every name and number is made up.

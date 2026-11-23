@@ -1,0 +1,24 @@
+From: Corriden Wheel Co. Billing <billing@corridenwheel.example>
+To: ap@halden-robotics.example
+Date: 2026-10-10
+Subject: Invoice CR-3445 / PO-4193
+
+Hi,
+
+Please find invoice CR-3445 for your order PO-4193 below.
+
+Invoice: CR-3445
+Date: 2026-10-10
+Terms: Net 30
+
+- CR-WHL-200, Wheel, 200 mm, polyurethane: 200 EA at $27.40 = $5,480.00
+
+Invoice total: $5,480.00
+
+We'll send the other 80 wheels by October 30.
+
+Thanks,
+Billing
+Corriden Wheel Co., Sacramento, CA
+
+Sample document. Every name and number is made up.

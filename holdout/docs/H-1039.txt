@@ -1,0 +1,4 @@
+Posting Date,Payer,Amount,Reference
+10/30/2026,Faircombe Field Services,$840.00,ACH CREDIT FAIRCOMBE FIELD SERVICES INV-5065
+
+Sample document. Every name and number is made up.

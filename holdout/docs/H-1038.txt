@@ -1,0 +1,18 @@
+From: Cindral Facilities Accounts <accounts@cindral-facilities.example>
+To: ap@halden-robotics.example
+Date: 10/28/2026
+Subject: Remittance advice - Cindral Facilities
+
+Hi,
+
+Remittance advice below.
+
+Payment date: 10/28/2026
+Amount paid: $6,000.00
+Invoice paid: INV-5064
+
+Thank you,
+Accounts team
+Cindral Facilities, Tucson, AZ
+
+Sample document. Every name and number is made up.

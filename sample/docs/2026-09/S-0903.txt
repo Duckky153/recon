@@ -1,0 +1,19 @@
+From: office@wexbywheel.example
+To: ap@halden-robotics.example
+Date: 09/11/2026
+Subject: Wexby Wheel Co. bill WX-3262 - your PO-1163
+
+Hi Halden team,
+
+Bill WX-3262 for PO-1163, dated 09/11/2026. Net 30.
+
+  Qty   Unit  Part         Item                              Price       Total
+  120   EA                 200mm PU wheels                   $27.40   $3,288.00
+
+Total due: $3,288.00
+
+Thanks,
+Wexby Wheel Co.
+Sacramento, CA
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,24 @@
+From: billing@draftwick.example
+To: ap@halden-robotics.example
+Date: 2026-10-02
+Subject: Your Draftwick invoice DW-88350
+
+Hi Halden Robotics,
+
+Thanks for using Draftwick. Here is your invoice for October.
+
+Invoice number: DW-88350
+Invoice date: 2026-10-02
+Billed to: Halden Robotics, Oakland, CA
+Payment terms: Net 30
+
+- Draftwick Team plan, October: 1 MO x $490.00 = $490.00
+
+Total: $490.00
+
+Questions about this invoice? Reply to this email.
+
+Draftwick Billing
+Denver, CO
+
+Sample document. Every name and number is made up.

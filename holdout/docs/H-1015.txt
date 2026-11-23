@@ -1,0 +1,25 @@
+ONDREL COMPUTE
+Austin, TX
+
+PRO FORMA INVOICE
+================================================================
+Pro forma no.   PF-ON-2344
+Issued          2026-10-21
+Bill to         Halden Robotics, Oakland, CA
+Terms           30% deposit before shipment, balance Net 30
+
+This pro forma is for a future order of 10 units. It is not a
+final invoice. Our final invoice will follow when the order ships.
+
+SKU         Description             Unit Price   Qty  Unit   Line Total
+ON-CM-NX8   Compute module, 8 GB       $389.00    10  EA      $3,890.00
+
+                                    Subtotal                  $3,890.00
+                                    Shipping                      $0.00
+                                    Tax                           $0.00
+                                    Pro forma total           $3,890.00
+
+A 30% deposit is required before this order ships.
+Deposit payable to Ondrel Compute, Austin, TX.
+
+Sample document. Every name and number is made up.

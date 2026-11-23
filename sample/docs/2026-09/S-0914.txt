@@ -1,0 +1,22 @@
+KESTWICK FASTENERS
+Stockton, CA
+
+INVOICE NO.     KF-11140
+INVOICE DATE    09/21/2026
+CUSTOMER PO     PO-1174
+TERMS           Net 30
+
+Bill to: Halden Robotics, Oakland, CA
+
+ITEM NO       ITEM DESCRIPTION              QUANTITY  UOM   UNIT PRICE   EXT AMOUNT
+KF-SCR-M412   Screw, M4 x 12, stainless          300  EA         $0.06       $18.00
+KF-NUT-M4     Nut, M4, stainless                 300  EA         $0.04       $12.00
+
+SUBTOTAL      $30.00
+FREIGHT        $0.00
+TAX            $0.00
+TOTAL         $30.00
+
+Remit to Kestwick Fasteners, Stockton, CA
+
+Sample document. Every name and number is made up.

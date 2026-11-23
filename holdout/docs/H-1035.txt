@@ -1,0 +1,15 @@
+From: Vossler & Kane Inspection Payables <payables@vosslerkane.example>
+To: ap@halden-robotics.example
+Date: 2026-10-30
+Subject: Payment for INV-5062
+
+Hello Halden Robotics,
+
+We sent a payment of $23,800.00 on 2026-10-30 for invoice INV-5062.
+$1,200.00 was held back for the bumper that arrived damaged.
+
+Regards,
+Payables
+Vossler & Kane Inspection, Tulsa, OK
+
+Sample document. Every name and number is made up.

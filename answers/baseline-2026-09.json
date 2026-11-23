@@ -1,0 +1,599 @@
+{
+ "month": "2026-09",
+ "reader": "baseline.py (no AI)",
+ "readings": {
+  "S-0923": {
+   "kind": "bill",
+   "from": "tallowmere",
+   "date": "2026-09-01",
+   "number": "TW-2026-09",
+   "lines": [],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 640000
+  },
+  "S-0901": {
+   "kind": "bill",
+   "from": "tarnwell",
+   "date": "2026-09-09",
+   "number": "TM-24302",
+   "lines": [
+    {
+     "po": "PO-1161",
+     "po_line": 1,
+     "item": "TM-BL48-220",
+     "qty": 20,
+     "unit": "EA",
+     "price": 14200,
+     "amount": 284000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 284000
+  },
+  "S-0902": {
+   "kind": "bill",
+   "from": "ostrander",
+   "date": "2026-09-10",
+   "number": "OC-90170",
+   "lines": [
+    {
+     "po": "PO-1162",
+     "po_line": 1,
+     "item": "OC-LFP-2420",
+     "qty": 8,
+     "unit": "EA",
+     "price": 42900,
+     "amount": 343200
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 343200
+  },
+  "S-0903": {
+   "kind": "bill",
+   "from": "wexby",
+   "date": "2026-09-11",
+   "number": "WX-3262",
+   "lines": [
+    {
+     "po": "PO-1163",
+     "po_line": 1,
+     "item": "WX-WHL-200",
+     "qty": 120,
+     "unit": "EA",
+     "price": 2740,
+     "amount": 328800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 328800
+  },
+  "S-0904": {
+   "kind": "bill",
+   "from": "ferrow",
+   "date": "2026-09-12",
+   "number": "FC-2240",
+   "lines": [
+    {
+     "po": "PO-1164",
+     "po_line": 1,
+     "item": "FC-MB-R4",
+     "qty": 10,
+     "unit": "EA",
+     "price": 18500,
+     "amount": 185000
+    },
+    {
+     "po": "PO-1164",
+     "po_line": 2,
+     "item": "FC-PDB-R2",
+     "qty": 10,
+     "unit": "EA",
+     "price": 4800,
+     "amount": 48000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 233000
+  },
+  "S-0905": {
+   "kind": "bill",
+   "from": "brightcut",
+   "date": "2026-09-13",
+   "number": "BM-7741",
+   "lines": [
+    {
+     "po": "PO-1165",
+     "po_line": 1,
+     "item": "BC-BRK-12",
+     "qty": 200,
+     "unit": "EA",
+     "price": 680,
+     "amount": 136000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 136000
+  },
+  "S-0907": {
+   "kind": "bill",
+   "from": "kestwick",
+   "date": "2026-09-13",
+   "number": "KF-11102",
+   "lines": [
+    {
+     "po": "PO-1167",
+     "po_line": 1,
+     "item": "KF-SCR-M412",
+     "qty": 10,
+     "unit": "BX",
+     "price": 600,
+     "amount": 6000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 6000
+  },
+  "S-0906": {
+   "kind": "bill",
+   "from": "lanyard",
+   "date": "2026-09-14",
+   "number": "LI-60310",
+   "lines": [
+    {
+     "po": "PO-1166",
+     "po_line": 1,
+     "item": "LI-HRN-24",
+     "qty": 30,
+     "unit": "EA",
+     "price": 3050,
+     "amount": 91500
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 91500
+  },
+  "S-0908": {
+   "kind": "bill",
+   "from": "scarrow",
+   "date": "2026-09-17",
+   "number": "SCX-1120",
+   "lines": [
+    {
+     "po": "PO-1168",
+     "po_line": 1,
+     "item": "SC-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "amount": 155600
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 155600
+  },
+  "S-0909": {
+   "kind": "bill",
+   "from": "calvane",
+   "date": "2026-09-18",
+   "number": "CV-55010",
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 12,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 115800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 115800
+  },
+  "S-0910": {
+   "kind": "bill",
+   "from": "tarnwell",
+   "date": "2026-09-19",
+   "number": "TM-24350",
+   "lines": [
+    {
+     "po": "PO-1170",
+     "po_line": 1,
+     "item": "TM-BL48-220",
+     "qty": 24,
+     "unit": "EA",
+     "price": 14200,
+     "amount": 340800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 340800
+  },
+  "S-0911": {
+   "kind": "bill",
+   "from": "ostrander",
+   "date": "2026-09-20",
+   "number": "OC-90188",
+   "lines": [
+    {
+     "po": "PO-1171",
+     "po_line": 1,
+     "item": "OC-LFP-2420",
+     "qty": 6,
+     "unit": "EA",
+     "price": 41000,
+     "amount": 246000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 19700,
+   "total": 265700
+  },
+  "S-0912": {
+   "kind": "bill",
+   "from": "brightcut",
+   "date": "2026-09-21",
+   "number": "BM-7760",
+   "lines": [
+    {
+     "po": "PO-1172",
+     "po_line": 1,
+     "item": "BC-ENC-AL3",
+     "qty": 15,
+     "unit": "EA",
+     "price": 23800,
+     "amount": 357000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 21000,
+   "tax": 0,
+   "total": 378000
+  },
+  "S-0914": {
+   "kind": "bill",
+   "from": "kestwick",
+   "date": "2026-09-21",
+   "number": "KF-11140",
+   "lines": [
+    {
+     "po": "PO-1174",
+     "po_line": 1,
+     "item": "KF-SCR-M412",
+     "qty": 300,
+     "unit": "EA",
+     "price": 6,
+     "amount": 1800
+    },
+    {
+     "po": "PO-1174",
+     "po_line": 2,
+     "item": "KF-NUT-M4",
+     "qty": 300,
+     "unit": "EA",
+     "price": 4,
+     "amount": 1200
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 3000
+  },
+  "S-0913": {
+   "kind": "bill",
+   "from": "wexby",
+   "date": "2026-09-23",
+   "number": "WX-3290",
+   "lines": [
+    {
+     "po": "PO-1173",
+     "po_line": 1,
+     "item": "WX-WHL-200",
+     "qty": 60,
+     "unit": "EA",
+     "price": 2740,
+     "amount": 164400
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 164400
+  },
+  "S-0925": {
+   "kind": "payment",
+   "from": "ashlowe",
+   "date": "2026-09-24",
+   "amount": 600000,
+   "invoices_named": [
+    "INV-2030"
+   ],
+   "explanation_line": null
+  },
+  "S-0915": {
+   "kind": "bill",
+   "from": "ferrow",
+   "date": "2026-09-25",
+   "number": "FC-2266",
+   "lines": [
+    {
+     "po": "PO-1175",
+     "po_line": 1,
+     "item": "FC-MB-R4",
+     "qty": 8,
+     "unit": "EA",
+     "price": 18500,
+     "amount": 148000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 148000
+  },
+  "S-0926": {
+   "kind": "payment",
+   "from": "pembrell",
+   "date": "2026-09-25",
+   "amount": 138000,
+   "invoices_named": [
+    "INV-2033"
+   ],
+   "explanation_line": null
+  },
+  "S-0916": {
+   "kind": "bill",
+   "from": "lanyard",
+   "date": "2026-09-26",
+   "number": "LI-60371",
+   "lines": [
+    {
+     "po": null,
+     "po_line": null,
+     "item": "LI-HRN-24",
+     "qty": 10,
+     "unit": "EA",
+     "price": 3100,
+     "amount": 31000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 31000
+  },
+  "S-0917": {
+   "kind": "bill",
+   "from": "lanyard",
+   "date": "2026-09-26",
+   "number": "LI-60366",
+   "lines": [
+    {
+     "po": "PO-1176",
+     "po_line": 1,
+     "item": "LI-CON-8P",
+     "qty": 200,
+     "unit": "EA",
+     "price": 420,
+     "amount": 84000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 84000
+  },
+  "S-0927": {
+   "kind": "payment",
+   "from": "kettleby",
+   "date": "2026-09-26",
+   "amount": 1250000,
+   "invoices_named": [
+    "INV-2036"
+   ],
+   "explanation_line": null
+  },
+  "S-0918": {
+   "kind": "bill",
+   "from": "calvane",
+   "date": "2026-09-27",
+   "number": "CV-55010",
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 12,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 115800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 115800
+  },
+  "S-0919": {
+   "kind": "bill",
+   "from": "calvane",
+   "date": "2026-09-27",
+   "number": "CV-55041",
+   "lines": [
+    {
+     "po": "PO-1177",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 10,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 96500
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 96500
+  },
+  "S-0928": {
+   "kind": "payment",
+   "from": "pellnorris",
+   "date": "2026-09-27",
+   "amount": 84000,
+   "invoices_named": [],
+   "explanation_line": null
+  },
+  "S-0920": {
+   "kind": "bill",
+   "from": "scarrow",
+   "date": "2026-09-28",
+   "number": "SCX-1141",
+   "lines": [
+    {
+     "po": "PO-1178",
+     "po_line": 1,
+     "item": "SC-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "amount": 155600
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 155600
+  },
+  "S-0930": {
+   "kind": "payment",
+   "from": "aster",
+   "date": "2026-09-28",
+   "amount": 168000,
+   "invoices_named": [
+    "INV-2041"
+   ],
+   "explanation_line": null
+  },
+  "S-0924": {
+   "kind": "credit_note",
+   "from": "calvane",
+   "date": "2026-09-29",
+   "number": "CV-CN-0091",
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": -1,
+     "unit": "EA",
+     "price": 9650,
+     "amount": -9650
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": -9650
+  },
+  "S-0929": {
+   "kind": "payment",
+   "from": "brackwell",
+   "date": "2026-09-29",
+   "amount": 600000,
+   "invoices_named": [
+    "INV-2039"
+   ],
+   "explanation_line": null
+  },
+  "S-0921": {
+   "kind": "bill",
+   "from": "brightcut",
+   "date": "2026-09-30",
+   "number": "BM-7778",
+   "lines": [
+    {
+     "po": "PO-1179",
+     "po_line": 1,
+     "item": "BC-ENC-AL3",
+     "qty": 12,
+     "unit": "EA",
+     "price": 23800,
+     "amount": 285600
+    },
+    {
+     "po": "PO-1179",
+     "po_line": 2,
+     "item": "BC-BRK-12",
+     "qty": 100,
+     "unit": "EA",
+     "price": 680,
+     "amount": 68000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 353600
+  },
+  "S-0922": {
+   "kind": "statement",
+   "from": "brightcut",
+   "date": "2026-09-30",
+   "number": "STMT-2026-09",
+   "lines": [],
+   "explanation_line": null,
+   "terms_days": 30,
+   "freight": 0,
+   "tax": 0,
+   "total": 514000
+  }
+ }
+}

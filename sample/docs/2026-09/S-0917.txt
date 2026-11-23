@@ -1,0 +1,21 @@
+LANYARD INTERCONNECT
+Santa Clara, CA
+
+INVOICE
+----------------------------------------------------------------------
+Number:     LI-60366             Date:    2026-09-26
+Order ref:  PO-1176              Terms:   Net 30
+----------------------------------------------------------------------
+Bill to: Halden Robotics, Oakland, CA
+
+Part #        Qty  U/M  Description                    Unit Price   Line Total
+LI-CON-8P     200  EA   Connector, 8-pin, sealed            $4.20      $840.00
+----------------------------------------------------------------------
+                                      Subtotal                  $840.00
+                                      Freight                     $0.00
+                                      Tax                         $0.00
+                                      Invoice total             $840.00
+
+Remit to Lanyard Interconnect, Santa Clara, CA.
+
+Sample document. Every name and number is made up.

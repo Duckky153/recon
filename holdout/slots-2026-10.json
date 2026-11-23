@@ -1,0 +1,2275 @@
+{
+ "month": "2026-10",
+ "use": "the fair test: written after both readers were frozen, read once by each",
+ "documents": [
+  {
+   "doc": "H-1001",
+   "case": "B1",
+   "from": "pellicor",
+   "from_name": "Pellicor Cells",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-09",
+   "writer": {
+    "number": "PL-90368",
+    "date": "2026-10-09",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4191",
+    "lines": [
+     {
+      "printed_part": "PL-LFP-2420",
+      "description": "Battery pack, 24 V 20 Ah, LFP",
+      "qty": 10,
+      "unit": "EA",
+      "price": 43100,
+      "amount": 431000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 431000,
+    "explanation_line": "Cell prices include the surcharge that began October 1.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "price_over",
+    "lines": [
+     {
+      "po": "PO-4191",
+      "po_line": 1,
+      "item": "PL-LFP-2420",
+      "printed_part": "PL-LFP-2420",
+      "description": "Battery pack, 24 V 20 Ah, LFP",
+      "qty": 10,
+      "unit": "EA",
+      "price": 43100,
+      "amount": 431000
+     }
+    ],
+    "total": 431000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "Cell prices include the surcharge that began October 1.",
+    "number": "PL-90368",
+    "values": {
+     "price": 43100,
+     "order_price": 41000
+    }
+   }
+  },
+  {
+   "doc": "H-1002",
+   "case": "B2",
+   "from": "abernook",
+   "from_name": "Abernook Drives",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-08",
+   "writer": {
+    "number": "AB-24554",
+    "date": "2026-10-08",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4188",
+    "lines": [
+     {
+      "printed_part": "AB-BL48-220",
+      "description": "Brushless motor, 48 V, 220 W",
+      "qty": 40,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 568000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 568000,
+    "explanation_line": "The remaining 4 drives are backordered and should ship the week of November 2.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "qty_over_received",
+    "lines": [
+     {
+      "po": "PO-4188",
+      "po_line": 1,
+      "item": "AB-BL48-220",
+      "printed_part": "AB-BL48-220",
+      "description": "Brushless motor, 48 V, 220 W",
+      "qty": 40,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 568000
+     }
+    ],
+    "total": 568000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "The remaining 4 drives are backordered and should ship the week of November 2.",
+    "number": "AB-24554",
+    "values": {
+     "billed": 40,
+     "received": 36
+    }
+   }
+  },
+  {
+   "doc": "H-1003",
+   "case": "B3",
+   "from": "corriden",
+   "from_name": "Corriden Wheel Co.",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-10",
+   "writer": {
+    "number": "CR-3445",
+    "date": "2026-10-10",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4193",
+    "lines": [
+     {
+      "printed_part": "CR-WHL-200",
+      "description": "Wheel, 200 mm, polyurethane",
+      "qty": 200,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 548000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 548000,
+    "explanation_line": "We'll send the other 80 wheels by October 30.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "qty_over_received",
+    "lines": [
+     {
+      "po": "PO-4193",
+      "po_line": 1,
+      "item": "CR-WHL-200",
+      "printed_part": "CR-WHL-200",
+      "description": "Wheel, 200 mm, polyurethane",
+      "qty": 200,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 548000
+     }
+    ],
+    "total": 548000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "We'll send the other 80 wheels by October 30.",
+    "number": "CR-3445",
+    "values": {
+     "billed": 200,
+     "received": 120,
+     "due": "2026-10-09"
+    }
+   }
+  },
+  {
+   "doc": "H-1004",
+   "case": "C8",
+   "from": "tamsby",
+   "from_name": "Tamsby Circuits",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-11",
+   "writer": {
+    "number": "TB-2428",
+    "date": "2026-10-11",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4195",
+    "lines": [
+     {
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 222000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4195",
+      "po_line": 1,
+      "item": "TB-MB-R4",
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "total": 222000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "TB-2428",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1005",
+   "case": "B4",
+   "from": "tamsby",
+   "from_name": "Tamsby Circuits",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-21",
+   "writer": {
+    "number": "TB-2428",
+    "date": "2026-10-21",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4195",
+    "lines": [
+     {
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 222000,
+    "explanation_line": null,
+    "note_to_writer": "Write it as an email resending the same bill (same number, same lines), asking whether it was received."
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "duplicate_same_number",
+    "lines": [
+     {
+      "po": "PO-4195",
+      "po_line": 1,
+      "item": "TB-MB-R4",
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "total": 222000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "TB-2428",
+    "values": {
+     "original": "H-1004"
+    }
+   }
+  },
+  {
+   "doc": "H-1006",
+   "case": "B5",
+   "from": "kelderby",
+   "from_name": "Kelderby Forge",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-12",
+   "writer": {
+    "number": "KB-7948",
+    "date": "2026-10-12",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4149",
+    "lines": [
+     {
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 40,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 952000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 952000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "duplicate_new_number",
+    "lines": [
+     {
+      "po": "PO-4149",
+      "po_line": 1,
+      "item": "KD-ENC-AL3",
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 40,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 952000
+     }
+    ],
+    "total": 952000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "KB-7948",
+    "values": {
+     "original_number": "KB-7867"
+    }
+   }
+  },
+  {
+   "doc": "H-1007",
+   "case": "B6",
+   "from": "oxwell",
+   "from_name": "Oxwell Interconnect",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-13",
+   "writer": {
+    "number": "OW-60555",
+    "date": "2026-10-13",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": "OW-CON-8P",
+      "description": "Connector, 8-pin, sealed",
+      "qty": 150,
+      "unit": "EA",
+      "price": 420,
+      "amount": 63000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 63000,
+    "explanation_line": "Your shop asked for these by phone on October 9 as a rush.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "no_order",
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": "OW-CON-8P",
+      "printed_part": "OW-CON-8P",
+      "description": "Connector, 8-pin, sealed",
+      "qty": 150,
+      "unit": "EA",
+      "price": 420,
+      "amount": 63000
+     }
+    ],
+    "total": 63000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "Your shop asked for these by phone on October 9 as a rush.",
+    "number": "OW-60555",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1008",
+   "case": "B7",
+   "from": "ondrel",
+   "from_name": "Ondrel Compute",
+   "format": "sheet",
+   "kind": "bill",
+   "received": "2026-10-18",
+   "writer": {
+    "number": "ONX-1319",
+    "date": "2026-10-18",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": "ON-CM-NX8",
+      "description": "Compute module, 8 GB",
+      "qty": 6,
+      "unit": "EA",
+      "price": 38900,
+      "amount": 233400
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 233400,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "ambiguous_order",
+    "lines": [
+     {
+      "po": "PO-4201",
+      "po_line": 1,
+      "item": "ON-CM-NX8",
+      "printed_part": "ON-CM-NX8",
+      "description": "Compute module, 8 GB",
+      "qty": 6,
+      "unit": "EA",
+      "price": 38900,
+      "amount": 233400
+     }
+    ],
+    "total": 233400,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "ONX-1319",
+    "values": {},
+    "ambiguous_between": [
+     "PO-4201",
+     "PO-4214"
+    ]
+   }
+  },
+  {
+   "doc": "H-1009",
+   "case": "B8",
+   "from": "kelderby",
+   "from_name": "Kelderby Forge",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-14",
+   "writer": {
+    "number": "KB-7973",
+    "date": "2026-10-14",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4199",
+    "lines": [
+     {
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 30,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 714000
+     }
+    ],
+    "freight": 16500,
+    "tax": 0,
+    "total": 730500,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "freight_not_ordered",
+    "lines": [
+     {
+      "po": "PO-4199",
+      "po_line": 1,
+      "item": "KD-ENC-AL3",
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 30,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 714000
+     }
+    ],
+    "total": 730500,
+    "freight": 16500,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "KB-7973",
+    "values": {
+     "freight": 16500
+    }
+   }
+  },
+  {
+   "doc": "H-1010",
+   "case": "B9",
+   "from": "tamsby",
+   "from_name": "Tamsby Circuits",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-15",
+   "writer": {
+    "number": "TB-2455",
+    "date": "2026-10-15",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4203",
+    "lines": [
+     {
+      "printed_part": "TB-PDB-R2",
+      "description": "Power distribution board, rev 2",
+      "qty": 25,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 120000
+     }
+    ],
+    "freight": 0,
+    "tax": 10500,
+    "total": 130500,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "tax_not_expected",
+    "lines": [
+     {
+      "po": "PO-4203",
+      "po_line": 1,
+      "item": "TB-PDB-R2",
+      "printed_part": "TB-PDB-R2",
+      "description": "Power distribution board, rev 2",
+      "qty": 25,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 120000
+     }
+    ],
+    "total": 130500,
+    "freight": 0,
+    "tax": 10500,
+    "explanation_line": null,
+    "number": "TB-2455",
+    "values": {
+     "tax": 10500
+    }
+   }
+  },
+  {
+   "doc": "H-1011",
+   "case": "B10",
+   "from": "fennick",
+   "from_name": "Fennick Fasteners",
+   "format": "sheet",
+   "kind": "bill",
+   "received": "2026-10-13",
+   "writer": {
+    "number": "FN-11344",
+    "date": "2026-10-13",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4205",
+    "lines": [
+     {
+      "printed_part": "FN-NUT-M4",
+      "description": "Nut, M4, stainless",
+      "qty": 12,
+      "unit": "BX",
+      "price": 400,
+      "amount": 4800
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 4800,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "unit_unknown",
+    "lines": [
+     {
+      "po": "PO-4205",
+      "po_line": 1,
+      "item": "FN-NUT-M4",
+      "printed_part": "FN-NUT-M4",
+      "description": "Nut, M4, stainless",
+      "qty": 12,
+      "unit": "BX",
+      "price": 400,
+      "amount": 4800
+     }
+    ],
+    "total": 4800,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "FN-11344",
+    "values": {
+     "boxes": 12,
+     "order_qty": 1200,
+     "would_match_per_box": 100
+    }
+   }
+  },
+  {
+   "doc": "H-1012",
+   "case": "B11",
+   "from": "vistrell",
+   "from_name": "Vistrell Optics",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-16",
+   "writer": {
+    "number": "VT-55257",
+    "date": "2026-10-16",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4206",
+    "lines": [
+     {
+      "printed_part": "VT-CAM-8MP-B",
+      "description": "Camera module, 8 MP, global shutter (rev B)",
+      "qty": 24,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 231600
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 231600,
+    "explanation_line": "VT-CAM-8MP-B is the replacement for VT-CAM-8MP-A, which is discontinued. It fits the same and costs the same.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "substituted_part",
+    "lines": [
+     {
+      "po": "PO-4206",
+      "po_line": 1,
+      "item": "VT-CAM-8MP-B",
+      "printed_part": "VT-CAM-8MP-B",
+      "description": "Camera module, 8 MP, global shutter (rev B)",
+      "qty": 24,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 231600
+     }
+    ],
+    "total": 231600,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "VT-CAM-8MP-B is the replacement for VT-CAM-8MP-A, which is discontinued. It fits the same and costs the same.",
+    "number": "VT-55257",
+    "values": {
+     "billed_part": "VT-CAM-8MP-B",
+     "ordered_part": "VT-CAM-8MP-A"
+    }
+   }
+  },
+  {
+   "doc": "H-1013",
+   "case": "B12",
+   "from": "vistrell",
+   "from_name": "Vistrell Optics",
+   "format": "printed",
+   "kind": "credit_note",
+   "received": "2026-10-17",
+   "writer": {
+    "number": "VT-CN-0098",
+    "date": "2026-10-17",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4160",
+    "lines": [
+     {
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter, returned",
+      "qty": -2,
+      "unit": "EA",
+      "price": 9650,
+      "amount": -19300
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": -19300,
+    "explanation_line": "This credits RMA-VT-3317, the two modules you returned on October 3.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "credit_note",
+    "outcome": "set_aside",
+    "reason": "credit_available",
+    "lines": [
+     {
+      "po": "PO-4160",
+      "po_line": 1,
+      "item": "VT-CAM-8MP-A",
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter, returned",
+      "qty": -2,
+      "unit": "EA",
+      "price": 9650,
+      "amount": -19300
+     }
+    ],
+    "total": -19300,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "This credits RMA-VT-3317, the two modules you returned on October 3.",
+    "number": "VT-CN-0098",
+    "values": {
+     "credit": 19300,
+     "return": "RMA-VT-3454"
+    }
+   }
+  },
+  {
+   "doc": "H-1014",
+   "case": "B13",
+   "from": "corriden",
+   "from_name": "Corriden Wheel Co.",
+   "format": "email",
+   "kind": "statement",
+   "received": "2026-10-20",
+   "writer": {
+    "number": "STMT-2026-10",
+    "date": "2026-10-20",
+    "terms_days": 30,
+    "order_ref_printed": null,
+    "lines": [],
+    "freight": 0,
+    "tax": 0,
+    "total": 0,
+    "explanation_line": null,
+    "note_to_writer": "A statement of account listing bills CR-3427 (paid) and CR-3445 (open), with a balance line. It is not a new bill.",
+    "statement_lists": [
+     "CR-3427",
+     "CR-3445"
+    ]
+   },
+   "key": {
+    "kind": "statement",
+    "outcome": "set_aside",
+    "reason": "statement",
+    "lines": [],
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "STMT-2026-10",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1015",
+   "case": "B14",
+   "from": "ondrel",
+   "from_name": "Ondrel Compute",
+   "format": "printed",
+   "kind": "pro_forma",
+   "received": "2026-10-21",
+   "writer": {
+    "number": "PF-ON-2344",
+    "date": "2026-10-21",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": "ON-CM-NX8",
+      "description": "Compute module, 8 GB",
+      "qty": 10,
+      "unit": "EA",
+      "price": 38900,
+      "amount": 389000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 389000,
+    "explanation_line": null,
+    "note_to_writer": "A pro forma invoice for a future order of 10, asking for a 30% deposit before it ships. Make clear it is a pro forma."
+   },
+   "key": {
+    "kind": "pro_forma",
+    "outcome": "set_aside",
+    "reason": "pro_forma",
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": "ON-CM-NX8",
+      "printed_part": "ON-CM-NX8",
+      "description": "Compute module, 8 GB",
+      "qty": 10,
+      "unit": "EA",
+      "price": 38900,
+      "amount": 389000
+     }
+    ],
+    "total": 389000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "PF-ON-2344",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1016",
+   "case": "B15",
+   "from": "pellicor",
+   "from_name": "Pellicor Cells",
+   "format": "email",
+   "kind": "bank_change",
+   "received": "2026-10-22",
+   "writer": {
+    "number": "",
+    "date": "2026-10-22",
+    "terms_days": 30,
+    "order_ref_printed": null,
+    "lines": [],
+    "freight": 0,
+    "tax": 0,
+    "total": 0,
+    "explanation_line": null,
+    "note_to_writer": "An email from Pellicor's accounts team saying their bank has changed and asking Halden to send future payments to new account details (do not write any real or realistic account or routing numbers; write 'new account details attached')."
+   },
+   "key": {
+    "kind": "bank_change",
+    "outcome": "flagged",
+    "reason": "bank_details_change",
+    "lines": [],
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1017",
+   "case": "B16",
+   "from": "greystable",
+   "from_name": "Greystable Works",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-01",
+   "writer": {
+    "number": "GW-2163-10",
+    "date": "2026-10-01",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": null,
+      "description": "Workshop and office rent, October 2026",
+      "qty": 1,
+      "unit": "MO",
+      "price": 640000,
+      "amount": 640000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 640000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "set_aside",
+    "reason": "no_po_supplier",
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": null,
+      "printed_part": null,
+      "description": "Workshop and office rent, October 2026",
+      "qty": 1,
+      "unit": "MO",
+      "price": 640000,
+      "amount": 640000
+     }
+    ],
+    "total": 640000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "GW-2163-10",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1018",
+   "case": "B16",
+   "from": "draftwick",
+   "from_name": "Draftwick",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-02",
+   "writer": {
+    "number": "DW-88350",
+    "date": "2026-10-02",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": null,
+      "description": "Draftwick Team plan, October",
+      "qty": 1,
+      "unit": "MO",
+      "price": 49000,
+      "amount": 49000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 49000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "set_aside",
+    "reason": "no_po_supplier",
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": null,
+      "printed_part": null,
+      "description": "Draftwick Team plan, October",
+      "qty": 1,
+      "unit": "MO",
+      "price": 49000,
+      "amount": 49000
+     }
+    ],
+    "total": 49000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "DW-88350",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1019",
+   "case": "B16",
+   "from": "sumwick",
+   "from_name": "Sumwick",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-02",
+   "writer": {
+    "number": "SW-41327",
+    "date": "2026-10-02",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": null,
+      "description": "Sumwick Growth plan, October",
+      "qty": 1,
+      "unit": "MO",
+      "price": 32000,
+      "amount": 32000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 32000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "set_aside",
+    "reason": "no_po_supplier",
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": null,
+      "printed_part": null,
+      "description": "Sumwick Growth plan, October",
+      "qty": 1,
+      "unit": "MO",
+      "price": 32000,
+      "amount": 32000
+     }
+    ],
+    "total": 32000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "SW-41327",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1020",
+   "case": "B17",
+   "from": "oxwell",
+   "from_name": "Oxwell Interconnect",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-19",
+   "writer": {
+    "number": "OW-60579",
+    "date": "2026-10-19",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4209",
+    "lines": [
+     {
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 50,
+      "unit": "EA",
+      "price": 3100,
+      "amount": 155000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 155000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "receipt_not_logged",
+    "lines": [
+     {
+      "po": "PO-4209",
+      "po_line": 1,
+      "item": "OW-HRN-24",
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 50,
+      "unit": "EA",
+      "price": 3100,
+      "amount": 155000
+     }
+    ],
+    "total": 155000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "OW-60579",
+    "values": {
+     "billed": 50,
+     "received": 40,
+     "slip_shipped": 50,
+     "slip": "H-1021"
+    }
+   }
+  },
+  {
+   "doc": "H-1021",
+   "case": "B18",
+   "from": "oxwell",
+   "from_name": "Oxwell Interconnect",
+   "format": "printed",
+   "kind": "packing_slip",
+   "received": "2026-10-16",
+   "writer": {
+    "number": "SP-60579",
+    "date": "2026-10-16",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4209",
+    "lines": [
+     {
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 50,
+      "unit": "EA",
+      "price": 0,
+      "amount": 0
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 0,
+    "explanation_line": null,
+    "note_to_writer": "A packing slip, not a bill: no prices, shows 50 harnesses shipped on 16 October against PO-4209."
+   },
+   "key": {
+    "kind": "packing_slip",
+    "outcome": "set_aside",
+    "reason": "packing_slip",
+    "lines": [
+     {
+      "po": "PO-4209",
+      "po_line": 1,
+      "item": "OW-HRN-24",
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 50,
+      "unit": "EA",
+      "price": 0,
+      "amount": 0
+     }
+    ],
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "SP-60579",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1022",
+   "case": "B19",
+   "from": "kestlow",
+   "from_name": "Kestlow Supply",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-22",
+   "writer": {
+    "number": "KS-778338",
+    "date": "2026-10-22",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter",
+      "qty": 16,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 154400
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 154400,
+    "explanation_line": "Billed by us as distributor for the manufacturer",
+    "note_to_writer": "Kestlow Supply bills on behalf of the maker; it does not quote Halden's order number; it names the part and quantity."
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "held",
+    "reason": "different_payee",
+    "lines": [
+     {
+      "po": "PO-4211",
+      "po_line": 1,
+      "item": "VT-CAM-8MP-A",
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter",
+      "qty": 16,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 154400
+     }
+    ],
+    "total": 154400,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": "Billed by us as distributor for the manufacturer",
+    "number": "KS-778338",
+    "values": {
+     "maker": "vistrell",
+     "po": "PO-4211"
+    }
+   }
+  },
+  {
+   "doc": "H-1023",
+   "case": "C1",
+   "from": "corriden",
+   "from_name": "Corriden Wheel Co.",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-12",
+   "writer": {
+    "number": "CR-3452",
+    "date": "2026-10-12",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4196",
+    "lines": [
+     {
+      "printed_part": null,
+      "description": "Polyurethane drive wheel, 200mm dia.",
+      "qty": 80,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 219200
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 219200,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4196",
+      "po_line": 1,
+      "item": "CR-WHL-200",
+      "printed_part": null,
+      "description": "Polyurethane drive wheel, 200mm dia.",
+      "qty": 80,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 219200
+     }
+    ],
+    "total": 219200,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "CR-3452",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1024",
+   "case": "C2",
+   "from": "fennick",
+   "from_name": "Fennick Fasteners",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-14",
+   "writer": {
+    "number": "FN-11356",
+    "date": "2026-10-14",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4190, PO-4207",
+    "lines": [
+     {
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 800,
+      "unit": "EA",
+      "price": 6,
+      "amount": 4800
+     },
+     {
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 400,
+      "unit": "EA",
+      "price": 6,
+      "amount": 2400
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 7200,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4190",
+      "po_line": 1,
+      "item": "FN-SCR-M412",
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 800,
+      "unit": "EA",
+      "price": 6,
+      "amount": 4800
+     },
+     {
+      "po": "PO-4207",
+      "po_line": 1,
+      "item": "FN-SCR-M412",
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 400,
+      "unit": "EA",
+      "price": 6,
+      "amount": 2400
+     }
+    ],
+    "total": 7200,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "FN-11356",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1025",
+   "case": "C3",
+   "from": "fennick",
+   "from_name": "Fennick Fasteners",
+   "format": "sheet",
+   "kind": "bill",
+   "received": "2026-10-17",
+   "writer": {
+    "number": "FN-11373",
+    "date": "2026-10-17",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4212",
+    "lines": [
+     {
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 5,
+      "unit": "BX",
+      "price": 600,
+      "amount": 3000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 3000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4212",
+      "po_line": 1,
+      "item": "FN-SCR-M412",
+      "printed_part": "FN-SCR-M412",
+      "description": "Screw, M4 x 12, stainless",
+      "qty": 5,
+      "unit": "BX",
+      "price": 600,
+      "amount": 3000
+     }
+    ],
+    "total": 3000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "FN-11373",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1026",
+   "case": "C4",
+   "from": "tamsby",
+   "from_name": "Tamsby Circuits",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-21",
+   "writer": {
+    "number": "TB-2467",
+    "date": "2026-10-21",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4213",
+    "lines": [
+     {
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 11,
+      "unit": "EA",
+      "price": 18778,
+      "amount": 206558
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 206558,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": "price_within_rule",
+    "lines": [
+     {
+      "po": "PO-4213",
+      "po_line": 1,
+      "item": "TB-MB-R4",
+      "printed_part": "TB-MB-R4",
+      "description": "Main board assembly, rev 4",
+      "qty": 11,
+      "unit": "EA",
+      "price": 18778,
+      "amount": 206558
+     }
+    ],
+    "total": 206558,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "TB-2467",
+    "values": {
+     "price": 18778,
+     "order_price": 18500
+    }
+   }
+  },
+  {
+   "doc": "H-1027",
+   "case": "C5",
+   "from": "kelderby",
+   "from_name": "Kelderby Forge",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-22",
+   "writer": {
+    "number": "KB-7989",
+    "date": "2026-10-22",
+    "terms_days": 30,
+    "order_ref_printed": "",
+    "lines": [
+     {
+      "printed_part": "KD-BRK-12",
+      "description": "Mounting bracket, steel",
+      "qty": 300,
+      "unit": "EA",
+      "price": 680,
+      "amount": 204000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 204000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4215",
+      "po_line": 1,
+      "item": "KD-BRK-12",
+      "printed_part": "KD-BRK-12",
+      "description": "Mounting bracket, steel",
+      "qty": 300,
+      "unit": "EA",
+      "price": 680,
+      "amount": 204000
+     }
+    ],
+    "total": 204000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "KB-7989",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1028",
+   "case": "C6",
+   "from": "oxwell",
+   "from_name": "Oxwell Interconnect",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-23",
+   "writer": {
+    "number": "OW-60592",
+    "date": "2026-10-23",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4216",
+    "lines": [
+     {
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 60,
+      "unit": "EA",
+      "price": 3000,
+      "amount": 180000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 180000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": "price_under",
+    "lines": [
+     {
+      "po": "PO-4216",
+      "po_line": 1,
+      "item": "OW-HRN-24",
+      "printed_part": "OW-HRN-24",
+      "description": "Wiring harness, main, 24 V",
+      "qty": 60,
+      "unit": "EA",
+      "price": 3000,
+      "amount": 180000
+     }
+    ],
+    "total": 180000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "OW-60592",
+    "values": {
+     "price": 3000,
+     "order_price": 3100
+    }
+   }
+  },
+  {
+   "doc": "H-1029",
+   "case": "C7",
+   "from": "tamsby",
+   "from_name": "Tamsby Circuits",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-23",
+   "writer": {
+    "number": "TB-2478",
+    "date": "2026-10-23",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4217",
+    "lines": [
+     {
+      "printed_part": "TB-PDB-R2",
+      "description": "Power distribution board, rev 2",
+      "qty": 20,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 96000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 96000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4217",
+      "po_line": 1,
+      "item": "TB-PDB-R2",
+      "printed_part": "TB-PDB-R2",
+      "description": "Power distribution board, rev 2",
+      "qty": 20,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 96000
+     }
+    ],
+    "total": 96000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "TB-2478",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1030",
+   "case": "C8",
+   "from": "abernook",
+   "from_name": "Abernook Drives",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-24",
+   "writer": {
+    "number": "AB-24608",
+    "date": "2026-10-24",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4219",
+    "lines": [
+     {
+      "printed_part": "AB-BL48-220",
+      "description": "Brushless motor, 48 V, 220 W",
+      "qty": 30,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 426000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 426000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4219",
+      "po_line": 1,
+      "item": "AB-BL48-220",
+      "printed_part": "AB-BL48-220",
+      "description": "Brushless motor, 48 V, 220 W",
+      "qty": 30,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 426000
+     }
+    ],
+    "total": 426000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "AB-24608",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1031",
+   "case": "C8",
+   "from": "vistrell",
+   "from_name": "Vistrell Optics",
+   "format": "email",
+   "kind": "bill",
+   "received": "2026-10-25",
+   "writer": {
+    "number": "VT-55325",
+    "date": "2026-10-25",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4220",
+    "lines": [
+     {
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter",
+      "qty": 20,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 193000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 193000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4220",
+      "po_line": 1,
+      "item": "VT-CAM-8MP-A",
+      "printed_part": "VT-CAM-8MP-A",
+      "description": "Camera module, 8 MP, global shutter",
+      "qty": 20,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 193000
+     }
+    ],
+    "total": 193000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "VT-55325",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1032",
+   "case": "C8",
+   "from": "kelderby",
+   "from_name": "Kelderby Forge",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-27",
+   "writer": {
+    "number": "KB-8006",
+    "date": "2026-10-27",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4221",
+    "lines": [
+     {
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 10,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 238000
+     },
+     {
+      "printed_part": "KD-BRK-12",
+      "description": "Mounting bracket, steel",
+      "qty": 120,
+      "unit": "EA",
+      "price": 680,
+      "amount": 81600
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 319600,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4221",
+      "po_line": 1,
+      "item": "KD-ENC-AL3",
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 10,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 238000
+     },
+     {
+      "po": "PO-4221",
+      "po_line": 2,
+      "item": "KD-BRK-12",
+      "printed_part": "KD-BRK-12",
+      "description": "Mounting bracket, steel",
+      "qty": 120,
+      "unit": "EA",
+      "price": 680,
+      "amount": 81600
+     }
+    ],
+    "total": 319600,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "KB-8006",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1033",
+   "case": "C8",
+   "from": "pellicor",
+   "from_name": "Pellicor Cells",
+   "format": "sheet",
+   "kind": "bill",
+   "received": "2026-10-28",
+   "writer": {
+    "number": "PL-90425",
+    "date": "2026-10-28",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4222",
+    "lines": [
+     {
+      "printed_part": "PL-LFP-2420",
+      "description": "Battery pack, 24 V 20 Ah, LFP",
+      "qty": 12,
+      "unit": "EA",
+      "price": 41000,
+      "amount": 492000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 492000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": null,
+    "lines": [
+     {
+      "po": "PO-4222",
+      "po_line": 1,
+      "item": "PL-LFP-2420",
+      "printed_part": "PL-LFP-2420",
+      "description": "Battery pack, 24 V 20 Ah, LFP",
+      "qty": 12,
+      "unit": "EA",
+      "price": 41000,
+      "amount": 492000
+     }
+    ],
+    "total": 492000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "PL-90425",
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1034",
+   "case": "C9",
+   "from": "kelderby",
+   "from_name": "Kelderby Forge",
+   "format": "printed",
+   "kind": "bill",
+   "received": "2026-10-24",
+   "writer": {
+    "number": "KB-7998",
+    "date": "2026-10-24",
+    "terms_days": 30,
+    "order_ref_printed": "PO-4218",
+    "lines": [
+     {
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 20,
+      "unit": "EA",
+      "price": 25100,
+      "amount": 502000
+     }
+    ],
+    "freight": 0,
+    "tax": 0,
+    "total": 502000,
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "bill",
+    "outcome": "cleared",
+    "reason": "price_change_logged",
+    "lines": [
+     {
+      "po": "PO-4218",
+      "po_line": 1,
+      "item": "KD-ENC-AL3",
+      "printed_part": "KD-ENC-AL3",
+      "description": "Enclosure, aluminum, rev 3",
+      "qty": 20,
+      "unit": "EA",
+      "price": 25100,
+      "amount": 502000
+     }
+    ],
+    "total": 502000,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null,
+    "number": "KB-7998",
+    "values": {
+     "price": 25100,
+     "order_price": 23800,
+     "logged_by": "purchasing",
+     "logged": "2026-10-15"
+    }
+   }
+  },
+  {
+   "doc": "H-1035",
+   "case": "P1",
+   "from": "vossler",
+   "from_name": "Vossler & Kane Inspection",
+   "format": "email",
+   "kind": "payment",
+   "received": "2026-10-30",
+   "writer": {
+    "date": "2026-10-30",
+    "amount": 2380000,
+    "invoices_named": [
+     "INV-5062"
+    ],
+    "explanation_line": "$1,200.00 was held back for the bumper that arrived damaged.",
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "held",
+    "reason": "paid_short",
+    "amount": 2380000,
+    "invoices_named": [
+     "INV-5062"
+    ],
+    "applies_to": [
+     "INV-5062"
+    ],
+    "explanation_line": "$1,200.00 was held back for the bumper that arrived damaged.",
+    "values": {
+     "short_by": 120000,
+     "invoice": "INV-5062"
+    }
+   }
+  },
+  {
+   "doc": "H-1036",
+   "case": "P2",
+   "from": "faircombe",
+   "from_name": "Faircombe Field Services",
+   "format": "sheet",
+   "kind": "payment",
+   "received": "2026-10-29",
+   "writer": {
+    "date": "2026-10-29",
+    "amount": 600000,
+    "invoices_named": [],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "held",
+    "reason": "names_no_invoice",
+    "amount": 600000,
+    "invoices_named": [],
+    "applies_to": [],
+    "explanation_line": null,
+    "values": {
+     "suggested": "INV-5060"
+    }
+   }
+  },
+  {
+   "doc": "H-1037",
+   "case": "P3",
+   "from": "quillby",
+   "from_name": "Quillby Survey Co.",
+   "format": "email",
+   "kind": "payment",
+   "received": "2026-10-31",
+   "writer": {
+    "date": "2026-10-31",
+    "amount": 252000,
+    "invoices_named": [
+     "INV-5041"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "held",
+    "reason": "names_paid_invoice",
+    "amount": 252000,
+    "invoices_named": [
+     "INV-5041"
+    ],
+    "applies_to": [],
+    "explanation_line": null,
+    "values": {
+     "named": "INV-5041",
+     "suggested": "INV-5061"
+    }
+   }
+  },
+  {
+   "doc": "H-1038",
+   "case": "P4",
+   "from": "cindral",
+   "from_name": "Cindral Facilities",
+   "format": "email",
+   "kind": "payment",
+   "received": "2026-10-28",
+   "writer": {
+    "date": "2026-10-28",
+    "amount": 600000,
+    "invoices_named": [
+     "INV-5064"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "cleared",
+    "reason": null,
+    "amount": 600000,
+    "invoices_named": [
+     "INV-5064"
+    ],
+    "applies_to": [
+     "INV-5064"
+    ],
+    "explanation_line": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1039",
+   "case": "P4",
+   "from": "faircombe",
+   "from_name": "Faircombe Field Services",
+   "format": "sheet",
+   "kind": "payment",
+   "received": "2026-10-30",
+   "writer": {
+    "date": "2026-10-30",
+    "amount": 84000,
+    "invoices_named": [
+     "INV-5065"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "cleared",
+    "reason": null,
+    "amount": 84000,
+    "invoices_named": [
+     "INV-5065"
+    ],
+    "applies_to": [
+     "INV-5065"
+    ],
+    "explanation_line": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1040",
+   "case": "P4",
+   "from": "ebberley",
+   "from_name": "Ebberley Labs",
+   "format": "email",
+   "kind": "payment",
+   "received": "2026-10-31",
+   "writer": {
+    "date": "2026-10-31",
+    "amount": 168000,
+    "invoices_named": [
+     "INV-5067"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "cleared",
+    "reason": null,
+    "amount": 168000,
+    "invoices_named": [
+     "INV-5067"
+    ],
+    "applies_to": [
+     "INV-5067"
+    ],
+    "explanation_line": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1041",
+   "case": "P4",
+   "from": "stourton",
+   "from_name": "Stourton Utilities",
+   "format": "email",
+   "kind": "payment",
+   "received": "2026-10-16",
+   "writer": {
+    "date": "2026-10-16",
+    "amount": 84000,
+    "invoices_named": [
+     "INV-5052"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "cleared",
+    "reason": null,
+    "amount": 84000,
+    "invoices_named": [
+     "INV-5052"
+    ],
+    "applies_to": [
+     "INV-5052"
+    ],
+    "explanation_line": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "H-1042",
+   "case": "P4",
+   "from": "vossler",
+   "from_name": "Vossler & Kane Inspection",
+   "format": "sheet",
+   "kind": "payment",
+   "received": "2026-10-20",
+   "writer": {
+    "date": "2026-10-20",
+    "amount": 600000,
+    "invoices_named": [
+     "INV-5055"
+    ],
+    "explanation_line": null,
+    "note_to_writer": null
+   },
+   "key": {
+    "kind": "payment",
+    "outcome": "cleared",
+    "reason": null,
+    "amount": 600000,
+    "invoices_named": [
+     "INV-5055"
+    ],
+    "applies_to": [
+     "INV-5055"
+    ],
+    "explanation_line": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5063",
+   "case": "D1",
+   "from": "ebberley",
+   "from_name": "Ebberley Labs",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-20",
+   "invoice": "INV-5063",
+   "key": {
+    "outcome": "held",
+    "reason": "invoiced_before_delivery",
+    "values": {
+     "invoiced": "2026-10-20",
+     "delivered": "2026-10-27"
+    }
+   }
+  },
+  {
+   "doc": "O-INV-5066",
+   "case": "D2",
+   "from": "stourton",
+   "from_name": "Stourton Utilities",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-17",
+   "invoice": "INV-5066",
+   "key": {
+    "outcome": "held",
+    "reason": "invoiced_more_than_delivered",
+    "values": {
+     "invoiced": 3,
+     "delivered": 2
+    }
+   }
+  },
+  {
+   "doc": "O-INV-5060",
+   "case": "D3",
+   "from": "faircombe",
+   "from_name": "Faircombe Field Services",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-03",
+   "invoice": "INV-5060",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5061",
+   "case": "D3",
+   "from": "quillby",
+   "from_name": "Quillby Survey Co.",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-07",
+   "invoice": "INV-5061",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5062",
+   "case": "D3",
+   "from": "vossler",
+   "from_name": "Vossler & Kane Inspection",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-09",
+   "invoice": "INV-5062",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5064",
+   "case": "D3",
+   "from": "cindral",
+   "from_name": "Cindral Facilities",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-14",
+   "invoice": "INV-5064",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5065",
+   "case": "D3",
+   "from": "faircombe",
+   "from_name": "Faircombe Field Services",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-15",
+   "invoice": "INV-5065",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  },
+  {
+   "doc": "O-INV-5067",
+   "case": "D3",
+   "from": "ebberley",
+   "from_name": "Ebberley Labs",
+   "format": "own system",
+   "kind": "own_invoice",
+   "received": "2026-10-22",
+   "invoice": "INV-5067",
+   "key": {
+    "outcome": "cleared",
+    "reason": null,
+    "values": {}
+   }
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+  "what_this_is": "Every sentence Recon builds from data: the short reason on a held row, the full reason, and the drafted note. Code fills the [names]; the AI writes none of these.",
+  "reasons": {
+    "price_over": {
+      "row": "price over the order",
+      "full": "Unit price [price], the order says [order_price]."
+    },
+    "qty_over_received": {
+      "row": "billed [billed], [received] arrived",
+      "full": "Billed [billed] on [po], [received] have arrived."
+    },
+    "duplicate_same_number": {
+      "row": "sent twice",
+      "full": "Sent again: [original] came in [received]."
+    },
+    "duplicate_new_number": {
+      "row": "same bill, new number",
+      "full": "Same order line and amount as [original_number], with no new delivery since."
+    },
+    "no_order": {
+      "row": "no order for these parts",
+      "full": "No open order with any supplier fits these parts."
+    },
+    "ambiguous_order": {
+      "row": "fits two orders",
+      "full": "Fits two open orders: [a] and [b]."
+    },
+    "freight_not_ordered": {
+      "row": "freight not on the order",
+      "full": "Freight of [freight] is not on the order."
+    },
+    "tax_not_expected": {
+      "row": "tax added",
+      "full": "Tax of [tax] added; the order expected none."
+    },
+    "unit_unknown": {
+      "row": "billed in [unit]",
+      "full": "Billed [boxes] [unit]; the order is in pieces ([order_qty]), and the box size isn't on file."
+    },
+    "substituted_part": {
+      "row": "different part",
+      "full": "Billed [billed_part]; the order has [ordered_part]."
+    },
+    "credit_available": {
+      "row": "credit available",
+      "full": "Credit of [credit] for return [return]."
+    },
+    "credit_no_return": {
+      "row": "credit with no return logged",
+      "full": "A credit note with no return logged against it."
+    },
+    "statement": {
+      "row": "statement, not a bill",
+      "full": "A statement listing earlier bills, not a new bill."
+    },
+    "pro_forma": {
+      "row": "pro forma, not a bill",
+      "full": "A pro forma asking for a deposit. Nothing has arrived."
+    },
+    "packing_slip": {
+      "row": "packing slip, not a bill",
+      "full": "A packing slip, not a bill. Used to check [for_doc]."
+    },
+    "bank_details_change": {
+      "row": "asks to change bank details",
+      "full": "Asks to send payments to new bank details."
+    },
+    "no_po_supplier": {
+      "row": "billed without an order, as usual",
+      "full": "This supplier bills every month without an order."
+    },
+    "receipt_not_logged": {
+      "row": "receipt not logged yet",
+      "full": "Billed [billed], [received] logged as arrived."
+    },
+    "different_payee": {
+      "row": "billed by a different company",
+      "full": "Billed by [supplier] for order [po], which was placed with [maker]."
+    },
+    "arithmetic": {
+      "row": "lines don't add up",
+      "full": "The lines, freight and tax add up to [sum], the bill says [total]."
+    },
+    "no_lines": {
+      "row": "no lines read",
+      "full": "No billed line could be read."
+    },
+    "ai_unsure": {
+      "row": "AI wasn't sure",
+      "full": "The AI wasn't sure about [what]."
+    },
+    "invoiced_before_delivery": {
+      "row": "invoiced before delivery",
+      "full": "Invoiced [invoiced], delivered [delivered]."
+    },
+    "invoiced_more_than_delivered": {
+      "row": "invoiced [invoiced], [delivered] delivered",
+      "full": "Invoiced [invoiced], [delivered] delivered."
+    },
+    "paid_short": {
+      "row": "paid [short_by_dollars] short",
+      "full": "Paid [short_by] less than [invoice]."
+    },
+    "paid_over": {
+      "row": "paid [over_by_dollars] over",
+      "full": "Paid [over_by] more than [invoice]."
+    },
+    "names_no_invoice": {
+      "row": "names no invoice",
+      "full": "The payment names no invoice. The amount matches [suggested]."
+    },
+    "names_paid_invoice": {
+      "row": "names a paid invoice",
+      "full": "Names [named], already paid. The amount matches [suggested]."
+    },
+    "paid_twice": {
+      "row": "paid twice",
+      "full": "[invoice] was already paid [paid_on]."
+    },
+    "unknown_supplier": {
+      "row": "not a supplier on file",
+      "full": "Not from a supplier on file."
+    },
+    "unknown_customer": {
+      "row": "not a customer on file",
+      "full": "Not from a customer on file."
+    },
+    "line_amount": {
+      "row": "a line doesn't add up",
+      "full": "Line [n]: [qty] × [price] is [should], the bill says [amount]."
+    },
+    "unknown_order": {
+      "row": "order not on file",
+      "full": "Names order [po], which isn't in the books."
+    },
+    "billed_beyond_received": {
+      "row": "billed [billed], [received] arrived",
+      "full": "With this bill, [billed] are billed on [po] and [received] have arrived."
+    },
+    "freight_over_estimate": {
+      "row": "freight over the estimate",
+      "full": "Freight of [freight]; the order estimated [estimate]."
+    },
+    "credit_mismatch": {
+      "row": "credit doesn't match the return",
+      "full": "Credit of [credit] for return [return], which was for [return_amount]."
+    },
+    "credit_used": {
+      "row": "return already credited",
+      "full": "Return [return] already has a credit this month."
+    },
+    "unknown_invoice": {
+      "row": "names an unknown invoice",
+      "full": "Names [named], which isn't one of our invoices."
+    },
+    "other_customer_invoice": {
+      "row": "names another customer's invoice",
+      "full": "Names [named], which was billed to [billed_to]."
+    },
+    "duplicate_entered": {
+      "row": "already in the books",
+      "full": "Sent again: [original] was entered [received] and is already in the books."
+    },
+    "negative_amounts": {
+      "row": "zero or negative amounts",
+      "full": "A zero or negative quantity, price or total on a bill."
+    },
+    "billed_beyond_ordered": {
+      "row": "billed past the order",
+      "full": "With this bill, [billed] are billed on [po]; the order is for [ordered]."
+    },
+    "corrected_bill": {
+      "row": "same number, new total",
+      "full": "Same number as [original] ([received]) with a different total. Is it a corrected bill?"
+    },
+    "names_no_invoice_unmatched": {
+      "row": "names no invoice",
+      "full": "The payment names no invoice, and no open invoice has this amount."
+    },
+    "invoice_differs": {
+      "row": "invoice differs from the sales order",
+      "full": "The [what] on the invoice is [invoiced]; the sales order says [ordered]."
+    },
+    "could_not_decide": {
+      "row": "couldn't be decided",
+      "full": "Recon couldn't decide this one. Held for a person."
+    }
+  },
+  "cleared_notes": {
+    "price_within_rule": "Price [pct] over the order, inside the rule.",
+    "price_under": "Price under the order.",
+    "price_change_logged": "New price logged by [logged_by] on [logged].",
+    "freight_small": "Freight of [freight] not on the order, under the limit."
+  },
+  "notes": {
+    "price_over": "Hi [supplier],\nThanks for bill [number]. Our order [po] has [item] at [order_price] each, and the bill shows [price]. Could you send a corrected bill, or the notice for the new price?\nBest,\nAccounts payable, Halden Robotics",
+    "qty_over_received": "Hi [supplier],\nThanks for bill [number]. So far [received] of the [billed] [item] on [po] have arrived. We'll hold this bill until the rest arrive, or you can send a bill for the [received] now.\nBest,\nAccounts payable, Halden Robotics",
+    "duplicate_same_number": "Hi [supplier],\nWe already have bill [number] in our books, so there's no need to send it again.\nBest,\nAccounts payable, Halden Robotics",
+    "duplicate_new_number": "Hi [supplier],\nBill [number] is for the same order line and amount as [original_number], and we haven't had a new delivery since. Is it a copy of [original_number], or for a delivery we haven't received?\nBest,\nAccounts payable, Halden Robotics",
+    "no_order": "Hi [supplier],\nWe can't find an order for bill [number]. Could you tell us who on our side placed it? We'll process the bill once we find the order.\nBest,\nAccounts payable, Halden Robotics",
+    "ambiguous_order": "Hi [supplier],\nBill [number] doesn't show an order number, and it fits two of our orders. Which order is it for?\nBest,\nAccounts payable, Halden Robotics",
+    "freight_not_ordered": "Hi [supplier],\nBill [number] adds [freight] of freight, which isn't on our order [po]. Could you tell us who agreed to it, or send a bill without it?\nBest,\nAccounts payable, Halden Robotics",
+    "tax_not_expected": "Hi [supplier],\nBill [number] adds [tax] of tax, and our order [po] expected none. Could you send a bill without the tax, or tell us why it applies?\nBest,\nAccounts payable, Halden Robotics",
+    "unit_unknown": "Hi [supplier],\nBill [number] is in boxes, and our order [po] is in pieces. How many are in a box?\nBest,\nAccounts payable, Halden Robotics",
+    "substituted_part": "Hi [supplier],\nBill [number] is for [billed_part], and our order [po] is for [ordered_part]. We're checking the change with our engineers and will come back to you.\nBest,\nAccounts payable, Halden Robotics",
+    "credit_no_return": "Hi [supplier],\nWe have credit note [number] but no return logged against it. Which return is it for?\nBest,\nAccounts payable, Halden Robotics",
+    "receipt_not_logged": "Note for receiving: the packing slip for [po] says [slip_shipped] [item] shipped on [slip_date], and [received] are logged. Please check the shelf and log what arrived.",
+    "different_payee": "Note for purchasing: [supplier] billed for parts on order [po], which was placed with [maker]. Before paying, confirm with [maker] that [supplier] may bill for it.",
+    "bank_details_change": "Note for finance: call [supplier] on the number already on file before changing anything. Don't use contact details from the email.",
+    "invoiced_before_delivery": "Note for billing: [invoice] went out on [invoiced], and the delivery was on [delivered]. Check whether the customer agreed to be billed early.",
+    "invoiced_more_than_delivered": "Note for billing: [invoice] bills [invoiced] [item], and [delivered] have been delivered. Send a corrected invoice for the [delivered] and bill the rest on delivery.",
+    "paid_short": "Hi [customer],\nThanks for your payment against [invoice]. It came in [short_by] short, and we've seen your note about the deduction. We'll look into it and come back to you.\nBest,\nAccounts receivable, Halden Robotics",
+    "names_no_invoice": "Hi [customer],\nThanks for your payment of [amount]. It doesn't name an invoice. Is it for [suggested]?\nBest,\nAccounts receivable, Halden Robotics",
+    "names_paid_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which was already paid. Is it for [suggested]?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_twice": "Hi [customer],\nWe received a second payment for [invoice], which was already paid. Would you like a refund or a credit?\nBest,\nAccounts receivable, Halden Robotics",
+    "arithmetic": "Note for a person: the lines read on bill [number] add up to [sum], and its total is [total]. Check the bill for a fee or charge not on the order before writing to the supplier.",
+    "freight_over_estimate": "Hi [supplier],\nBill [number] has [freight] of freight, and our order [po] estimated [estimate]. Could you tell us what changed?\nBest,\nAccounts payable, Halden Robotics",
+    "billed_beyond_received": "Hi [supplier],\nWith bill [number], [billed] [item] are billed on [po] and [received] have arrived. Could you hold the rest until they arrive?\nBest,\nAccounts payable, Halden Robotics",
+    "credit_mismatch": "Hi [supplier],\nCredit note [number] is for [credit], and return [return] was for [return_amount]. Which amount is right?\nBest,\nAccounts payable, Halden Robotics",
+    "credit_used": "Hi [supplier],\nCredit note [number] is for return [return], which already has a credit. Is this a second credit for the same return?\nBest,\nAccounts payable, Halden Robotics",
+    "unknown_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which we can't find. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "other_customer_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which isn't one of your invoices. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_over": "Hi [customer],\nThanks for your payment against [invoice]. It came in [over_by] over. Would you like a refund or a credit?\nBest,\nAccounts receivable, Halden Robotics",
+    "billed_beyond_ordered": "Hi [supplier],\nWith bill [number], [billed] [item] are billed on [po], and the order is for [ordered]. Could you send a corrected bill for what we ordered?\nBest,\nAccounts payable, Halden Robotics",
+    "corrected_bill": "Hi [supplier],\nBill [number] came in again with a different total. Is it a corrected bill that replaces the first one?\nBest,\nAccounts payable, Halden Robotics",
+    "names_no_invoice_unmatched": "Hi [customer],\nThanks for your payment of [amount]. It doesn't name an invoice. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_short_no_note": "Hi [customer],\nThanks for your payment against [invoice]. It came in [short_by] short. Could you tell us what the difference is for?\nBest,\nAccounts receivable, Halden Robotics",
+    "invoice_differs": "Note for billing: [invoice] doesn't match its sales order. The [what] is [invoiced], and the order says [ordered]. Send a corrected invoice.",
+    "line_amount": "Hi [supplier],\nOn bill [number], line [n] shows [qty] at [price] as [amount], which comes to [should]. Could you send a corrected bill?\nBest,\nAccounts payable, Halden Robotics"
+  }
+}

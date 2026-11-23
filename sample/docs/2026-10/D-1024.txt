@@ -1,0 +1,21 @@
+KESTWICK FASTENERS                                     INVOICE KF-11219
+Stockton, CA
+==========================================================================
+Invoice Date : 2026-10-14
+Terms        : Net 30
+Your PO      : PO-1190, PO-1207
+Bill to: Halden Robotics, Oakland, CA
+==========================================================================
+Ln  Qty Shipped  UOM  Item          Description                 Price  Extension
+--  -----------  ---  ------------  -------------------------  ------  ---------
+ 1          800  EA   KF-SCR-M412   Screw, M4 x 12, stainless   $0.06     $48.00
+ 2          400  EA   KF-SCR-M412   Screw, M4 x 12, stainless   $0.06     $24.00
+==========================================================================
+                                                     Subtotal      $72.00
+                                                     Freight        $0.00
+                                                     Tax            $0.00
+                                                     TOTAL DUE     $72.00
+
+Make checks payable to Kestwick Fasteners, Stockton, CA.
+
+Sample document. Every name and number is made up.

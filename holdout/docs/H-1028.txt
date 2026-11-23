@@ -1,0 +1,22 @@
+OXWELL INTERCONNECT
+Santa Clara, CA
+
+INVOICE                                   No. OW-60592
+Invoice date:  Oct 23, 2026
+Terms:         Net 30
+Customer PO:   PO-4216
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item        Description                   Qty  UOM   Unit price     Extension
+OW-HRN-24   Wiring harness, main, 24 V     60  EA        $30.00     $1,800.00
+
+                                        Subtotal        $1,800.00
+                                        Freight             $0.00
+                                        Sales tax           $0.00
+                                        Invoice total   $1,800.00
+
+Remit to Oxwell Interconnect, Accounts Receivable, Santa Clara, CA.
+Please quote OW-60592 with your payment.
+
+Sample document. Every name and number is made up.

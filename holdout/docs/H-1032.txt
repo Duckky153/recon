@@ -1,0 +1,25 @@
+KELDERBY FORGE
+Hayward, CA  |  (510) 555-0147
+
+                                   INVOICE
+
+Invoice No:    KB-8006
+Invoice Date:  Oct 27, 2026
+Terms:         Net 30
+Your PO:       PO-4221
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item         Description                  Qty  UOM   Unit Price     Extended
+-----------  --------------------------  ----  ---  -----------  -----------
+KD-ENC-AL3   Enclosure, aluminum, rev 3    10  EA       $238.00    $2,380.00
+KD-BRK-12    Mounting bracket, steel      120  EA         $6.80      $816.00
+
+                                         Subtotal                  $3,196.00
+                                         Freight                       $0.00
+                                         Sales tax                     $0.00
+                                         Invoice total             $3,196.00
+
+Remit to Kelderby Forge, Hayward, CA. Please quote the invoice number with payment.
+
+Sample document. Every name and number is made up.

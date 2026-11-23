@@ -1,0 +1,24 @@
+TAMSBY CIRCUITS
+Fremont, CA  |  (510) 555-0142
+
+                                   INVOICE
+
+Invoice #:      TB-2467
+Invoice Date:   Oct 21, 2026
+Terms:          Net 30
+Your PO:        PO-4213
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item          Description                     Qty  UOM    Unit Price      Extended
+------------  ------------------------------  ---  ---  ------------  ------------
+TB-MB-R4      Main board assembly, rev 4       11  EA        $187.78     $2,065.58
+
+                                                   Subtotal:          $2,065.58
+                                                   Freight:               $0.00
+                                                   Tax:                   $0.00
+                                                   Total Due:         $2,065.58
+
+Remit to Tamsby Circuits, Fremont, CA. Please show the invoice number on your payment.
+
+Sample document. Every name and number is made up.

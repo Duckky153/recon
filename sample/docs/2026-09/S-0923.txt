@@ -1,0 +1,18 @@
+Tallowmere Workshops
+Oakland, CA
+
+RENT INVOICE
+
+Bill to: Halden Robotics, Oakland, CA
+Invoice: TW-2026-09
+Date: Sep 1, 2026
+Terms: Net 30
+
+Description                                   Qty   Unit         Rate        Amount
+Workshop and office rent, September 2026        1   MO      $6,400.00     $6,400.00
+
+Total due: $6,400.00
+
+Remit to Tallowmere Workshops, Oakland, CA.
+
+Sample document. Every name and number is made up.

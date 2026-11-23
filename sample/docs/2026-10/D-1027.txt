@@ -1,0 +1,26 @@
+From: billing@brightcut-metalworks.example
+To: ap@halden-robotics.example
+Date: Oct 22, 2026
+Subject: Invoice BM-7852 from Brightcut Metalworks
+
+Hello,
+
+Our invoice BM-7852 for the steel brackets is below.
+
+Invoice No:    BM-7852
+Invoice Date:  Oct 22, 2026
+Terms:         Net 30
+
+Item No.    Description               Qty  U/M  Unit Price     Amount
+BC-BRK-12   Mounting bracket, steel   300  EA        $6.80  $2,040.00
+
+Invoice Total: $2,040.00
+
+Remit to Brightcut Metalworks, Hayward, CA. Reply here if you would like a printed copy.
+
+Thanks,
+Accounts Receivable
+Brightcut Metalworks
+Hayward, CA
+
+Sample document. Every name and number is made up.

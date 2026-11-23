@@ -1,0 +1,22 @@
+From: billing@oxwell-interconnect.example
+To: ap@halden-robotics.example
+Date: Oct 13, 2026
+Subject: Oxwell Interconnect invoice OW-60555
+
+Hello Halden accounts payable,
+
+Our invoice OW-60555, dated Oct 13, 2026, is below. Terms are Net 30.
+
+Item        Description                 Qty  UOM  Unit price   Extension
+OW-CON-8P   Connector, 8-pin, sealed    150  EA        $4.20     $630.00
+
+Invoice total: $630.00
+
+Your shop asked for these by phone on October 9 as a rush.
+
+Thank you,
+Accounts Receivable
+Oxwell Interconnect
+Santa Clara, CA
+
+Sample document. Every name and number is made up.

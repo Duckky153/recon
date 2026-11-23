@@ -1,0 +1,21 @@
+CALVANE OPTICS                                                CREDIT NOTE
+Portland, OR
+
+Bill to: Halden Robotics, Oakland, CA
+
+Credit note number    CV-CN-0091
+Credit note date      Sep 29, 2026
+Purchase order        PO-1169
+Payment terms         Net 30
+
+Quantity  Unit  Description                                     Part No.        Price     Amount
+      -1  EA    Camera module, 8 MP, global shutter, returned   CV-CAM-8MP-A   $96.50    -$96.50
+
+Subtotal                                                                                 -$96.50
+Freight                                                                                    $0.00
+Tax                                                                                        $0.00
+Total credit                                                                             -$96.50
+
+Calvane Optics, Portland, OR.
+
+Sample document. Every name and number is made up.

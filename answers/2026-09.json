@@ -1,0 +1,3014 @@
+{
+ "month": "2026-09",
+ "reader": "Jev (jev-1.14.0) through ai_read.py",
+ "run": {
+  "model": "jev-1.14.0",
+  "question_version": "recon-q2",
+  "set": "practice",
+  "month": "2026-09",
+  "documents": 30,
+  "calls": 60,
+  "input_tokens": 148228,
+  "cost_dollars": 0.00623,
+  "spent_so_far_dollars": 0.01322,
+  "cap_dollars": 0.5,
+  "price_per_million": 0.042,
+  "started": "2026-11-23T15:16:14",
+  "finished": "2026-11-23T15:16:31",
+  "problems": []
+ },
+ "readings": {
+  "S-0923": {
+   "from": "tallowmere",
+   "date": "2026-09-01",
+   "kind": "bill",
+   "number": "TW-2026-09",
+   "total": 640000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": null,
+     "po_line": null,
+     "item": null,
+     "qty": 1,
+     "unit": "MO",
+     "price": 640000,
+     "amount": 640000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0901": {
+   "from": "tarnwell",
+   "date": "2026-09-09",
+   "kind": "bill",
+   "number": "TM-24302",
+   "total": 284000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1161",
+     "po_line": 1,
+     "item": "TM-BL48-220",
+     "qty": 20,
+     "unit": "EA",
+     "price": 14200,
+     "amount": 284000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0902": {
+   "from": "ostrander",
+   "date": "2026-09-10",
+   "kind": "bill",
+   "number": "OC-90170",
+   "total": 343200,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1162",
+     "po_line": 1,
+     "item": "OC-LFP-2420",
+     "qty": 8,
+     "unit": "EA",
+     "price": 42900,
+     "amount": 343200
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0903": {
+   "from": "wexby",
+   "date": "2026-09-11",
+   "kind": "bill",
+   "number": "WX-3262",
+   "total": 328800,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1163",
+     "po_line": 1,
+     "item": "WX-WHL-200",
+     "qty": 120,
+     "unit": "EA",
+     "price": 2740,
+     "amount": 328800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0904": {
+   "from": "ferrow",
+   "date": "2026-09-12",
+   "kind": "bill",
+   "number": "FC-2240",
+   "total": 233000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1164",
+     "po_line": 1,
+     "item": "FC-MB-R4",
+     "qty": 10,
+     "unit": "EA",
+     "price": 18500,
+     "amount": 185000
+    },
+    {
+     "po": "PO-1164",
+     "po_line": 2,
+     "item": "FC-PDB-R2",
+     "qty": 10,
+     "unit": "EA",
+     "price": 4800,
+     "amount": 48000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0905": {
+   "from": "brightcut",
+   "date": "2026-09-13",
+   "kind": "bill",
+   "number": "BM-7741",
+   "total": 136000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1165",
+     "po_line": 1,
+     "item": "BC-BRK-12",
+     "qty": 200,
+     "unit": "EA",
+     "price": 680,
+     "amount": 136000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0907": {
+   "from": "kestwick",
+   "date": "2026-09-13",
+   "kind": "bill",
+   "number": "KF-11102",
+   "total": 6000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1167",
+     "po_line": 1,
+     "item": "KF-SCR-M412",
+     "qty": 10,
+     "unit": "BX",
+     "price": 600,
+     "amount": 6000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0906": {
+   "from": "lanyard",
+   "date": "2026-09-14",
+   "kind": "bill",
+   "number": "LI-60310",
+   "total": 91500,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1166",
+     "po_line": 1,
+     "item": "LI-HRN-24",
+     "qty": 30,
+     "unit": "EA",
+     "price": 3050,
+     "amount": 91500
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0908": {
+   "from": "scarrow",
+   "date": "2026-09-17",
+   "kind": "bill",
+   "number": "SCX-1120",
+   "total": 155600,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1168",
+     "po_line": 1,
+     "item": "SC-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "amount": 155600
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0909": {
+   "from": "calvane",
+   "date": "2026-09-18",
+   "kind": "bill",
+   "number": "CV-55010",
+   "total": 115800,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 12,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 115800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0910": {
+   "from": "tarnwell",
+   "date": "2026-09-19",
+   "kind": "bill",
+   "number": "TM-24350",
+   "total": 340800,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1170",
+     "po_line": 1,
+     "item": "TM-BL48-220",
+     "qty": 24,
+     "unit": "EA",
+     "price": 14200,
+     "amount": 340800
+    }
+   ],
+   "explanation_line": "6 motors to ship separately.",
+   "terms_days": 30
+  },
+  "S-0911": {
+   "from": "ostrander",
+   "date": "2026-09-20",
+   "kind": "bill",
+   "number": "OC-90188",
+   "total": 265700,
+   "freight": 0,
+   "tax": 19700,
+   "lines": [
+    {
+     "po": "PO-1171",
+     "po_line": 1,
+     "item": "OC-LFP-2420",
+     "qty": 6,
+     "unit": "EA",
+     "price": 41000,
+     "amount": 246000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0912": {
+   "from": "brightcut",
+   "date": "2026-09-21",
+   "kind": "bill",
+   "number": "BM-7760",
+   "total": 378000,
+   "freight": 21000,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1172",
+     "po_line": 1,
+     "item": "BC-ENC-AL3",
+     "qty": 15,
+     "unit": "EA",
+     "price": 23800,
+     "amount": 357000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0914": {
+   "from": "kestwick",
+   "date": "2026-09-21",
+   "kind": "bill",
+   "number": "KF-11140",
+   "total": 3000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1174",
+     "po_line": 1,
+     "item": "KF-SCR-M412",
+     "qty": 300,
+     "unit": "EA",
+     "price": 6,
+     "amount": 1800
+    },
+    {
+     "po": "PO-1174",
+     "po_line": 2,
+     "item": "KF-NUT-M4",
+     "qty": 300,
+     "unit": "EA",
+     "price": 4,
+     "amount": 1200
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0913": {
+   "from": "wexby",
+   "date": "2026-09-23",
+   "kind": "bill",
+   "number": "WX-3290",
+   "total": 164400,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1173",
+     "po_line": 1,
+     "item": "WX-WHL-200",
+     "qty": 60,
+     "unit": "EA",
+     "price": 2740,
+     "amount": 164400
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0925": {
+   "kind": "payment",
+   "from": "ashlowe",
+   "date": "2026-09-24",
+   "amount": 600000,
+   "invoices_named": [
+    "INV-2030"
+   ],
+   "explanation_line": null
+  },
+  "S-0915": {
+   "from": "ferrow",
+   "date": "2026-09-25",
+   "kind": "bill",
+   "number": "FC-2266",
+   "total": 148000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1175",
+     "po_line": 1,
+     "item": "FC-MB-R4",
+     "qty": 8,
+     "unit": "EA",
+     "price": 18500,
+     "amount": 148000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0926": {
+   "kind": "payment",
+   "from": "pembrell",
+   "date": "2026-09-25",
+   "amount": 138000,
+   "invoices_named": [
+    "INV-2033"
+   ],
+   "explanation_line": "Less $300.00 for the missing charger."
+  },
+  "S-0916": {
+   "from": "lanyard",
+   "date": "2026-09-26",
+   "kind": "bill",
+   "number": "LI-60371",
+   "total": 31000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": null,
+     "po_line": null,
+     "item": "LI-HRN-24",
+     "qty": 10,
+     "unit": "EA",
+     "price": 3100,
+     "amount": 31000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0917": {
+   "from": "lanyard",
+   "date": "2026-09-26",
+   "kind": "bill",
+   "number": "LI-60366",
+   "total": 84000,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1176",
+     "po_line": 1,
+     "item": "LI-CON-8P",
+     "qty": 200,
+     "unit": "EA",
+     "price": 420,
+     "amount": 84000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0927": {
+   "kind": "payment",
+   "from": "kettleby",
+   "date": "2026-09-26",
+   "amount": 1250000,
+   "invoices_named": [
+    "INV-2036"
+   ],
+   "explanation_line": null
+  },
+  "S-0918": {
+   "from": "calvane",
+   "date": "2026-09-27",
+   "kind": "bill",
+   "number": "CV-55010",
+   "total": 115800,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 12,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 115800
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0919": {
+   "from": "calvane",
+   "date": "2026-09-27",
+   "kind": "bill",
+   "number": "CV-55041",
+   "total": 96500,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1177",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": 10,
+     "unit": "EA",
+     "price": 9650,
+     "amount": 96500
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0928": {
+   "kind": "payment",
+   "from": "pellnorris",
+   "date": "2026-09-27",
+   "amount": 84000,
+   "invoices_named": [],
+   "explanation_line": null
+  },
+  "S-0920": {
+   "from": "scarrow",
+   "date": "2026-09-28",
+   "kind": "bill",
+   "number": "SCX-1141",
+   "total": 155600,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1178",
+     "po_line": 1,
+     "item": "SC-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "amount": 155600
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0930": {
+   "kind": "payment",
+   "from": "aster",
+   "date": "2026-09-28",
+   "amount": 168000,
+   "invoices_named": [
+    "INV-2041"
+   ],
+   "explanation_line": null
+  },
+  "S-0924": {
+   "from": "calvane",
+   "date": "2026-09-29",
+   "kind": "credit_note",
+   "number": "CV-CN-0091",
+   "total": -9650,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1169",
+     "po_line": 1,
+     "item": "CV-CAM-8MP-A",
+     "qty": -1,
+     "unit": "EA",
+     "price": 9650,
+     "amount": -9650
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0929": {
+   "kind": "payment",
+   "from": "brackwell",
+   "date": "2026-09-29",
+   "amount": 600000,
+   "invoices_named": [
+    "INV-2039"
+   ],
+   "explanation_line": null
+  },
+  "S-0921": {
+   "from": "brightcut",
+   "date": "2026-09-30",
+   "kind": "bill",
+   "number": "BM-7778",
+   "total": 353600,
+   "freight": 0,
+   "tax": 0,
+   "lines": [
+    {
+     "po": "PO-1179",
+     "po_line": 1,
+     "item": "BC-ENC-AL3",
+     "qty": 12,
+     "unit": "EA",
+     "price": 23800,
+     "amount": 285600
+    },
+    {
+     "po": "PO-1179",
+     "po_line": 2,
+     "item": "BC-BRK-12",
+     "qty": 100,
+     "unit": "EA",
+     "price": 680,
+     "amount": 68000
+    }
+   ],
+   "explanation_line": null,
+   "terms_days": 30
+  },
+  "S-0922": {
+   "from": "brightcut",
+   "date": "2026-09-30",
+   "kind": "statement",
+   "lines": [],
+   "number": "",
+   "total": 0,
+   "freight": 0,
+   "tax": 0,
+   "explanation_line": null
+  }
+ },
+ "answers": {
+  "S-0923": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "TW-2026-09",
+    "reversed": "TW-2026-09",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$6,400.00",
+    "reversed": "$6,400.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 0.97,
+    "counted": true
+   },
+   "L012_qty": {
+    "listed": "1",
+    "reversed": "1",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$6,400.00",
+    "reversed": "$6,400.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$6,400.00",
+    "reversed": "$6,400.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "MO",
+    "reversed": "MO",
+    "p": 1.0,
+    "counted": true
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0901": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.03,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "TM-24302",
+    "reversed": "TM-24302",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$2,840.00",
+    "reversed": "$2,840.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L014_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_on_item": {
+    "listed": 0.97,
+    "reversed": 0.97,
+    "counted": true,
+    "value": "yes"
+   },
+   "L014_qty": {
+    "listed": "20",
+    "reversed": "20",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_price": {
+    "listed": "$142.00",
+    "reversed": "$142.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_amount": {
+    "listed": "$2,840.00",
+    "reversed": "$2,840.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_order": {
+    "listed": "PO-1161",
+    "reversed": "PO-1161",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0902": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "OC-90170",
+    "reversed": "OC-90170",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$3,432.00",
+    "reversed": "$3,432.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.96,
+    "counted": true
+   },
+   "L010_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L010_qty": {
+    "listed": "8",
+    "reversed": "8",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_price": {
+    "listed": "$429.00",
+    "reversed": "$429.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_amount": {
+    "listed": "$3,432.00",
+    "reversed": "$3,432.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_order": {
+    "listed": "PO-1162",
+    "reversed": "PO-1162",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0903": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "WX-3262",
+    "reversed": "WX-3262",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$3,288.00",
+    "reversed": "$3,288.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L011_qty": {
+    "listed": "120",
+    "reversed": "120",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_price": {
+    "listed": "$27.40",
+    "reversed": "$27.40",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_amount": {
+    "listed": "$3,288.00",
+    "reversed": "$3,288.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_order": {
+    "listed": "PO-1163",
+    "reversed": "PO-1163",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_order": {
+    "listed": 0.98,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0904": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "FC-2240",
+    "reversed": "FC-2240",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$2,330.00",
+    "reversed": "$2,330.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L013_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_item": {
+    "listed": "FC-MB-R4",
+    "reversed": "FC-MB-R4",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_qty": {
+    "listed": "10",
+    "reversed": "10",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_price": {
+    "listed": "$185.00",
+    "reversed": "$185.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_amount": {
+    "listed": "$1,850.00",
+    "reversed": "$1,850.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_order": {
+    "listed": "PO-1164",
+    "reversed": "PO-1164",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_on_order": {
+    "listed": 0.98,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L014_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_item": {
+    "listed": "FC-PDB-R2",
+    "reversed": "FC-PDB-R2",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_qty": {
+    "listed": "10",
+    "reversed": "10",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_price": {
+    "listed": "$48.00",
+    "reversed": "$48.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_amount": {
+    "listed": "$480.00",
+    "reversed": "$480.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_order": {
+    "listed": "PO-1164",
+    "reversed": "PO-1164",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_on_order": {
+    "listed": 0.98,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0905": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "BM-7741",
+    "reversed": "BM-7741",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,360.00",
+    "reversed": "$1,360.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L015_qty": {
+    "listed": "200",
+    "reversed": "200",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_price": {
+    "listed": "$6.80",
+    "reversed": "$6.80",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_amount": {
+    "listed": "$1,360.00",
+    "reversed": "$1,360.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_order": {
+    "listed": "PO-1165",
+    "reversed": "PO-1165",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_on_order": {
+    "listed": 0.93,
+    "reversed": 0.91,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0907": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "KF-11102",
+    "reversed": "KF-11102",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$60.00",
+    "reversed": "$60.00",
+    "p": 0.58,
+    "counted": false
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 0.96,
+    "counted": true
+   },
+   "L002_item": {
+    "listed": "KF-SCR-M412",
+    "reversed": "KF-SCR-M412",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_qty": {
+    "listed": "10",
+    "reversed": "10",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_price": {
+    "listed": "$6.00",
+    "reversed": "$6.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_amount": {
+    "listed": "$60.00",
+    "reversed": "$60.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_unit": {
+    "listed": "BX",
+    "reversed": "BX",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_order": {
+    "listed": "PO-1167",
+    "reversed": "PO-1167",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_on_order": {
+    "listed": 0.98,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0906": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "LI-60310",
+    "reversed": "LI-60310",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$915.00",
+    "reversed": "$915.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L012_qty": {
+    "listed": "30",
+    "reversed": "30",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$30.50",
+    "reversed": "$30.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$915.00",
+    "reversed": "$915.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1166",
+    "reversed": "PO-1166",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0908": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "SCX-1120",
+    "reversed": "SCX-1120",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,556.00",
+    "reversed": "$1,556.00",
+    "p": 0.94,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 0.96,
+    "counted": true
+   },
+   "L002_on_item": {
+    "listed": 0.88,
+    "reversed": 0.91,
+    "counted": true,
+    "value": "yes"
+   },
+   "L002_qty": {
+    "listed": "4",
+    "reversed": "4",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_price": {
+    "listed": "$389.00",
+    "reversed": "$389.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_amount": {
+    "listed": "$1,556.00",
+    "reversed": "$1,556.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_order": {
+    "listed": "PO-1168",
+    "reversed": "PO-1168",
+    "p": 1.0,
+    "counted": true
+   },
+   "L002_on_order": {
+    "listed": 0.97,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0909": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "CV-55010",
+    "reversed": "CV-55010",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,158.00",
+    "reversed": "$1,158.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L012_qty": {
+    "listed": "12",
+    "reversed": "12",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$96.50",
+    "reversed": "$96.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$1,158.00",
+    "reversed": "$1,158.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1169",
+    "reversed": "PO-1169",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0910": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.03,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "TM-24350",
+    "reversed": "TM-24350",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$3,408.00",
+    "reversed": "$3,408.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.96,
+    "counted": true
+   },
+   "L014_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_on_item": {
+    "listed": 0.98,
+    "reversed": 0.97,
+    "counted": true,
+    "value": "yes"
+   },
+   "L014_qty": {
+    "listed": "24",
+    "reversed": "24",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_price": {
+    "listed": "$142.00",
+    "reversed": "$142.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_amount": {
+    "listed": "$3,408.00",
+    "reversed": "$3,408.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_order": {
+    "listed": "PO-1170",
+    "reversed": "PO-1170",
+    "p": 1.0,
+    "counted": true
+   },
+   "L014_on_order": {
+    "listed": 0.99,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.61,
+    "reversed": 0.68,
+    "counted": true,
+    "value": true
+   },
+   "explain_line": {
+    "listed": "L016",
+    "reversed": "L016",
+    "p": 1.0,
+    "counted": true
+   }
+  },
+  "S-0911": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "OC-90188",
+    "reversed": "OC-90188",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$2,657.00",
+    "reversed": "$2,657.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$197.00",
+    "reversed": "$197.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_item": {
+    "listed": 0.99,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "L010_qty": {
+    "listed": "6",
+    "reversed": "6",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_price": {
+    "listed": "$410.00",
+    "reversed": "$410.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_amount": {
+    "listed": "$2,460.00",
+    "reversed": "$2,460.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_order": {
+    "listed": "PO-1171",
+    "reversed": "PO-1171",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0912": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "BM-7760",
+    "reversed": "BM-7760",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$3,780.00",
+    "reversed": "$3,780.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$210.00",
+    "reversed": "$210.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L010_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_item": {
+    "listed": "BC-ENC-AL3",
+    "reversed": "BC-ENC-AL3",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_qty": {
+    "listed": "15",
+    "reversed": "15",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_price": {
+    "listed": "$238.00",
+    "reversed": "$238.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_amount": {
+    "listed": "$3,570.00",
+    "reversed": "$3,570.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_order": {
+    "listed": "PO-1172",
+    "reversed": "PO-1172",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0914": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.03,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "KF-11140",
+    "reversed": "KF-11140",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$30.00",
+    "reversed": "$30.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.95,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_item": {
+    "listed": "KF-SCR-M412",
+    "reversed": "KF-SCR-M412",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_qty": {
+    "listed": "300",
+    "reversed": "300",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$0.06",
+    "reversed": "$0.06",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$18.00",
+    "reversed": "$18.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1174",
+    "reversed": "PO-1174",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L013_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_item": {
+    "listed": "KF-NUT-M4",
+    "reversed": "KF-NUT-M4",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_qty": {
+    "listed": "300",
+    "reversed": "300",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_price": {
+    "listed": "$0.04",
+    "reversed": "$0.04",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_amount": {
+    "listed": "$12.00",
+    "reversed": "$12.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_order": {
+    "listed": "PO-1174",
+    "reversed": "PO-1174",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_on_order": {
+    "listed": 0.98,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0913": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "WX-3290",
+    "reversed": "WX-3290",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,644.00",
+    "reversed": "$1,644.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L011_qty": {
+    "listed": "60",
+    "reversed": "60",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_price": {
+    "listed": "$27.40",
+    "reversed": "$27.40",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_amount": {
+    "listed": "$1,644.00",
+    "reversed": "$1,644.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_order": {
+    "listed": "PO-1173",
+    "reversed": "PO-1173",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.0,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0925": {
+   "amount": {
+    "listed": "$6,000.00",
+    "reversed": "$6,000.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2030": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "says_reason": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0915": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "FC-2266",
+    "reversed": "FC-2266",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,480.00",
+    "reversed": "$1,480.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "L013_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_item": {
+    "listed": "FC-MB-R4",
+    "reversed": "FC-MB-R4",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_qty": {
+    "listed": "8",
+    "reversed": "8",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_price": {
+    "listed": "$185.00",
+    "reversed": "$185.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_amount": {
+    "listed": "$1,480.00",
+    "reversed": "$1,480.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_order": {
+    "listed": "PO-1175",
+    "reversed": "PO-1175",
+    "p": 1.0,
+    "counted": true
+   },
+   "L013_on_order": {
+    "listed": 0.98,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0926": {
+   "amount": {
+    "listed": "$1,380.00",
+    "reversed": "$1,380.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2033": {
+    "listed": 1.0,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "says_reason": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": true
+   },
+   "reason_line": {
+    "listed": "L014",
+    "reversed": "L014",
+    "p": 1.0,
+    "counted": true
+   }
+  },
+  "S-0916": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "LI-60371",
+    "reversed": "LI-60371",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$310.00",
+    "reversed": "$310.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L011_qty": {
+    "listed": "10",
+    "reversed": "10",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_price": {
+    "listed": "$31.00",
+    "reversed": "$31.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_amount": {
+    "listed": "$310.00",
+    "reversed": "$310.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0917": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "LI-60366",
+    "reversed": "LI-60366",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$840.00",
+    "reversed": "$840.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L012_qty": {
+    "listed": "200",
+    "reversed": "200",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$4.20",
+    "reversed": "$4.20",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$840.00",
+    "reversed": "$840.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1176",
+    "reversed": "PO-1176",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0927": {
+   "amount": {
+    "listed": "$12,500.00",
+    "reversed": "$12,500.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2036": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "says_reason": {
+    "listed": 0.01,
+    "reversed": 0.02,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0918": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "CV-55010",
+    "reversed": "CV-55010",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,158.00",
+    "reversed": "$1,158.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "tax": {
+    "listed": "none",
+    "reversed": "none",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L015_qty": {
+    "listed": "12",
+    "reversed": "12",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_price": {
+    "listed": "$96.50",
+    "reversed": "$96.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_amount": {
+    "listed": "$1,158.00",
+    "reversed": "$1,158.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_order": {
+    "listed": "PO-1169",
+    "reversed": "PO-1169",
+    "p": 1.0,
+    "counted": true
+   },
+   "L015_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0919": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "CV-55041",
+    "reversed": "CV-55041",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$965.00",
+    "reversed": "$965.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.99,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_item": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L012_qty": {
+    "listed": "10",
+    "reversed": "10",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$96.50",
+    "reversed": "$96.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "$965.00",
+    "reversed": "$965.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1177",
+    "reversed": "PO-1177",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0928": {
+   "amount": {
+    "listed": "$840.00",
+    "reversed": "$840.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2055": {
+    "listed": 0.02,
+    "reversed": 0.03,
+    "counted": true,
+    "value": "no"
+   },
+   "names_INV_2038": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "says_reason": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0920": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "SCX-1141",
+    "reversed": "SCX-1141",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$1,556.00",
+    "reversed": "$1,556.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.96,
+    "counted": true
+   },
+   "L011_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_item": {
+    "listed": 0.96,
+    "reversed": 0.97,
+    "counted": true,
+    "value": "yes"
+   },
+   "L011_qty": {
+    "listed": "4",
+    "reversed": "4",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_price": {
+    "listed": "$389.00",
+    "reversed": "$389.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_amount": {
+    "listed": "$1,556.00",
+    "reversed": "$1,556.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_order": {
+    "listed": "PO-1178",
+    "reversed": "PO-1178",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_order": {
+    "listed": 0.99,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0930": {
+   "amount": {
+    "listed": "$1,680.00",
+    "reversed": "$1,680.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2041": {
+    "listed": 1.0,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "says_reason": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0924": {
+   "doc_kind": {
+    "listed": "credit_note",
+    "reversed": "credit_note",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "CV-CN-0091",
+    "reversed": "CV-CN-0091",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "-$96.50",
+    "reversed": "-$96.50",
+    "p": 0.99,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.97,
+    "counted": true
+   },
+   "L012_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_item": {
+    "listed": 0.98,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L012_qty": {
+    "listed": "-1",
+    "reversed": "-1",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_price": {
+    "listed": "$96.50",
+    "reversed": "$96.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_amount": {
+    "listed": "-$96.50",
+    "reversed": "-$96.50",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_order": {
+    "listed": "PO-1169",
+    "reversed": "PO-1169",
+    "p": 1.0,
+    "counted": true
+   },
+   "L012_on_order": {
+    "listed": 0.99,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.3,
+    "reversed": 0.3,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0929": {
+   "amount": {
+    "listed": "$6,000.00",
+    "reversed": "$6,000.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "names_INV_2039": {
+    "listed": 1.0,
+    "reversed": 1.0,
+    "counted": true,
+    "value": "yes"
+   },
+   "names_INV_2052": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "says_reason": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0921": {
+   "doc_kind": {
+    "listed": "bill",
+    "reversed": "bill",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.02,
+    "reversed": 0.02,
+    "counted": true,
+    "value": "no"
+   },
+   "number": {
+    "listed": "BM-7778",
+    "reversed": "BM-7778",
+    "p": 1.0,
+    "counted": true
+   },
+   "total": {
+    "listed": "$3,536.00",
+    "reversed": "$3,536.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "freight": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.98,
+    "counted": true
+   },
+   "tax": {
+    "listed": "$0.00",
+    "reversed": "$0.00",
+    "p": 0.96,
+    "counted": true
+   },
+   "L010_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_item": {
+    "listed": "BC-ENC-AL3",
+    "reversed": "BC-ENC-AL3",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_qty": {
+    "listed": "12",
+    "reversed": "12",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_price": {
+    "listed": "$238.00",
+    "reversed": "$238.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_amount": {
+    "listed": "$2,856.00",
+    "reversed": "$2,856.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_order": {
+    "listed": "PO-1179",
+    "reversed": "PO-1179",
+    "p": 1.0,
+    "counted": true
+   },
+   "L010_on_order": {
+    "listed": 0.99,
+    "reversed": 0.99,
+    "counted": true,
+    "value": "yes"
+   },
+   "L011_kind": {
+    "listed": "item",
+    "reversed": "item",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_item": {
+    "listed": "BC-BRK-12",
+    "reversed": "BC-BRK-12",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_qty": {
+    "listed": "100",
+    "reversed": "100",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_price": {
+    "listed": "$6.80",
+    "reversed": "$6.80",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_amount": {
+    "listed": "$680.00",
+    "reversed": "$680.00",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_unit": {
+    "listed": "EA",
+    "reversed": "EA",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_order": {
+    "listed": "PO-1179",
+    "reversed": "PO-1179",
+    "p": 1.0,
+    "counted": true
+   },
+   "L011_on_order": {
+    "listed": 0.98,
+    "reversed": 0.98,
+    "counted": true,
+    "value": "yes"
+   },
+   "explains": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": false
+   }
+  },
+  "S-0922": {
+   "doc_kind": {
+    "listed": "statement",
+    "reversed": "statement",
+    "p": 1.0,
+    "counted": true
+   },
+   "bank_change": {
+    "listed": 0.01,
+    "reversed": 0.01,
+    "counted": true,
+    "value": "no"
+   }
+  }
+ }
+}

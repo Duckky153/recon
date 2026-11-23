@@ -1,0 +1,23 @@
+From: invoices@vistrell-optics.example
+To: ap@halden-robotics.example
+Date: 10/25/2026
+Subject: Vistrell Optics invoice VT-55325 (your order PO-4220)
+
+Hi,
+
+Please find invoice VT-55325 below.
+
+Date: 10/25/2026
+Your order: PO-4220
+Terms: Net 30 days
+
+Quantity 20 EA | VT-CAM-8MP-A | Camera module, 8 MP, global shutter | $96.50 each | $1,930.00
+
+Amount due: $1,930.00
+
+Regards,
+Billing
+Vistrell Optics
+Portland, OR
+
+Sample document. Every name and number is made up.

@@ -1,0 +1,25 @@
+TARNWELL MOTION
+San Jose, CA
+                                                          INVOICE
+
+Invoice No:    TM-24350
+Invoice Date:  Sep 19, 2026
+Terms:         Net 30
+Customer PO:   PO-1170
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item          Description                     Qty  Unit   Unit Price       Amount
+------------  ------------------------------  ---  ----  -----------  -----------
+TM-BL48-220   Brushless motor, 48 V, 220 W     24  EA        $142.00    $3,408.00
+
+6 motors to ship separately.
+
+                                                    Subtotal:     $3,408.00
+                                                    Freight:          $0.00
+                                                    Tax:              $0.00
+                                                    Invoice Total: $3,408.00
+
+Please remit to Tarnwell Motion, San Jose, CA. Thank you for your business.
+
+Sample document. Every name and number is made up.

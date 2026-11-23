@@ -1,0 +1,20 @@
+Kestlow Supply
+Phoenix, AZ | (602) 555-0118
+==========================================================================
+INVOICE  KS-778338
+Date: 2026-10-22                                          Terms: Net 30
+Bill to: Halden Robotics, Oakland, CA
+--------------------------------------------------------------------------
+Description                          Part No.       Quantity  Unit      Each       Total
+Camera module, 8 MP, global shutter  VT-CAM-8MP-A         16  EA      $96.50   $1,544.00
+--------------------------------------------------------------------------
+Billed by us as distributor for the manufacturer
+
+Subtotal     $1,544.00
+Freight          $0.00
+Tax              $0.00
+Total due    $1,544.00
+
+Please remit to Kestlow Supply, Phoenix, AZ.
+
+Sample document. Every name and number is made up.

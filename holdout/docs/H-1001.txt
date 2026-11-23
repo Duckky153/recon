@@ -1,0 +1,22 @@
+PELLICOR CELLS
+Reno, NV
+
+Invoice PL-90368
+Issued 2026-10-09  /  Net 30  /  Purchase order PO-4191
+Bill to: Halden Robotics, Oakland, CA
+
+Line 1
+  Part no.      PL-LFP-2420
+  Description   Battery pack, 24 V 20 Ah, LFP
+  Quantity      10 EA
+  Unit price    $431.00
+  Line total    $4,310.00
+
+Cell prices include the surcharge that began October 1.
+
+Subtotal $4,310.00  |  Freight $0.00  |  Tax $0.00
+TOTAL DUE  $4,310.00
+
+Remittance: Pellicor Cells, Accounts Receivable, Reno, NV. Reference PL-90368.
+
+Sample document. Every name and number is made up.

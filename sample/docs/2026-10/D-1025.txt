@@ -1,0 +1,4 @@
+"Invoice","Invoice Date","Customer","Your PO","Terms","Ln","Qty Shipped","UOM","Item","Description","Price","Extension","Invoice Total"
+"KF-11236","2026-10-17","Halden Robotics","PO-1212","Net 30","1","5","BX","KF-SCR-M412","Screw, M4 x 12, stainless","$6.00","$30.00","$30.00"
+
+Sample document. Every name and number is made up.

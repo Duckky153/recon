@@ -1,0 +1,24 @@
+TAMSBY CIRCUITS
+Fremont, CA  |  (510) 555-0142
+
+                                   INVOICE
+
+Invoice #:      TB-2478
+Invoice Date:   Oct 23, 2026
+Terms:          Net 30
+Your PO:        PO-4217
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item          Description                       Qty  UOM    Unit Price      Extended
+------------  --------------------------------  ---  ---  ------------  ------------
+TB-PDB-R2     Power distribution board, rev 2    20  EA         $48.00       $960.00
+
+                                                     Subtotal:            $960.00
+                                                     Freight:               $0.00
+                                                     Tax:                   $0.00
+                                                     Total Due:           $960.00
+
+Remit to Tamsby Circuits, Fremont, CA. Please show the invoice number on your payment.
+
+Sample document. Every name and number is made up.

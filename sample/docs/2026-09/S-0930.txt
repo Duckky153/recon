@@ -1,0 +1,14 @@
+From: books@astersurvey.example
+To: ap@halden-robotics.example
+Date: Sep 28, 2026
+Subject: INV-2041 paid
+
+Hi there,
+
+Paid INV-2041 today, $1,680.00 by check.
+
+Thanks,
+Aster Survey Co.
+Boise, ID
+
+Sample document. Every name and number is made up.

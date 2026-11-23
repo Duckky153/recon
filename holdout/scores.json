@@ -1,0 +1,177 @@
+{
+ "set": "holdout",
+ "written_by": "holdout/run_holdout.py with score.py's functions",
+ "readers": {
+  "ai": {
+   "reader": "Jev (jev-1.14.0) through ai_read.py, as locked",
+   "documents": {
+    "documents": 50,
+    "clean": 24,
+    "clean_cleared": 24,
+    "clean_held": [],
+    "problems": 26,
+    "right_reason": 23,
+    "other_reason": [
+     {
+      "doc": "H-1001",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "held",
+      "keyed_reason": "price_over"
+     },
+     {
+      "doc": "H-1012",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "held",
+      "keyed_reason": "substituted_part"
+     },
+     {
+      "doc": "H-1019",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "set_aside",
+      "keyed_reason": "no_po_supplier"
+     }
+    ],
+    "wrongly_cleared": [],
+    "unsure": [
+     {
+      "doc": "H-1001",
+      "what": "the quantity on line 9"
+     },
+     {
+      "doc": "H-1012",
+      "what": "line 13"
+     },
+     {
+      "doc": "H-1019",
+      "what": "the quantity on line 15"
+     }
+    ]
+   },
+   "quotes": {
+    "had_one": 8,
+    "quoted": 7,
+    "quoted_where_none": []
+   },
+   "fields": {
+    "kind of document": {
+     "asked": 34,
+     "counted": 34,
+     "wrong": 0,
+     "misses": []
+    },
+    "total": {
+     "asked": 30,
+     "counted": 30,
+     "wrong": 0,
+     "misses": []
+    },
+    "bill number": {
+     "asked": 30,
+     "counted": 30,
+     "wrong": 0,
+     "misses": []
+    },
+    "bill lines (part, order, quantity, unit, price, amount)": {
+     "asked": 30,
+     "counted": 27,
+     "wrong": 0,
+     "misses": []
+    },
+    "the sender's own explaining line": {
+     "asked": 42,
+     "counted": 42,
+     "wrong": 1,
+     "misses": [
+      {
+       "doc": "H-1007",
+       "got": null,
+       "keyed": "Your shop asked for these by phone on October 9 as a rush."
+      }
+     ]
+    },
+    "payment amount": {
+     "asked": 8,
+     "counted": 8,
+     "wrong": 0,
+     "misses": []
+    },
+    "invoices named": {
+     "asked": 8,
+     "counted": 8,
+     "wrong": 0,
+     "misses": []
+    }
+   },
+   "steadiness": {
+    "answers": 525,
+    "listed_and_reversed_differ": 1,
+    "examples": [
+     {
+      "doc": "H-1022",
+      "question": "L009_order",
+      "listed": "PO-4211",
+      "reversed": "PO-4220"
+     }
+    ]
+   },
+   "run": {
+    "model": "jev-1.14.0",
+    "question_version": "recon-q2",
+    "set": "holdout",
+    "documents": 42,
+    "calls": 84,
+    "input_tokens": 209742,
+    "cost_dollars": 0.00881,
+    "spent_so_far_dollars": 0.03082,
+    "started": "2026-11-23T16:41:42",
+    "finished": "2026-11-23T16:42:05",
+    "problems": []
+   }
+  },
+  "no_ai": {
+   "reader": "baseline.py (no AI), as locked",
+   "documents": {
+    "documents": 50,
+    "clean": 24,
+    "clean_cleared": 24,
+    "clean_held": [],
+    "problems": 26,
+    "right_reason": 24,
+    "other_reason": [
+     {
+      "doc": "H-1001",
+      "got": "held",
+      "reason": "arithmetic",
+      "keyed": "held",
+      "keyed_reason": "price_over"
+     },
+     {
+      "doc": "H-1008",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "held",
+      "keyed_reason": "ambiguous_order"
+     }
+    ],
+    "wrongly_cleared": [],
+    "unsure": [
+     {
+      "doc": "H-1008",
+      "what": "this document (the no-AI reader stopped with an error)"
+     }
+    ]
+   },
+   "quotes": {
+    "had_one": 8,
+    "quoted": 0,
+    "quoted_where_none": []
+   },
+   "stopped_on": {
+    "H-1008": "ValueError: invalid literal for int() with base 10: '6 EA'"
+   }
+  }
+ }
+}

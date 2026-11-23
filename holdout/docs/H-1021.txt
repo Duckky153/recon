@@ -1,0 +1,15 @@
+OXWELL INTERCONNECT
+Santa Clara, CA
+
+PACKING SLIP                              No. SP-60579
+Ship date:     Oct 16, 2026
+Customer PO:   PO-4209
+
+Ship to: Halden Robotics, Oakland, CA
+
+Item        Description                   Qty shipped  UOM
+OW-HRN-24   Wiring harness, main, 24 V             50  EA
+
+Shipped complete. This is a packing slip, not an invoice.
+
+Sample document. Every name and number is made up.

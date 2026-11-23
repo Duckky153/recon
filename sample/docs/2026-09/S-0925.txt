@@ -1,0 +1,15 @@
+From: payables@ashlowe-field.example
+To: ap@halden-robotics.example
+Date: Sep 24, 2026
+Subject: Payment sent - INV-2030
+
+Hello,
+
+We sent a payment of $6,000.00 by ACH today for invoice INV-2030.
+
+Regards,
+Accounts Payable
+Ashlowe Field Services
+Houston, TX
+
+Sample document. Every name and number is made up.

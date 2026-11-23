@@ -1,0 +1,37 @@
+{
+  "what_this_is": "The rules Recon decides with. A person can change any of these; recon rules prints them; every run uses them as they are.",
+  "price": {
+    "hold_if_over_percent": 2,
+    "hold_if_over_dollars_per_line": 50,
+    "under_the_order": "clear with a note"
+  },
+  "quantity": {
+    "rule": "never pay for more than has arrived: what is billed on an order line can't exceed what was received on it"
+  },
+  "freight": {
+    "not_on_the_order_hold_over_dollars": 100,
+    "on_the_order": "same rule as price, against the order's estimate"
+  },
+  "tax": {
+    "rule": "never computed; tax on a bill whose order expected none is held"
+  },
+  "total": {
+    "rule": "lines plus freight plus tax equal the stated total, to the cent"
+  },
+  "payments": {
+    "rule": "a payment must name its invoice and match it to the cent; a payment that names none is held, with the matching invoice suggested"
+  },
+  "duplicates": {
+    "rule": "same supplier and the same number (ignoring spaces, dashes and leading zeros); or the same supplier, order line and amount with no new delivery since"
+  },
+  "different_payee": {
+    "rule": "a bill from a company other than the one the order was placed with is never cleared"
+  },
+  "ai": {
+    "rule": "the AI reads each document twice; an answer counts only when both readings agree and the AI is sure, and anything else is held for a person"
+  },
+  "no_order_suppliers": {
+    "rule": "a supplier on file as always billing without an order (rent, software) is set aside for a person; Recon does not match it"
+  },
+  "cleared_means": "ready for a person to pay; Recon pays nothing and sends nothing"
+}

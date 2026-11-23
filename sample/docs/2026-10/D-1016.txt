@@ -1,0 +1,18 @@
+From: accounts@ostrandercells.example
+To: ap@halden-robotics.example
+Date: 10/22/2026
+Subject: Change of bank - Ostrander Cells
+
+Hello Halden Robotics accounts team,
+
+Ostrander Cells has changed banks. Please send all future payments to our new account details, which are attached to this email.
+
+Please update your vendor records before your next payment run. Payments already in progress do not need to be changed.
+
+Attachment: new account details attached
+
+Regards,
+Accounts Team
+Ostrander Cells, Reno, NV
+
+Sample document. Every name and number is made up.

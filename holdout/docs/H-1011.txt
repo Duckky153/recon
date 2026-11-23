@@ -1,0 +1,4 @@
+"Vendor","Invoice No","Invoice Date","Bill To","Customer PO","Part No.","Description","Quantity","Unit","Price Each","Amount","Invoice Total","Terms"
+"Fennick Fasteners, Stockton, CA","FN-11344","10/13/2026","Halden Robotics, Oakland, CA","PO-4205","FN-NUT-M4","Nut, M4, stainless","12","BX","$4.00","$48.00","$48.00","Net 30"
+
+Sample document. Every name and number is made up.

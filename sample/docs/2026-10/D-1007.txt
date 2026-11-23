@@ -1,0 +1,23 @@
+From: billing@lanyard-interconnect.example
+To: ap@halden-robotics.example
+Date: 2026-10-13
+Subject: Invoice LI-60418 - Lanyard Interconnect
+
+Hello,
+
+Please find invoice LI-60418 below, dated 2026-10-13. Terms Net 30.
+
+Part No.    Description                Qty  Unit  Unit Price  Amount
+LI-CON-8P   Connector, 8-pin, sealed   150  EA    $4.20       $630.00
+
+Total due: $630.00
+
+Rush order placed by phone on October 9, as discussed with your shop.
+
+Remit to Lanyard Interconnect, Santa Clara, CA, per the details on file.
+
+Thanks,
+Billing, Lanyard Interconnect
+Santa Clara, CA | (408) 555-0118
+
+Sample document. Every name and number is made up.

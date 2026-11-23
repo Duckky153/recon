@@ -1,0 +1,24 @@
+From: billing@booksmere.example
+To: ap@halden-robotics.example
+Date: Oct 2, 2026
+Subject: Your Booksmere invoice BS-41190
+
+Hi Halden Robotics,
+
+Your Booksmere invoice for October is ready.
+
+Invoice number:  BS-41190
+Invoice date:    Oct 2, 2026
+Payment terms:   Net 30
+
+Description                       Qty  Unit  Rate     Amount
+Booksmere Growth plan, October      1  MO    $320.00  $320.00
+
+Total due: $320.00
+
+Questions about this invoice? Just reply to this email.
+
+Booksmere Billing
+Boston, MA
+
+Sample document. Every name and number is made up.

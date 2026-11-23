@@ -1,0 +1,20 @@
+Scarrow Compute
+Austin, TX
+------------------------------------------------------------
+invoice number:  SCX-1141
+invoice date:    2026-09-28
+po number:       PO-1178
+terms:           Net 30
+bill to: Halden Robotics, Oakland, CA
+------------------------------------------------------------
+sku          description              qty  unit   unit price   line total
+SC-CM-NX8    Compute module, 8 GB       4  EA        $389.00    $1,556.00
+------------------------------------------------------------
+subtotal       $1,556.00
+freight            $0.00
+tax                $0.00
+total          $1,556.00
+
+Remit to: Scarrow Compute, Austin, TX
+
+Sample document. Every name and number is made up.

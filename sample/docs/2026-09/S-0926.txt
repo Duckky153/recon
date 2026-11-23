@@ -1,0 +1,20 @@
+From: ap@pembrell.example
+To: ap@halden-robotics.example
+Date: 09/25/2026
+Subject: Remittance advice - INV-2033
+
+Hi,
+
+Remittance advice from Pembrell Facilities.
+
+Invoice:       INV-2033
+Amount paid:   $1,380.00
+Payment date:  09/25/2026
+
+Less $300.00 for the missing charger.
+
+Thank you,
+Pembrell Facilities
+Tucson, AZ
+
+Sample document. Every name and number is made up.

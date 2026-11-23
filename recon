@@ -1,0 +1,648 @@
+#!/usr/bin/env python3
+"""recon: reconciles a month of supplier bills and customer payments for a made-up robot maker.
+
+  recon load                         build recon.db from sample/
+  recon run --month 2026-10 --key    decide every document, the answer key standing in for the AI
+  recon run --month 2026-10          decide from the saved AI answers (answers/2026-10.json)
+  recon held                         what was held, one line each
+  recon cleared                      what was cleared, with any note
+  recon set-aside                    what was set aside
+  recon show D-1002                  why it was held: the bill, the order, what arrived, the steps
+  recon note D-1002                  the drafted note only
+  recon doc D-1002                   the document as it came in
+  recon receive PO-1188 4 [--line N] log a late delivery and check the month again
+  recon reset                        remove deliveries logged here
+  recon rules                        the rules it decides with
+  recon export site/data             the month's run as JSON for the page
+
+Add --json to any command for output a program can read. Errors exit with status 1 and, with --json,
+print {"error": "...", "code": "..."}.
+Recon never pays or sends anything.
+"""
+import hashlib
+import json
+import os
+import pathlib
+import re
+import sqlite3
+import sys
+
+HERE = pathlib.Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+import recon_core as rc  # noqa: E402
+
+DB = pathlib.Path(os.environ.get("RECON_DB", HERE / "recon.db"))
+MONTH_NAME = {"2026-09": "September 2026", "2026-10": "October 2026"}
+ACCENT = "\033[38;2;112;132;241m"
+DIM = "\033[2m"
+BOLD = "\033[1m"
+END = "\033[0m"
+COMMANDS = ["load", "run", "held", "cleared", "set-aside", "show", "note", "doc", "receive", "reset", "rules", "export", "help"]
+
+
+class Fail(Exception):
+    def __init__(self, message, code="bad_input"):
+        super().__init__(message)
+        self.code = code
+
+
+def color(code, text):
+    if sys.stdout.isatty() and not os.environ.get("NO_COLOR"):
+        return f"{code}{text}{END}"
+    return text
+
+
+# ------------------------------------------------------------------ the database (money in whole cents, dates YYYY-MM-DD)
+
+SCHEMA = """
+CREATE TABLE company (name TEXT, city TEXT, makes TEXT, run_date TEXT);
+CREATE TABLE suppliers (id TEXT PRIMARY KEY, name TEXT NOT NULL, sells TEXT, city TEXT, billing TEXT NOT NULL CHECK (billing IN ('po', 'no_po')),
+                        distributes_for TEXT);
+CREATE TABLE customers (id TEXT PRIMARY KEY, name TEXT NOT NULL, city TEXT);
+CREATE TABLE items (part TEXT PRIMARY KEY, name TEXT NOT NULL, short TEXT, unit TEXT NOT NULL, pack INTEGER, supplier TEXT REFERENCES suppliers(id), price INTEGER);
+CREATE TABLE products (id TEXT PRIMARY KEY, name TEXT NOT NULL, plural TEXT, price INTEGER NOT NULL);
+CREATE TABLE purchase_orders (id TEXT PRIMARY KEY, supplier TEXT NOT NULL REFERENCES suppliers(id), date TEXT NOT NULL, freight TEXT,
+                              freight_estimate INTEGER, tax TEXT);
+CREATE TABLE po_lines (po TEXT NOT NULL REFERENCES purchase_orders(id), line INTEGER NOT NULL, item TEXT NOT NULL REFERENCES items(part),
+                       qty INTEGER NOT NULL, unit TEXT NOT NULL, price INTEGER NOT NULL, due TEXT, PRIMARY KEY (po, line));
+CREATE TABLE receipts (id TEXT PRIMARY KEY, po TEXT NOT NULL, line INTEGER NOT NULL, qty INTEGER NOT NULL CHECK (qty > 0), date TEXT NOT NULL,
+                       logged_by TEXT NOT NULL DEFAULT 'receiving', FOREIGN KEY (po, line) REFERENCES po_lines(po, line));
+CREATE TABLE price_changes (supplier TEXT REFERENCES suppliers(id), item TEXT REFERENCES items(part), po TEXT REFERENCES purchase_orders(id),
+                            old INTEGER, new INTEGER, "from" TEXT, logged_by TEXT, logged TEXT, why TEXT);
+CREATE TABLE returns (id TEXT PRIMARY KEY, supplier TEXT REFERENCES suppliers(id), item TEXT REFERENCES items(part), qty INTEGER, date TEXT,
+                      po TEXT REFERENCES purchase_orders(id), amount INTEGER, why TEXT);
+CREATE TABLE bills_entered (supplier TEXT REFERENCES suppliers(id), number TEXT NOT NULL, date TEXT NOT NULL, po TEXT, po_line INTEGER, qty INTEGER,
+                            amount INTEGER, status TEXT, why TEXT);
+CREATE TABLE sales_orders (id TEXT PRIMARY KEY, customer TEXT NOT NULL REFERENCES customers(id), date TEXT NOT NULL);
+CREATE TABLE so_lines (so TEXT NOT NULL REFERENCES sales_orders(id), line INTEGER NOT NULL, product TEXT NOT NULL REFERENCES products(id),
+                       qty INTEGER NOT NULL, price INTEGER NOT NULL, PRIMARY KEY (so, line));
+CREATE TABLE deliveries (id TEXT PRIMARY KEY, so TEXT NOT NULL REFERENCES sales_orders(id), line INTEGER NOT NULL, qty INTEGER NOT NULL, date TEXT NOT NULL);
+CREATE TABLE invoices_out (id TEXT PRIMARY KEY, customer TEXT NOT NULL REFERENCES customers(id), so TEXT NOT NULL REFERENCES sales_orders(id),
+                           date TEXT NOT NULL, total INTEGER NOT NULL, due_days INTEGER);
+CREATE TABLE invoice_lines (invoice TEXT NOT NULL REFERENCES invoices_out(id), so_line INTEGER, product TEXT REFERENCES products(id), qty INTEGER,
+                            price INTEGER, amount INTEGER);
+CREATE TABLE bank_lines (id TEXT PRIMARY KEY, date TEXT NOT NULL, "from" TEXT, amount INTEGER NOT NULL, applied_to TEXT REFERENCES invoices_out(id));
+CREATE TABLE documents (doc TEXT PRIMARY KEY, month TEXT NOT NULL, kind TEXT NOT NULL CHECK (kind IN ('supplier', 'payment', 'own_invoice')),
+                        "from" TEXT NOT NULL, from_name TEXT NOT NULL, format TEXT NOT NULL, received TEXT NOT NULL, invoice TEXT, text TEXT);
+CREATE TABLE readings (doc TEXT NOT NULL REFERENCES documents(doc), source TEXT NOT NULL CHECK (source IN ('key', 'ai')), reading TEXT NOT NULL,
+                       PRIMARY KEY (doc, source));
+CREATE TABLE runs (id INTEGER PRIMARY KEY AUTOINCREMENT, month TEXT NOT NULL, source TEXT NOT NULL CHECK (source IN ('key', 'ai')), counts TEXT NOT NULL);
+CREATE TABLE results (run INTEGER NOT NULL REFERENCES runs(id), doc TEXT NOT NULL REFERENCES documents(doc),
+                      outcome TEXT NOT NULL CHECK (outcome IN ('cleared', 'held', 'flagged', 'set_aside')), reason TEXT,
+                      reason_row TEXT, reason_full TEXT, result TEXT NOT NULL, PRIMARY KEY (run, doc));
+"""
+
+
+def connect(must_exist=True):
+    if must_exist and not DB.exists():
+        raise Fail("No database yet. Run: recon load", "no_database")
+    con = sqlite3.connect(DB)
+    con.row_factory = sqlite3.Row
+    con.execute("PRAGMA foreign_keys = ON")
+    return con
+
+
+def rows(con, sql, *args):
+    return [dict(r) for r in con.execute(sql, args)]
+
+
+def insert(con, table, row, cols):
+    con.execute(f"INSERT INTO {table} ({', '.join(chr(34) + c + chr(34) for c in cols)}) VALUES ({', '.join('?' * len(cols))})",
+                [row.get(c) for c in cols])
+
+
+def load():
+    if DB.exists():
+        # only ever replace a database recon made
+        try:
+            ok = sqlite3.connect(DB).execute("SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'runs'").fetchone()
+        except sqlite3.DatabaseError:
+            ok = None
+        if not ok:
+            raise Fail(f"{DB} exists and isn't a recon database; recon won't replace it.", "not_a_recon_database")
+        DB.unlink()
+    books = rc.load_json("sample/books.json")
+    con = connect(must_exist=False)
+    con.executescript(SCHEMA)
+    c = books["company"]
+    con.execute("INSERT INTO company VALUES (?,?,?,?)", (c["name"], c["city"], c["makes"], books["run_date"]))
+    for k, s in books["suppliers"].items():
+        insert(con, "suppliers", dict(s, id=k, distributes_for=",".join(s.get("distributes_for") or []) or None),
+               ["id", "name", "sells", "city", "billing", "distributes_for"])
+    for k, s in books["customers"].items():
+        insert(con, "customers", dict(s, id=k), ["id", "name", "city"])
+    for k, i in books["items"].items():
+        insert(con, "items", dict(i, part=k), ["part", "name", "short", "unit", "pack", "supplier", "price"])
+    for k, p in books["products"].items():
+        insert(con, "products", dict(p, id=k), ["id", "name", "plural", "price"])
+    for p in books["purchase_orders"]:
+        insert(con, "purchase_orders", p, ["id", "supplier", "date", "freight", "freight_estimate", "tax"])
+        for l in p["lines"]:
+            insert(con, "po_lines", dict(l, po=p["id"]), ["po", "line", "item", "qty", "unit", "price", "due"])
+    for r in books["receipts"]:
+        insert(con, "receipts", r, ["id", "po", "line", "qty", "date"])
+    for x in books["price_changes"]:
+        insert(con, "price_changes", x, ["supplier", "item", "po", "old", "new", "from", "logged_by", "logged", "why"])
+    for x in books["returns"]:
+        insert(con, "returns", x, ["id", "supplier", "item", "qty", "date", "po", "amount", "why"])
+    for x in books["bills_entered"]:
+        insert(con, "bills_entered", x, ["supplier", "number", "date", "po", "po_line", "qty", "amount", "status", "why"])
+    for so in books["sales_orders"]:
+        insert(con, "sales_orders", so, ["id", "customer", "date"])
+        for l in so["lines"]:
+            insert(con, "so_lines", dict(l, so=so["id"]), ["so", "line", "product", "qty", "price"])
+    for d in books["deliveries"]:
+        insert(con, "deliveries", d, ["id", "so", "line", "qty", "date"])
+    for inv in books["invoices_out"]:
+        insert(con, "invoices_out", inv, ["id", "customer", "so", "date", "total", "due_days"])
+        for l in inv["lines"]:
+            insert(con, "invoice_lines", dict(l, invoice=inv["id"]), ["invoice", "so_line", "product", "qty", "price", "amount"])
+    for b in books["bank_lines"]:
+        insert(con, "bank_lines", b, ["id", "date", "from", "amount", "applied_to"])
+    counts = {}
+    for month in ("2026-09", "2026-10"):
+        slots = rc.load_json(f"sample/slots-{month}.json")["documents"]
+        written = 0
+        for d in rc.inbox(slots):
+            f = HERE / "sample" / "docs" / month / f"{d['doc']}.txt"
+            text = f.read_text() if f.exists() else None
+            written += text is not None
+            insert(con, "documents", dict(d, month=month, text=text), ["doc", "month", "kind", "from", "from_name", "format", "received", "invoice", "text"])
+        for doc, reading in rc.reads_from_key(books, slots).items():
+            con.execute("INSERT INTO readings VALUES (?,?,?)", (doc, "key", json.dumps(reading)))
+        saved = HERE / "answers" / f"{month}.json"
+        ai = 0
+        if saved.exists():
+            for doc, reading in json.loads(saved.read_text())["readings"].items():
+                con.execute("INSERT INTO readings VALUES (?,?,?)", (doc, "ai", json.dumps(reading)))
+                ai += 1
+        counts[month] = {"documents": len(slots), "texts": written, "ai_readings": ai}
+    con.commit()
+    out = {"database": DB.name, "months": counts, "orders": len(books["purchase_orders"]), "receipts": len(books["receipts"]),
+           "own_invoices": len(books["invoices_out"])}
+    lines = [f"loaded {DB.name}: {out['orders']} orders, {out['receipts']} receipts, {out['own_invoices']} own invoices"]
+    for m, c in counts.items():
+        lines.append(f"{MONTH_NAME[m]}: {c['documents']} documents ({c['texts']} with text), saved AI answers for {c['ai_readings']}")
+    return out, "\n".join(lines)
+
+
+def strip_none(d):
+    return {k: v for k, v in d.items() if v is not None}
+
+
+def books_from_db(con, session=True):
+    """The books as the deciding code reads them. session=False leaves out deliveries logged with recon receive."""
+    c = rows(con, "SELECT * FROM company")[0]
+    b = {"company": {"name": c["name"], "city": c["city"], "makes": c["makes"]}, "run_date": c["run_date"]}
+    b["suppliers"] = {}
+    for s in rows(con, "SELECT * FROM suppliers ORDER BY rowid"):
+        d = {"name": s["name"], "sells": s["sells"], "city": s["city"], "billing": s["billing"]}
+        if s["distributes_for"]:
+            d["distributes_for"] = s["distributes_for"].split(",")
+        b["suppliers"][s["id"]] = d
+    b["customers"] = {s["id"]: {"name": s["name"], "city": s["city"]} for s in rows(con, "SELECT * FROM customers ORDER BY rowid")}
+    b["items"] = {i["part"]: {"name": i["name"], "short": i["short"], "unit": i["unit"], "pack": i["pack"], "supplier": i["supplier"], "price": i["price"]}
+                  for i in rows(con, "SELECT * FROM items ORDER BY rowid")}
+    b["products"] = {p["id"]: strip_none({"name": p["name"], "plural": p["plural"], "price": p["price"]}) for p in rows(con, "SELECT * FROM products ORDER BY rowid")}
+    lines = {}
+    for l in rows(con, "SELECT * FROM po_lines ORDER BY po, line"):
+        lines.setdefault(l["po"], []).append({"line": l["line"], "item": l["item"], "qty": l["qty"], "unit": l["unit"], "price": l["price"], "due": l["due"]})
+    b["purchase_orders"] = [dict(p, lines=lines.get(p["id"], [])) for p in rows(con, "SELECT * FROM purchase_orders ORDER BY rowid")]
+    sql = "SELECT id, po, line, qty, date FROM receipts" + ("" if session else " WHERE logged_by = 'receiving'") + " ORDER BY rowid"
+    b["receipts"] = rows(con, sql)
+    b["price_changes"] = [strip_none(x) for x in rows(con, "SELECT * FROM price_changes ORDER BY rowid")]
+    b["returns"] = rows(con, "SELECT * FROM returns ORDER BY rowid")
+    b["bills_entered"] = [strip_none(x) for x in rows(con, "SELECT * FROM bills_entered ORDER BY rowid")]
+    so_lines = {}
+    for l in rows(con, "SELECT * FROM so_lines ORDER BY so, line"):
+        so_lines.setdefault(l["so"], []).append({"line": l["line"], "product": l["product"], "qty": l["qty"], "price": l["price"]})
+    b["sales_orders"] = [dict(s, lines=so_lines.get(s["id"], [])) for s in rows(con, "SELECT * FROM sales_orders ORDER BY rowid")]
+    b["deliveries"] = rows(con, "SELECT * FROM deliveries ORDER BY rowid")
+    inv_lines = {}
+    for l in rows(con, "SELECT * FROM invoice_lines ORDER BY rowid"):
+        inv_lines.setdefault(l["invoice"], []).append({"so_line": l["so_line"], "product": l["product"], "qty": l["qty"], "price": l["price"], "amount": l["amount"]})
+    b["invoices_out"] = [dict(i, lines=inv_lines.get(i["id"], [])) for i in rows(con, "SELECT * FROM invoices_out ORDER BY rowid")]
+    b["bank_lines"] = rows(con, "SELECT * FROM bank_lines ORDER BY rowid")
+    return b
+
+
+def logged_here(con):
+    return con.execute("SELECT COUNT(*) FROM receipts WHERE logged_by = 'you'").fetchone()[0]
+
+
+def month_inputs(con, month, source, session=True):
+    books = books_from_db(con, session)
+    docs = rows(con, "SELECT doc, kind, \"from\", from_name, format, received, invoice FROM documents WHERE month = ? ORDER BY doc", month)
+    reads = {r["doc"]: json.loads(r["reading"]) for r in rows(con, "SELECT r.doc, r.reading FROM readings r JOIN documents d USING (doc) "
+                                                                     "WHERE d.month = ? AND r.source = ?", month, source)}
+    missing = [d["doc"] for d in docs if d["kind"] != "own_invoice" and d["doc"] not in reads]
+    if missing:
+        if source == "ai":
+            raise Fail(f"No saved AI answers for {month} yet. Run with --key to let the answer key stand in.", "no_ai_answers")
+        raise Fail(f"No reading for {', '.join(missing[:5])}.", "missing_reading")
+    return books, docs, reads
+
+
+def decide(con, month, source, session=True):
+    books, docs, reads = month_inputs(con, month, source, session)
+    res = rc.run_month(books, docs, reads, rc.load_json("rules.json"), rc.load_json("wording.json"), month=month)
+    return books, docs, reads, res
+
+
+def counts_of(res):
+    c = {"documents": len(res), "cleared": 0, "held": 0, "flagged": 0, "set_aside": 0,
+         "ai_read": sum(1 for r in res if r["kind"] != "own_invoice"), "code_only": sum(1 for r in res if r["kind"] == "own_invoice")}
+    for r in res:
+        c[r["outcome"]] += 1
+    return c
+
+
+def save_run(con, month, source, res):
+    counts = counts_of(res)
+    cur = con.execute("INSERT INTO runs (month, source, counts) VALUES (?,?,?)", (month, source, json.dumps(counts)))
+    for r in res:
+        con.execute("INSERT INTO results VALUES (?,?,?,?,?,?,?)", (cur.lastrowid, r["doc"], r["outcome"], r["reason"], r["reason_row"], r["reason_full"],
+                                                                 json.dumps(r)))
+    con.commit()
+    return cur.lastrowid, counts
+
+
+def latest_run(con, month=None):
+    sql = "SELECT * FROM runs" + (" WHERE month = ?" if month else "") + " ORDER BY id DESC LIMIT 1"
+    r = rows(con, sql, *([month] if month else []))
+    if not r:
+        raise Fail(f"Nothing decided yet. Run: recon run --month {month or '2026-10'}", "no_run")
+    return r[0]
+
+
+def run_results(con, run_id):
+    return [json.loads(r["result"]) for r in rows(con, "SELECT result FROM results WHERE run = ?", run_id)]
+
+
+# ------------------------------------------------------------------ commands
+
+def count_line(c):
+    return f"{c['cleared']} cleared · {c['held'] + c['flagged']} held · {c['set_aside']} set aside"
+
+
+def tag(who, source):
+    return ("answer key" if source == "key" else "AI") if who == "ai" else "code"
+
+
+def cmd_run(con, month, source):
+    _, _, _, res = decide(con, month, source)
+    run_id, c = save_run(con, month, source, res)
+    n = logged_here(con)
+    out = {"run": run_id, "month": month, "source": source, "counts": c, "logged_here": n}
+    lines = [f"{MONTH_NAME.get(month, month)}: {c['documents']} documents · {count_line(c)}"]
+    if source == "key":
+        lines.append(color(DIM, "The answer key stands in for the AI (a test of the rules, not a score)."))
+    lines.append(color(DIM, f"{c['ai_read']} documents {'read by the AI' if source == 'ai' else 'for the AI to read'}, {c['code_only']} own invoices checked in code."))
+    if n:
+        lines.append(f"Includes {n} deliver{'y' if n == 1 else 'ies'} logged with recon receive (recon reset removes them).")
+    return out, "\n".join(lines)
+
+
+GROUPS = [("BILLS", lambda r: r["kind"] not in ("payment", "own_invoice")), ("CUSTOMERS", lambda r: r["kind"] in ("payment", "own_invoice"))]
+
+
+def amount_of(r, books, reads):
+    if r["kind"] == "own_invoice":
+        return next(i["total"] for i in books["invoices_out"] if i["id"] == r["doc"][2:])
+    rd = reads.get(r["doc"]) or {}
+    v = rd.get("amount") if r["kind"] == "payment" else rd.get("total")
+    return abs(v) if isinstance(v, (int, float)) else 0
+
+
+def list_rows(con, which, month=None):
+    run = latest_run(con, month)
+    books, docs, reads = month_inputs(con, run["month"], run["source"])
+    res = run_results(con, run["id"])
+    wording = rc.load_json("wording.json")
+    want = {"held": ("held", "flagged"), "cleared": ("cleared",), "set-aside": ("set_aside",)}[which]
+    picked = sorted((r for r in res if r["outcome"] in want), key=lambda r: (r["outcome"] != "flagged", r["reason"] == "ai_unsure", r["received"], r["doc"]))
+    items = []
+    for r in picked:
+        a = amount_of(r, books, reads)
+        d = rc.detail(books, r, reads.get(r["doc"]), wording)
+        items.append({"doc": r["doc"], "from_name": r["from_name"], "kind": r["kind"], "outcome": r["outcome"], "amount": a,
+                      "amount_text": rc.dollars(a) if a else "", "reason_code": r["reason"], "row": d["row"], "next": d["next"],
+                      "group": GROUPS[0][0] if GROUPS[0][1](r) else GROUPS[1][0]})
+    c = json.loads(run["counts"])
+    out = {"month": run["month"], "source": run["source"], "which": which, "counts": c, "items": items}
+    title = {"held": f"HELD {c['held'] + c['flagged']} of {c['documents']}", "cleared": f"CLEARED {c['cleared']} of {c['documents']}",
+             "set-aside": f"SET ASIDE {c['set_aside']} of {c['documents']}"}[which]
+    lines = [color(BOLD, f"{title} · {MONTH_NAME.get(run['month'], run['month'])}")]
+    if run["source"] == "key":
+        lines.append(color(DIM, "answer key standing in for the AI"))
+    for g, _ in GROUPS:
+        part = [i for i in items if i["group"] == g]
+        if not part:
+            continue
+        lines.append(color(DIM, g))
+        for i in part:
+            lines.append(f"  {i['doc']:<11}{i['from_name'][:26]:<27}{i['amount_text']:>9}  {i['row']}")
+    if not items:
+        lines.append("  none")
+    return out, "\n".join(lines)
+
+
+def find_doc(con, ref, res):
+    ref = (ref or "").strip().upper()
+    if not ref:
+        raise Fail("Which document? For example: recon show D-1002", "no_document")
+    by_doc = {r["doc"]: r for r in res}
+    if ref in by_doc:
+        return by_doc[ref]
+    if "O-" + ref in by_doc:
+        return by_doc["O-" + ref]
+    hits = [r["doc"] for r in rows(con, "SELECT doc, reading FROM readings WHERE doc IN (%s)" % ",".join("?" * len(by_doc)), *by_doc)
+            if (json.loads(r["reading"]).get("number") or "").upper() == ref]
+    hits = sorted(set(hits))
+    if len(hits) == 1:
+        return by_doc[hits[0]]
+    if len(hits) > 1:
+        raise Fail(f"{ref} is the number on {', '.join(hits)}. Say which: recon show {hits[0]}", "ambiguous_document")
+    raise Fail(f"No document {ref} in this run. Try: recon held", "unknown_document")
+
+
+def get_detail(con, ref):
+    run = latest_run(con)
+    books, docs, reads = month_inputs(con, run["month"], run["source"])
+    res = run_results(con, run["id"])
+    r = find_doc(con, ref, res)
+    d = rc.detail(books, r, reads.get(r["doc"]), rc.load_json("wording.json"))
+    d["source"] = run["source"]
+    return d
+
+
+def cmd_show(con, ref):
+    d = get_detail(con, ref)
+    word = {"held": "HELD", "flagged": "HELD", "cleared": "CLEARED", "set_aside": "SET ASIDE"}[d["outcome"]]
+    lines = [color(BOLD, f"{word}  {d['reason']}")]
+    lines.append(f"{d['doc']} · {d['kind']}{' ' + d['number'] if d['number'] and d['number'] not in d['doc'] else ''} "
+                 f"{'to' if d['kind'] == 'invoice' else 'from'} {d['from_name']}")
+    money_line = " · ".join(x for x in (d["amount"], f"due {d['due']}" if d["due"] else None) if x)
+    if money_line:
+        lines.append(money_line)
+    if d["rows"]:
+        w0 = max(12, max(len(r["label"]) for r in d["rows"]) + 2)
+        cw = [max(len(d["columns"][i]), max(len(r["cells"][i]) for r in d["rows"])) + 3 for i in range(3)]
+        lines.append("")
+        lines.append(color(DIM, (" " * w0 + "".join(d["columns"][i].ljust(cw[i]) for i in range(3))).rstrip()))
+        for r in d["rows"]:
+            cells = []
+            for i in range(3):
+                t = r["cells"][i].ljust(cw[i])
+                cells.append(color(ACCENT, t) if r["mark"] == i else t)
+            lines.append((r["label"].ljust(w0) + "".join(cells)).rstrip())
+            if r["sub"]:
+                lines.append(color(DIM, "  " + r["sub"]))
+    if d["quote"]:
+        lines += ["", f"{d['quote_label']}: “{d['quote']}”"]
+    if d["next"]:
+        lines += ["", f"{d['next']['text']}: {d['next']['command']}"]
+    if d["steps"]:
+        lines += ["", color(DIM, "Steps")]
+        width = 12 if d["source"] == "key" and any(s["who"] == "ai" for s in d["steps"]) else 7
+        lines += [f"  {tag(s['who'], d['source']):<{width}}{s['text']}" for s in d["steps"]]
+    if d["cleared_notes"]:
+        lines += [""] + [f"  {n}" for n in d["cleared_notes"]]
+    if d["note"]:
+        lines += ["", color(DIM, f"Draft note (recon note {d['doc']})")] + ["  " + x for x in d["note"].split("\n")]
+    return d, "\n".join(lines)
+
+
+def cmd_note(con, ref):
+    d = get_detail(con, ref)
+    if not d["note"]:
+        word = {"cleared": "cleared", "set_aside": "set aside", "held": "held", "flagged": "held"}[d["outcome"]]
+        return {"doc": d["doc"], "note": None}, f"No note for {d['doc']}: it was {word}."
+    return {"doc": d["doc"], "note": d["note"]}, d["note"]
+
+
+def cmd_doc(con, ref):
+    run = latest_run(con)
+    res = run_results(con, run["id"])
+    r = find_doc(con, ref, res)
+    row = rows(con, "SELECT text, kind FROM documents WHERE doc = ?", r["doc"])[0]
+    if row["kind"] == "own_invoice":
+        company = rows(con, "SELECT name FROM company")[0]["name"]
+        text = f"{r['doc'][2:]} is one of {company}' own invoices, so there is no document to show. Try: recon show {r['doc']}"
+        text = text.replace("s' own", "s's own") if not company.endswith("s") else text
+    elif row["text"]:
+        # numbered, so "line 15" in a reason can be found; the line the AI doubted is marked
+        m = re.search(r"line (\d+)", r.get("reason_full") or "")
+        doubted = int(m.group(1)) if m else None
+        out = []
+        for i, t in enumerate(row["text"].rstrip().split("\n"), 1):
+            out.append(color(ACCENT, f"{i:<4}{t}") if i == doubted else color(DIM, f"{i:<4}") + t)
+        text = "\n".join(out)
+    else:
+        text = f"The text of {r['doc']} isn't written yet."
+    return {"doc": r["doc"], "text": row["text"]}, text.rstrip()
+
+
+def cmd_receive(con, po, qty, line=None):
+    po = po.upper()
+    if not re.fullmatch(r"\d+", qty or ""):
+        raise Fail("The quantity must be a whole number, for example: recon receive PO-1188 4", "bad_quantity")
+    qty = int(qty)
+    if qty <= 0:
+        raise Fail("The quantity must be more than zero.", "bad_quantity")
+    if line is not None and not re.fullmatch(r"\d+", line):
+        raise Fail("--line must be a line number, for example: --line 1", "bad_line")
+    lines = rows(con, "SELECT l.line, l.item, l.qty, l.unit, i.short, COALESCE((SELECT SUM(r.qty) FROM receipts r WHERE r.po = l.po AND r.line = l.line), 0) AS got "
+                      "FROM po_lines l JOIN items i ON i.part = l.item WHERE l.po = ? ORDER BY l.line", po)
+    if not lines:
+        raise Fail(f"No order {po}.", "unknown_order")
+    if line is None:
+        open_lines = [l for l in lines if l["qty"] > l["got"]]
+        if not open_lines:
+            raise Fail(f"Everything on {po} has arrived; nothing is still open.", "nothing_open")
+        if len(lines) == 1:
+            pick = lines[0]
+        elif len(open_lines) == 1:
+            pick = open_lines[0]
+        else:
+            raise Fail(f"{po} has {len(lines)} lines. Say which: recon receive {po} {qty} --line N", "which_line")
+    else:
+        pick = next((l for l in lines if l["line"] == int(line)), None)
+        if not pick:
+            raise Fail(f"{po} has no line {line}.", "unknown_line")
+    open_qty = pick["qty"] - pick["got"]
+    if qty > open_qty:
+        raise Fail(f"{po} line {pick['line']} has {open_qty} still open ({pick['got']} of {pick['qty']} arrived). Recon won't log more than was ordered.",
+                   "more_than_ordered")
+    run = latest_run(con)
+    before = {r["doc"]: r for r in run_results(con, run["id"])}
+    n = logged_here(con) + 1
+    run_date = rows(con, "SELECT run_date FROM company")[0]["run_date"]
+    con.execute("INSERT INTO receipts VALUES (?,?,?,?,?,?)", (f"RC-Y{n:03d}", po, pick["line"], qty, run_date, "you"))
+    _, _, _, res = decide(con, run["month"], run["source"])
+    run_id, c = save_run(con, run["month"], run["source"], res)
+    changed = [{"doc": r["doc"], "from_name": r["from_name"], "was": before[r["doc"]]["outcome"], "now": r["outcome"]}
+               for r in res if r["doc"] in before and (before[r["doc"]]["outcome"], before[r["doc"]]["reason"]) != (r["outcome"], r["reason"])]
+    out = {"logged": {"po": po, "line": pick["line"], "qty": qty, "item": pick["item"], "received_now": pick["got"] + qty, "ordered": pick["qty"]},
+           "changed": changed, "counts": c, "run": run_id}
+    arrived = f"All {pick['qty']:,} have arrived." if pick["got"] + qty == pick["qty"] else f"{pick['got'] + qty:,} of {pick['qty']:,} have arrived."
+    lines_out = [f"Logged {qty:,} as arrived on {po} line {pick['line']} ({pick['short']}). {arrived}",
+                 "Checked the month again."]
+    for ch in changed:
+        was = "held" if ch["was"] == "flagged" else ch["was"].replace("_", " ")
+        lines_out.append(color(ACCENT, f"  {ch['doc']} {ch['from_name']}: {was} → {ch['now'].replace('_', ' ')}"))
+    if not changed:
+        lines_out.append("  No document changed.")
+    lines_out.append(count_line(c))
+    return out, "\n".join(lines_out)
+
+
+def cmd_reset(con):
+    run = latest_run(con)
+    n = con.execute("DELETE FROM receipts WHERE logged_by = 'you'").rowcount
+    con.commit()
+    _, _, _, res = decide(con, run["month"], run["source"])
+    run_id, c = save_run(con, run["month"], run["source"], res)
+    return {"removed": n, "counts": c}, f"Removed {n} logged deliver{'y' if n == 1 else 'ies'}. {count_line(c)}"
+
+
+def cmd_rules():
+    r = rc.load_json("rules.json")
+    lines = [
+        "  Quantity   Billed can't be more than has arrived on that order line.",
+        f"  Price      Held if over {r['price']['hold_if_over_percent']}% or ${r['price']['hold_if_over_dollars_per_line']} a line above the order, unless a new price was logged.",
+        f"  Freight    Held over ${r['freight']['not_on_the_order_hold_over_dollars']} if not on the order; if on the order, checked against the estimate.",
+        "  Tax        Held if the order expected none.",
+        "  Total      Lines, freight and tax must add up to the total, to the cent.",
+        "  Payments   Must name an invoice and match it to the cent.",
+        "  Duplicates Same supplier and number, or same order line and amount with no new delivery.",
+        "  Payee      A bill from a company other than the one on the order is never cleared.",
+        "  AI         Each document is read twice. An answer counts only if both reads agree and are sure.",
+        "  No order   Suppliers that always bill without an order, like rent, are set aside.",
+        "  Cleared    A bill is ready for a person to pay; a payment or our own invoice matches.",
+        "(rules.json holds the numbers; change them there.)",
+    ]
+    return r, "\n".join(lines)
+
+
+def cmd_export(con, folder, month):
+    """A month's run, without anything logged in this session, for the page (site/data/run.json)."""
+    run = latest_run(con, month)
+    source = run["source"]
+    books, docs, reads, res = decide(con, month, source, session=False)
+    wording = rc.load_json("wording.json")
+    data = {"month": month, "month_name": MONTH_NAME.get(month, month), "source": source, "company": books["company"]["name"],
+            "run_date": books["run_date"], "counts": counts_of(res),
+            "texts": {r["doc"]: r["text"] for r in rows(con, "SELECT doc, text FROM documents WHERE month = ? AND text IS NOT NULL", month)},
+            # what the page's copy of the rules needs to decide the month (and decide it again after a logged delivery)
+            "inputs": {"books": books, "docs": docs, "reads": reads, "rules": rc.load_json("rules.json"), "wording": wording}}
+    scores = HERE / "scores.json"
+    if source == "ai" and month == "2026-10" and scores.exists():
+        data["scores"] = json.loads(scores.read_text())
+        fair = HERE / "holdout" / "scores.json"
+        if fair.exists():
+            data["fair_test"] = json.loads(fair.read_text())
+    # a fingerprint of the data, so a visitor's logged deliveries are dropped when the data changes
+    data["version"] = hashlib.sha256(json.dumps(data, sort_keys=True).encode()).hexdigest()[:12]
+    folder = pathlib.Path(folder)
+    folder.mkdir(parents=True, exist_ok=True)
+    (folder / "run.json").write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n")
+    return {"wrote": str(folder / "run.json"), "month": month, "counts": data["counts"], "version": data["version"]}, \
+        f"wrote {folder / 'run.json'} for {MONTH_NAME.get(month, month)}: {count_line(data['counts'])}"
+
+
+# ------------------------------------------------------------------ entry
+
+def main(argv):
+    as_json = "--json" in argv
+    argv = [a for a in argv if a != "--json"]
+
+    def fail(message, code):
+        print(json.dumps({"error": message, "code": code}) if as_json else message, file=sys.stdout if as_json else sys.stderr)
+        return 1
+
+    if not argv or argv[0] in ("help", "-h", "--help"):
+        if as_json:
+            print(json.dumps({"commands": COMMANDS, "usage": __doc__.strip()}, indent=1))
+        else:
+            print(__doc__.strip())
+        return 0
+
+    def opt(name):
+        if name in argv:
+            i = argv.index(name)
+            if i + 1 >= len(argv) or argv[i + 1].startswith("--"):
+                raise Fail(f"{name} needs a value.", "missing_value")
+            v = argv[i + 1]
+            del argv[i:i + 2]
+            return v
+        return None
+
+    def flag(name):
+        if name in argv:
+            argv.remove(name)
+            return True
+        return False
+
+    def no_more():
+        extra = [a for a in argv if a.startswith("--")]
+        if extra:
+            raise Fail(f"Unknown option {extra[0]}. Try: recon help", "unknown_option")
+        if argv:
+            raise Fail(f"Didn't expect {' '.join(argv)}. Try: recon help", "unexpected_argument")
+
+    cmd = argv.pop(0)
+    try:
+        if cmd == "load":
+            no_more()
+            out, text = load()
+        elif cmd == "rules":
+            no_more()
+            out, text = cmd_rules()
+        elif cmd not in COMMANDS:
+            raise Fail(f"Unknown command {cmd}. Try: recon help", "unknown_command")
+        else:
+            con = connect()
+            if cmd == "run":
+                month = opt("--month") or "2026-10"
+                key = flag("--key")
+                flag("--saved")
+                no_more()
+                if month not in MONTH_NAME:
+                    raise Fail(f"No sample month {month}. The months are 2026-09 (practice) and 2026-10.", "unknown_month")
+                out, text = cmd_run(con, month, "key" if key else "ai")
+            elif cmd in ("held", "cleared", "set-aside"):
+                month = opt("--month")
+                no_more()
+                out, text = list_rows(con, cmd, month)
+            elif cmd in ("show", "note", "doc"):
+                if not argv or argv[0].startswith("--"):
+                    raise Fail(f"Which document? For example: recon {cmd} D-1002", "no_document")
+                ref = argv.pop(0)
+                no_more()
+                out, text = {"show": cmd_show, "note": cmd_note, "doc": cmd_doc}[cmd](con, ref)
+            elif cmd == "receive":
+                line = opt("--line")
+                if len(argv) < 2:
+                    raise Fail("Say the order and how many arrived, for example: recon receive PO-1188 4", "missing_value")
+                po, qty = argv.pop(0), argv.pop(0)
+                no_more()
+                out, text = cmd_receive(con, po, qty, line)
+            elif cmd == "reset":
+                no_more()
+                out, text = cmd_reset(con)
+            elif cmd == "export":
+                month = opt("--month") or "2026-10"
+                folder = argv.pop(0) if argv and not argv[0].startswith("--") else str(HERE / "site" / "data")
+                no_more()
+                out, text = cmd_export(con, folder, month)
+    except Fail as e:
+        return fail(str(e), e.code)
+    except Exception as e:  # anything unexpected still answers in the same shape
+        return fail(f"Something went wrong: {e.__class__.__name__}: {e}", "internal")
+    print(json.dumps(out, indent=1, ensure_ascii=False) if as_json else text)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

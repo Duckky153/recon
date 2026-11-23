@@ -1,0 +1,24 @@
+==========================================================================
+ FERROW CIRCUITS                                             Fremont, CA
+==========================================================================
+ INVOICE FC-2240
+ Date      09/12/2026
+ PO        PO-1164
+ Terms     Net 30
+
+ Bill to: Halden Robotics, Oakland, CA
+
+ Qty  Unit  Part Number  Description                          Each        Total
+ ---  ----  -----------  -------------------------------  ---------  -----------
+  10  EA    FC-MB-R4     Main board assembly, rev 4         $185.00    $1,850.00
+  10  EA    FC-PDB-R2    Power distribution board, rev 2     $48.00      $480.00
+
+                                             Subtotal              $2,330.00
+                                             Freight                   $0.00
+                                             Tax                       $0.00
+                                             TOTAL                 $2,330.00
+
+ Remit to: Ferrow Circuits, Fremont, CA
+==========================================================================
+
+Sample document. Every name and number is made up.

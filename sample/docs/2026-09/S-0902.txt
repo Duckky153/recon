@@ -1,0 +1,19 @@
+Ostrander Cells | Reno, NV
+------------------------------------------------------------------
+BILL                                         No. OC-90170
+Date: 2026-09-10                             Terms: Net 30 days
+Your order: PO-1162
+
+Bill to: Halden Robotics, Oakland, CA
+
+Ln  Part No.      Description                     Quantity  UoM      Price   Ext. Price
+1   OC-LFP-2420   Battery pack, 24 V 20 Ah, LFP          8  EA     $429.00    $3,432.00
+------------------------------------------------------------------
+Subtotal      $3,432.00
+Freight           $0.00
+Sales tax         $0.00
+Total due     $3,432.00
+
+Remit to Ostrander Cells, Reno, NV. Check or ACH accepted.
+
+Sample document. Every name and number is made up.

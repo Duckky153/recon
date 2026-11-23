@@ -1,0 +1,4 @@
+vendor,vendor_city,bill_to,invoice,invoice_date,terms_days,sku,item_description,quantity,unit_price,line_total,invoice_total
+Ondrel Compute,"Austin, TX","Halden Robotics, Oakland, CA",ONX-1319,2026-10-18,30,ON-CM-NX8,"Compute module, 8 GB","6 EA",$389.00,"$2,334.00","$2,334.00"
+
+Sample document. Every name and number is made up.

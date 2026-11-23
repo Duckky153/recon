@@ -1,0 +1,3 @@
+"Vendor","Vendor City","Bill To","Invoice No","Invoice Date","Customer PO","Terms","Item No","Item Description","Quantity","UOM","Unit Price","Ext Amount"
+"Kestwick Fasteners","Stockton, CA","Halden Robotics, Oakland, CA","KF-11102","09/13/2026","PO-1167","Net 30","KF-SCR-M412","Screw, M4 x 12, stainless","10","BX","$6.00","$60.00"
+Sample document. Every name and number is made up.

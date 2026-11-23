@@ -1,0 +1,21 @@
+From: Kelderby Forge Billing <billing@kelderbyforge.example>
+To: ap@halden-robotics.example
+Date: Oct 22, 2026
+Subject: Kelderby Forge invoice KB-7989
+
+Hi,
+
+Please find our invoice KB-7989 below, dated Oct 22, 2026, terms Net 30.
+
+  KD-BRK-12  Mounting bracket, steel  300 EA @ $6.80  =  $2,040.00
+
+Invoice total: $2,040.00
+
+Pay to Kelderby Forge, Hayward, CA, by the usual method. Reply here with any questions.
+
+Thanks,
+Billing
+Kelderby Forge
+Hayward, CA
+
+Sample document. Every name and number is made up.

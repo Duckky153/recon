@@ -1,0 +1,17 @@
+From: accounts@pellicor-cells.example
+To: ap@halden-robotics.example
+Date: 2026-10-22
+Subject: Pellicor Cells - change of bank details
+
+Hello Halden Robotics team,
+
+Our bank has changed. Please send all future payments to Pellicor Cells using the new account details attached.
+
+Could you update your vendor record for us before your next payment run and reply to let us know it is done?
+
+Thank you,
+Accounts Team
+Pellicor Cells
+Reno, NV
+
+Sample document. Every name and number is made up.

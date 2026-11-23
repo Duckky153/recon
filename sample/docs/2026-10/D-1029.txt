@@ -1,0 +1,26 @@
+FERROW CIRCUITS
+Fremont, CA
+(510) 555-0138
+
+INVOICE
+
+Invoice No.:    FC-2341
+Invoice Date:   2026-10-23
+Terms:          Net 30
+Customer PO:    PO-1217
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item        Description                        Qty  Unit   Unit Price      Amount
+----------  ---------------------------------  ---  ----  -----------  ----------
+FC-PDB-R2   Power distribution board, rev 2     20  EA         $48.00     $960.00
+
+                                                   Subtotal:     $960.00
+                                                   Freight:        $0.00
+                                                   Tax:            $0.00
+                                                   Total:        $960.00
+
+Remit to: Ferrow Circuits, Accounts Receivable, Fremont, CA
+Please reference the invoice number with your payment.
+
+Sample document. Every name and number is made up.

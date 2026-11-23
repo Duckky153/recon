@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Recon</title>
+<meta name="description" content="An invoice checker for a made-up robot maker, run from the terminal. It clears what matches the orders and deliveries and holds the rest with a reason.">
+<meta property="og:title" content="Recon">
+<meta property="og:description" content="An invoice checker for a made-up robot maker, run from the terminal. It clears what matches the orders and deliveries and holds the rest with a reason.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://duckky153.github.io/recon/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='4' fill='%23101115'/%3E%3Ccircle cx='8' cy='8' r='3' fill='%237084F1'/%3E%3C/svg%3E">
+<link rel="preload" href="fonts/GeistMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <span class="name">Recon</span>
+  <nav class="links">
+    <span class="tag">Sample data<span id="ai-state" hidden> · AI not run yet</span></span>
+    <a href="#scores" id="scores-link">Scores</a>
+    <a href="https://github.com/Duckky153/recon" target="_blank" rel="noopener">Code</a>
+  </nav>
+</header>
+
+<main>
+  <section class="intro">
+    <h1><span id="h-cleared">23</span> of <span id="h-total">50</span> cleared, <span class="accent" id="h-held">22</span>&nbsp;held, <span id="h-aside">5</span>&nbsp;set&nbsp;aside.</h1>
+    <p class="quote">“Some days you’ll be building an agent to reconcile invoices”<span class="src">Pantograph, Operations Generalist posting</span></p>
+  </section>
+
+  <div class="frame">
+    <div class="term" id="term">
+      <div class="bar" aria-hidden="true"><i></i><i></i><i></i><span>Terminal</span></div>
+      <div class="panes">
+        <section class="pane held" aria-labelledby="held-label">
+          <div class="label" id="held-label">Held / <span id="held-count">22</span></div>
+          <div class="hint">Tap a line to see why.</div>
+          <div class="list" id="held-list"></div>
+          <div class="foot">
+            <button type="button" class="cmd-link" data-cmd="recon cleared" id="foot-cleared">23 cleared</button>
+            <button type="button" class="cmd-link" data-cmd="recon set-aside" id="foot-aside">5 set aside</button>
+          </div>
+        </section>
+        <section class="pane out" aria-labelledby="out-label">
+          <div class="label" id="out-label">Recon / <span class="co">Halden Robotics / </span><span id="month-name">October 2026</span></div>
+          <div class="log" id="log" aria-live="polite"></div>
+          <form class="prompt" id="prompt" autocomplete="off">
+            <label for="cmd" class="prompt-sign">$</label>
+            <input id="cmd" name="cmd" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" aria-label="Type a recon command" placeholder="click a held line, or type help">
+          </form>
+        </section>
+      </div>
+    </div>
+    <p class="under">Made-up month, written by AI with problems planted on purpose. Recon never pays or sends anything.</p>
+  </div>
+
+  <section class="scores" id="scores" hidden aria-labelledby="scores-title">
+    <h2 id="scores-title">Scores</h2>
+    <div id="scores-body"></div>
+  </section>
+</main>
+
+<script src="rules.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

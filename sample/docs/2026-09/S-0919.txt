@@ -1,0 +1,21 @@
+CALVANE OPTICS                                                    INVOICE
+Portland, OR
+
+Bill to: Halden Robotics, Oakland, CA
+
+Invoice number    CV-55041
+Invoice date      Sep 27, 2026
+Purchase order    PO-1177
+Payment terms     Net 30
+
+Quantity  Unit  Description                           Part No.         Price      Amount
+      10  EA    Camera module, 8 MP, global shutter   CV-CAM-8MP-A    $96.50     $965.00
+
+Subtotal                                                                         $965.00
+Freight                                                                            $0.00
+Tax                                                                                $0.00
+Amount due                                                                       $965.00
+
+Please remit to Calvane Optics, Portland, OR.
+
+Sample document. Every name and number is made up.

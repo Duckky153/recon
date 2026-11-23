@@ -1,0 +1,26 @@
+FERROW CIRCUITS
+Fremont, CA
+(510) 555-0138
+
+INVOICE
+
+Invoice No.:    FC-2330
+Invoice Date:   2026-10-21
+Terms:          Net 30
+Customer PO:    PO-1213
+
+Bill to: Halden Robotics, Oakland, CA
+
+Item        Description                    Qty  Unit   Unit Price      Amount
+----------  -----------------------------  ---  ----  -----------  ----------
+FC-MB-R4    Main board assembly, rev 4      11  EA        $187.78   $2,065.58
+
+                                               Subtotal:   $2,065.58
+                                               Freight:        $0.00
+                                               Tax:            $0.00
+                                               Total:      $2,065.58
+
+Remit to: Ferrow Circuits, Accounts Receivable, Fremont, CA
+Please reference the invoice number with your payment.
+
+Sample document. Every name and number is made up.

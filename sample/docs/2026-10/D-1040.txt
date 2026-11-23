@@ -1,0 +1,15 @@
+From: payables@kettleby-labs.example
+To: ap@halden-robotics.example
+Date: Oct 31, 2026
+Subject: Payment sent for INV-2067
+
+Hello,
+
+We sent a payment of $1,680.00 today for invoice INV-2067.
+
+Thanks,
+Accounts Payable
+Kettleby Labs
+Seattle, WA
+
+Sample document. Every name and number is made up.

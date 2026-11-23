@@ -1,0 +1,22 @@
+From: Corriden Wheel Co. Billing <billing@corridenwheel.example>
+To: ap@halden-robotics.example
+Date: 2026-10-12
+Subject: Invoice CR-3452 / PO-4196
+
+Hi,
+
+Please find invoice CR-3452 for your order PO-4196 below.
+
+Invoice: CR-3452
+Date: 2026-10-12
+Terms: Net 30
+
+- Polyurethane drive wheel, 200mm dia.: 80 EA at $27.40 = $2,192.00
+
+Invoice total: $2,192.00
+
+Thanks,
+Billing
+Corriden Wheel Co., Sacramento, CA
+
+Sample document. Every name and number is made up.

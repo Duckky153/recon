@@ -1,0 +1,17 @@
+From: accounts@brackwell-utilities.example
+To: ap@halden-robotics.example
+Date: 2026-09-29
+Subject: Payment notice for INV-2039
+
+Good morning,
+
+Brackwell Utilities has paid invoice INV-2039.
+
+Amount:      $6,000.00
+Method:      ACH
+Value date:  2026-09-29
+
+Brackwell Utilities, accounts payable
+Spokane, WA
+
+Sample document. Every name and number is made up.

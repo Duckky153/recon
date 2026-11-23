@@ -1,0 +1,24 @@
+From: Tamsby Circuits Accounts Receivable <ar@tamsby-circuits.example>
+To: ap@halden-robotics.example
+Date: Oct 21, 2026
+Subject: Resending invoice TB-2428 (Your PO PO-4195)
+
+Hello,
+
+We are resending invoice TB-2428, same as before. Could you let us know whether it was received?
+
+Invoice #:   TB-2428
+Your PO:     PO-4195
+Terms:       Net 30
+
+Item        Description                    Qty  UOM   Unit Price     Extended
+TB-MB-R4    Main board assembly, rev 4      12  EA       $185.00    $2,220.00
+
+Total Due:  $2,220.00
+
+Thank you,
+Accounts Receivable
+Tamsby Circuits, Fremont, CA
+(510) 555-0142
+
+Sample document. Every name and number is made up.

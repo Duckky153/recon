@@ -1,0 +1,3 @@
+Posting Date,Counterparty,Credit Amount,Payment Details
+09/27/2026,"Pell & Norris Inspection, Tulsa, OK",$840.00,ACH CREDIT PELL NORRIS INSPECTION
+Sample document. Every name and number is made up.

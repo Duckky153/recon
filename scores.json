@@ -1,0 +1,156 @@
+{
+ "month": "2026-10",
+ "written_by": "score.py",
+ "readers": {
+  "ai": {
+   "reader": "Jev (jev-1.14.0) through ai_read.py",
+   "documents": {
+    "documents": 50,
+    "clean": 24,
+    "clean_cleared": 23,
+    "clean_held": [
+     {
+      "doc": "D-1025",
+      "got": "held",
+      "reason": "ai_unsure",
+      "why": "The AI wasn't sure about the part on line 2."
+     }
+    ],
+    "problems": 26,
+    "right_reason": 23,
+    "other_reason": [
+     {
+      "doc": "D-1012",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "held",
+      "keyed_reason": "substituted_part"
+     },
+     {
+      "doc": "D-1018",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "set_aside",
+      "keyed_reason": "no_po_supplier"
+     },
+     {
+      "doc": "D-1019",
+      "got": "held",
+      "reason": "ai_unsure",
+      "keyed": "set_aside",
+      "keyed_reason": "no_po_supplier"
+     }
+    ],
+    "wrongly_cleared": [],
+    "unsure": [
+     {
+      "doc": "D-1012",
+      "what": "line 17"
+     },
+     {
+      "doc": "D-1018",
+      "what": "the quantity on line 15"
+     },
+     {
+      "doc": "D-1019",
+      "what": "the quantity on line 15"
+     },
+     {
+      "doc": "D-1025",
+      "what": "the part on line 2"
+     }
+    ]
+   },
+   "quotes": {
+    "had_one": 8,
+    "quoted": 8,
+    "quoted_where_none": []
+   },
+   "fields": {
+    "kind of document": {
+     "asked": 34,
+     "counted": 34,
+     "wrong": 0,
+     "misses": []
+    },
+    "total": {
+     "asked": 30,
+     "counted": 30,
+     "wrong": 0,
+     "misses": []
+    },
+    "bill number": {
+     "asked": 30,
+     "counted": 30,
+     "wrong": 0,
+     "misses": []
+    },
+    "bill lines (part, order, quantity, unit, price, amount)": {
+     "asked": 30,
+     "counted": 26,
+     "wrong": 0,
+     "misses": []
+    },
+    "the sender's own explaining line": {
+     "asked": 42,
+     "counted": 42,
+     "wrong": 0,
+     "misses": []
+    },
+    "payment amount": {
+     "asked": 8,
+     "counted": 8,
+     "wrong": 0,
+     "misses": []
+    },
+    "invoices named": {
+     "asked": 8,
+     "counted": 8,
+     "wrong": 0,
+     "misses": []
+    }
+   },
+   "steadiness": {
+    "answers": 520,
+    "listed_and_reversed_differ": 0,
+    "examples": []
+   },
+   "run": {
+    "model": "jev-1.14.0",
+    "question_version": "recon-q2",
+    "set": "scored",
+    "month": "2026-10",
+    "documents": 42,
+    "calls": 84,
+    "input_tokens": 209346,
+    "cost_dollars": 0.00879,
+    "spent_so_far_dollars": 0.02201,
+    "cap_dollars": 0.5,
+    "price_per_million": 0.042,
+    "started": "2026-11-23T15:23:48",
+    "finished": "2026-11-23T15:24:13",
+    "problems": [],
+    "locked_commit": "043fce3d2cef482c635d533510fba0187441cd04"
+   }
+  },
+  "no_ai": {
+   "reader": "baseline.py (no AI)",
+   "documents": {
+    "documents": 50,
+    "clean": 24,
+    "clean_cleared": 24,
+    "clean_held": [],
+    "problems": 26,
+    "right_reason": 26,
+    "other_reason": [],
+    "wrongly_cleared": [],
+    "unsure": []
+   },
+   "quotes": {
+    "had_one": 8,
+    "quoted": 0,
+    "quoted_where_none": []
+   }
+  }
+ }
+}

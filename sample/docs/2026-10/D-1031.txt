@@ -1,0 +1,21 @@
+From: invoices@calvane-optics.example
+To: ap@halden-robotics.example
+Date: Oct 25, 2026
+Subject: Calvane Optics invoice CV-55188 (your order PO-1220)
+
+Hi,
+
+Invoice CV-55188 dated Oct 25, 2026 for your order PO-1220. Terms Net 30.
+
+  1. Camera module, 8 MP, global shutter
+     Part # CV-CAM-8MP-A
+     Qty 20 EA @ $96.50 = $1,930.00
+
+Invoice total: $1,930.00
+
+Remit to Calvane Optics, Portland, OR.
+
+Calvane Optics Billing
+Portland, OR | (503) 555-0163
+
+Sample document. Every name and number is made up.

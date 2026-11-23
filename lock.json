@@ -1,0 +1,92 @@
+{
+ "what_this_is": "Fingerprints of everything the scored read depends on, taken before it. ai_read.py refuses the scored read if any of these files changed, and refuses a second scored read with the same questions.",
+ "question_version": "recon-q2",
+ "locked_on": "2026-11-23",
+ "fingerprints": {
+  "questions.json": "c9055ddbc9df9b01548446d7172e756da73903ffa4569a621d7627cfc86403a4",
+  "ai_read.py": "76cd5d27ce9c331efd8f91a40fc8f8ef585a09e01e03c18a0b4584ff440bb52e",
+  "rules.json": "b0c53af73f7d47db88fe1d4e6bca56d821c9aa8c2641941bfe3ec915692947e8",
+  "wording.json": "9048d947e58b8a12b516b8506bddd9958d71d6b9f0f4b3ed95e41ab25d252e1a",
+  "recon_core.py": "0cca32b956fb6c558de8480cf0bdbfaa75e20bcd4fed4acf7e4a814797b65a7c",
+  "score.py": "174681394c002251782d98503c87079b6f1d5322a1d2d12f10ce83f828e64328",
+  "baseline.py": "e081a955ad301f6b11ecef5101de0bf3b64199c81190ad4d5bcdbc55cf0a6950",
+  "sample/books.json": "309e10ed7d66d1e152951cfa434f3519184db42d2871dbd384dd86ee3ed9c19b",
+  "sample/slots-2026-10.json": "cefafee4ec7a584d3c6516965b5121a70de9bcd7b10acd5b6a9e4405b93e7454",
+  "answers/baseline-2026-10.json": "de81c23b999ee55bf063aa1dbb82bf2a362dc051c4173691c833c7868314ce23",
+  "sample/docs/2026-10/D-1001.txt": "6c2dec8876f3b1454273a93ec732bd79f09e6b5c8ac405da639af81b81ca3e2b",
+  "sample/docs/2026-10/D-1002.txt": "82d940c9290b57c6c6e6ce6c081c4da854763e6baa73a2788395b7344239f437",
+  "sample/docs/2026-10/D-1003.txt": "05b79c7a7552540d247fb079f63780b0e012a97b77ca06c104578475fc893adb",
+  "sample/docs/2026-10/D-1004.txt": "363196ff60cdaf113858f311be082978ebc74b291fbce477ae2da88514a8d242",
+  "sample/docs/2026-10/D-1005.txt": "0622cc6803441b4f2bdba1eea84ac285d9d6673def14cda73069668b6dd76c90",
+  "sample/docs/2026-10/D-1006.txt": "d93c6beb37f02e01d135576a62aa5e10869a049488ee4ab1534addc436d4b92d",
+  "sample/docs/2026-10/D-1007.txt": "2e94d86a688c70855e6ea48205f239d1768fa6e5ca7f06d4ea60b4d87d60993c",
+  "sample/docs/2026-10/D-1008.txt": "252589afd93a1a409c579ca6e0c96b4b981a6a2e80dd27068d8ba0b92e0d202e",
+  "sample/docs/2026-10/D-1009.txt": "7aea93665f57280dcc409c08d75c48f1f82e40c4fc54384798a8f19487a7ead9",
+  "sample/docs/2026-10/D-1010.txt": "63a7f221991eb676b72ceb0eb318dc1f1b62383e8ebfdd94ec61cb09311db139",
+  "sample/docs/2026-10/D-1011.txt": "ea68451b9523c705edf349b5495eb7355021137cead8b97aae61794a589c3e9e",
+  "sample/docs/2026-10/D-1012.txt": "45e523a5727b749208ca6dfcc05848dd70d860e9e43e883d20781609a9a2f26d",
+  "sample/docs/2026-10/D-1013.txt": "321150a582102f3afe169e24eb6a4c7dadb2aad47e5703b7eee56af4d6c4d8c1",
+  "sample/docs/2026-10/D-1014.txt": "24f5af979641a0276f33d2c55cee717e5f77780c7ae885d4cc63590dc745b381",
+  "sample/docs/2026-10/D-1015.txt": "07ec6c678d22d44908602cb92e5c284db128ba750725597018d16b12282924c5",
+  "sample/docs/2026-10/D-1016.txt": "a9d4363750c3b62cc5e5cedcf666464bfc69c45a63bb0a27147e057f78d2938d",
+  "sample/docs/2026-10/D-1017.txt": "08dd210c7cc3f85e3c05f78ce87cf0d63351f2c8eb3004f5d72666527c7774f5",
+  "sample/docs/2026-10/D-1018.txt": "24cd5e1dbd5ca3084df473988a9925284a31f39d87cb24e61ce580d74d91a867",
+  "sample/docs/2026-10/D-1019.txt": "019a2e6d1d9326f57e57ef2901f8a893e0f8d2089164312422e8ab51b9123eac",
+  "sample/docs/2026-10/D-1020.txt": "e23312765f14923804d835d726fab02026b7c576eee158a6dfc0ab5fe2a35dd5",
+  "sample/docs/2026-10/D-1021.txt": "5e418c75021b5714af5d9f86b14c83fb3377eb75bfdd6683857fafd21c21a82c",
+  "sample/docs/2026-10/D-1022.txt": "5471ea777b1da9da8dec7233c31cbb480006e867a733a313bf6e8948b064412e",
+  "sample/docs/2026-10/D-1023.txt": "35c8fcf89e7bbed0321e224aadc2df1bf1aa09f3a4b1d218af9b951b6450b54a",
+  "sample/docs/2026-10/D-1024.txt": "9ca184f8aa3810a1f8896ac0c5404141d20aaec0af6c2ff14ecf0c4b3c653682",
+  "sample/docs/2026-10/D-1025.txt": "7845d1ee00c1c8965fcfc14330863b42e235ae02ab5bd6e379639e4034fd4c44",
+  "sample/docs/2026-10/D-1026.txt": "3a8bc3305ddc0b860ad0532e44505ff25d6ac2fd8f2d5e41dd031653a241ebd1",
+  "sample/docs/2026-10/D-1027.txt": "4ceb02b070cb77c225758a116f03b0a6d23513bf6af9001f57e7cc5c3c4a264e",
+  "sample/docs/2026-10/D-1028.txt": "c28803c373e6ed20c0bdf93091925a5e90499bfe6891965260f8eadeac773b6f",
+  "sample/docs/2026-10/D-1029.txt": "d1a0b6d58b38c6f39d8e176c934f944feb5a9cab2e466be7ab2e05d95feb9aba",
+  "sample/docs/2026-10/D-1030.txt": "b0c9a3e9cf59c443472357ac3a9cfd86cd4e67678575e10647919db2fcebf2cd",
+  "sample/docs/2026-10/D-1031.txt": "7518e11fb5cb3d595b6e6187f4c71a5079efe9b4387668b5d1e44f34c1894fff",
+  "sample/docs/2026-10/D-1032.txt": "3b567a00327e2aa81767bfbfcdaa6a2769004fdbed646c692ffc4cfc2219753f",
+  "sample/docs/2026-10/D-1033.txt": "4dfa14ecb83c6cf72d535e536bee616f4d16cced3b2fc41ffe9a52d1fae59233",
+  "sample/docs/2026-10/D-1034.txt": "5d7039fe02be72236c2fd89446bcfc9a2ef911adaf8a6e2d95aa223aa69cb516",
+  "sample/docs/2026-10/D-1035.txt": "8ef09014e8e3f3ae420f8a4ecada158da6690d1a4681c3acf3de3169968e206c",
+  "sample/docs/2026-10/D-1036.txt": "628e208e5592f9a3d24971db1545c64ac74f920acd2d4c8004972a88bac9d328",
+  "sample/docs/2026-10/D-1037.txt": "4512c55f8d5f16dc9ad3fb09af5a381c3acb7bb9c4ba8a59ec00b66e0e0117cf",
+  "sample/docs/2026-10/D-1038.txt": "3400aec818d6b75864e1a675094074e956fec5ed8f596f1ef9da7f4e41622a5e",
+  "sample/docs/2026-10/D-1039.txt": "a1106edd36985d87262ffe6674bafb966a7dfd8caa87cd1491f0629cbd354309",
+  "sample/docs/2026-10/D-1040.txt": "18e8647993973525bfca644e7cfabd903260be23797de48110bff764e03fecd7",
+  "sample/docs/2026-10/D-1041.txt": "e300b4afdd9895b12b40f2d7a55b0392d10a38e932f67d43825d1f55f8eb7a71",
+  "sample/docs/2026-10/D-1042.txt": "741086549ee58a7a471f82647db5c9a71425ea195f021788a1a96deaffbd640e"
+ },
+ "note": "Re-taken after the pre-run check added the 42 October document texts and removed patterns not seen in practice.",
+ "changes_after_the_read": [
+  {
+   "file": "wording.json",
+   "date": "2026-11-23",
+   "what": "Plainer reasons and notes after the final reviews. Display only: scores use reason codes, not wording."
+  },
+  {
+   "file": "recon_core.py",
+   "date": "2026-11-23",
+   "what": "The show view: a 'read it yourself' step for a document held because the AI wasn't sure, and one for the bank-details email; payment rows say 'all' and 'not yet'; the order search across suppliers is tagged as code; a line whose quantity times price is wrong gets its own note; a document the code can't decide is held as 'couldn't be decided' (none happened). No decision changed: score.py gives the same numbers."
+  },
+  {
+   "file": "sample/books.json",
+   "date": "2026-11-23",
+   "what": "A supplier renamed Scarrow Compute (its first name was close to a real company). No number changed."
+  },
+  {
+   "file": "sample/slots-2026-10.json",
+   "date": "2026-11-23",
+   "what": "The same rename."
+  },
+  {
+   "file": "answers/baseline-2026-10.json",
+   "date": "2026-11-23",
+   "what": "The same rename in each reading's 'from' field."
+  },
+  {
+   "file": "sample/docs/2026-10/D-1015.txt",
+   "date": "2026-11-23",
+   "what": "The same rename in the document's header. The AI read the first name."
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+  "what_this_is": "The fixed questions the AI (Jev, jev-1.14.0) answers about each document, and when an answer counts. Code writes every option; the AI only picks one, with a probability. It writes no text and does no arithmetic. Every document is read twice, the second time with every list of options reversed; an answer counts only when both reads pick the same option and both are past the threshold. Anything else is held for a person.",
+  "version": "recon-q2",
+  "model": "jev-1.14.0",
+  "thresholds": {
+    "choice": 0.9,
+    "kind_not_bill": 0.7,
+    "line_kind": 0.8,
+    "yes": 0.8,
+    "no": 0.2,
+    "says": 0.5,
+    "quote_line": 0.5
+  },
+  "changes": [
+    {
+      "version": "recon-q2",
+      "date": "2026-11-23",
+      "after": "practice read 1 (September, 30 documents)",
+      "changes": [
+        "The 'does any line explain a difference' answer needs 0.50 in both reads, not 0.70 (it only chooses whether to quote a line; the line itself must still be the same pick in both reads). Practice: S-0910's backorder line was at 0.60 and 0.65.",
+        "Reader: candidate orders leave out order lines already billed by earlier documents this month (S-0916 was offered an order its supplier had already billed in full).",
+        "Reader: a line with no catalogue part to choose from (rent, software) is read without a part instead of as unsure (S-0923).",
+        "Reader: when the AI is split between 'no total' and an amount equal to the lines' own sum, the total is that sum (S-0907, a one-line spreadsheet row with no total column).",
+        "Before the lock, after a fresh check: the reader's list of total labels was cut to words that occur in the practice month, and two text patterns copied from the no-AI reader were removed (codes beginning RMA- or RC- were left out of the document-number options; spaced capitals were joined). Neither occurs in the practice month, so every practice request stays the same."
+      ]
+    }
+  ],
+  "supplier": {
+    "doc_kind": {
+      "type": "choice",
+      "instructions": "What kind of document is `document.text`, sent to Halden Robotics by `document.from`?",
+      "criteria": {
+        "bank_change": "A message asking Halden Robotics to change the bank or account details it pays to. It bills for nothing.",
+        "statement": "A statement of account: it lists bills already sent and what is open or paid. It is not a new bill.",
+        "pro_forma": "A pro forma or quote asking for a deposit before anything ships. It is not a bill for goods received.",
+        "packing_slip": "A packing slip or delivery note: what shipped, with no prices to pay.",
+        "credit_note": "A credit note or credit memo: it lowers what Halden Robotics owes.",
+        "bill": "A bill or invoice asking to be paid for goods or services."
+      }
+    },
+    "bank_change": {
+      "type": "noul",
+      "instructions": "Does `document.text` ask Halden Robotics to send payments to new or different bank or account details? Answer yes only if it asks for such a change, not if it only says where to send payment as usual."
+    },
+    "number": {
+      "type": "choice",
+      "instructions": "Which code is the number of this document itself (the bill, invoice, credit note, statement or slip number), as printed in `document.text`? Not an order number.",
+      "none": "The document prints no number of its own."
+    },
+    "total": {
+      "type": "choice",
+      "instructions": "Which amount in `document.text` is the document's total: the amount due, or for a credit note the total credit?",
+      "none": "The document states no total."
+    },
+    "freight": {
+      "type": "choice",
+      "instructions": "Which amount in `document.text` is charged for freight, shipping or delivery?",
+      "none": "No freight, shipping or delivery charge is listed."
+    },
+    "tax": {
+      "type": "choice",
+      "instructions": "Which amount in `document.text` is charged as sales tax or another tax?",
+      "none": "No tax amount is listed."
+    },
+    "explains": {
+      "type": "noul",
+      "instructions": "Does `document.text` contain a sentence from the sender giving a reason for a difference from what was ordered or received: for example a backorder, a later shipment, a price increase or surcharge, a replacement part, an order placed another way, a return behind a credit, or another company billing on the maker's behalf? A heading, a total or a payment instruction is not such a sentence."
+    },
+    "explain_line": {
+      "type": "choice",
+      "instructions": "Which line of `document.text` is the sender's own sentence giving a reason for a difference from what was ordered or received?"
+    },
+    "line_kind": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". What does this line list?",
+      "criteria": {
+        "not_a_charge": "Not a charge: a heading, reference, date, note or payment instruction.",
+        "subtotal_or_total": "A subtotal, total, balance or amount due.",
+        "tax": "Sales tax or another tax.",
+        "freight": "Shipping, freight or delivery.",
+        "fee_or_other": "A fee that is not a part, tax or freight.",
+        "item": "A part, product or service, with its quantity (on a bill, credit note or packing slip)."
+      }
+    },
+    "line_item": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which item in `candidate_items` does it list? Judge by part number and description, not by quantity or price. If the part number is printed on the line just above, use it."
+    },
+    "line_on_item": {
+      "type": "noul",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Is the part on this line one of the items in `candidate_items`, the same part even if it is described in other words?"
+    },
+    "line_qty": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which number on this line is the quantity (for a credit note, the quantity credited)?",
+      "none": "The line does not state a quantity."
+    },
+    "line_price": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which number on this line is the price of one unit?",
+      "none": "The line does not state a unit price."
+    },
+    "line_amount": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which number on this line is the amount for the whole line?",
+      "none": "The line does not state a line amount."
+    },
+    "line_unit": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which word on this line is the unit the quantity is counted in?",
+      "none": "The line names no unit."
+    },
+    "line_order": {
+      "type": "choice",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Which order in `candidate_orders` is this line for? Judge by an order number printed in the document and by which order lists this part. If two orders list the same part and nothing printed tells them apart, the answer is uncertain."
+    },
+    "line_on_order": {
+      "type": "noul",
+      "instructions": "Line {line} of `document.text` reads: \"{text}\". Is this line for one of the orders in `candidate_orders`: one whose number is printed in the document, or one that lists this same part?"
+    }
+  },
+  "payment": {
+    "names": {
+      "type": "noul",
+      "instructions": "Does `payment.text` name invoice {invoice}, or say that this payment is for it? Answer no if it names no invoice or other invoices only."
+    },
+    "amount": {
+      "type": "choice",
+      "instructions": "Which amount in `payment.text` is the amount paid?",
+      "none": "No amount paid is stated."
+    },
+    "says_reason": {
+      "type": "noul",
+      "instructions": "Does `payment.text` give a reason for paying less than the invoice, such as a deduction for damage, a return or a missing part?"
+    },
+    "reason_line": {
+      "type": "choice",
+      "instructions": "Which line of `payment.text` gives the payer's reason for paying less than the invoice?"
+    }
+  }
+}

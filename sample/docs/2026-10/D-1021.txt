@@ -1,0 +1,19 @@
+LANYARD INTERCONNECT
+Santa Clara, CA | (408) 555-0118
+
+PACKING SLIP
+
+Slip No:       PS-60442
+Ship Date:     2026-10-16
+Customer PO:   PO-1209
+
+Ship to: Halden Robotics, Oakland, CA
+
+Part No.    Description                  Qty Shipped  Unit
+----------  ---------------------------  -----------  ----
+LI-HRN-24   Wiring harness, main, 24 V            50  EA
+
+Shipped 2026-10-16. Please check contents on receipt.
+Invoice follows separately.
+
+Sample document. Every name and number is made up.

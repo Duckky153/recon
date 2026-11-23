@@ -1,0 +1,4345 @@
+{
+ "month": "2026-10",
+ "month_name": "October 2026",
+ "source": "ai",
+ "company": "Halden Robotics",
+ "run_date": "2026-11-03",
+ "counts": {
+  "documents": 50,
+  "cleared": 23,
+  "held": 21,
+  "flagged": 1,
+  "set_aside": 5,
+  "ai_read": 42,
+  "code_only": 8
+ },
+ "texts": {
+  "D-1001": "=====================================================================\n Ostrander Cells                                            Invoice\n Reno, NV                                                  OC-90231\n=====================================================================\n\n Bill to: Halden Robotics, Oakland, CA\n\n Invoice date ....... 10/09/2026\n PO number .......... PO-1191\n Payment terms ...... Net 30\n\n Quantity  UOM  Item          Description                      Price Each     Extended\n --------  ---  ------------  -------------------------------  ----------  -----------\n       10  EA   OC-LFP-2420   Battery pack, 24 V 20 Ah, LFP       $431.00    $4,310.00\n\n Prices reflect the cell surcharge in effect from October 1.\n\n                                              Subtotal ......    $4,310.00\n                                              Freight .......        $0.00\n                                              Sales tax .....        $0.00\n                                              Amount due ....    $4,310.00\n\n Please remit to Ostrander Cells, Reno, NV. Reference the invoice number with payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1002": "Tarnwell Motion  |  San Jose, CA\n================================================================================\nINVOICE TM-24417\n\nDate: 10/08/2026                         Terms: Net 30\nYour order: PO-1188\n\nBill to: Halden Robotics, Oakland, CA\n\nQuantity  UOM  Part Number    Description                      Price Each    Extended\n--------  ---  -------------  -------------------------------  ----------  ----------\n      40  EA   TM-BL48-220    Brushless motor, 48 V, 220 W        $142.00   $5,680.00\n\n4 units on backorder, expected to ship the week of November 2.\n\nMerchandise total:    $5,680.00\nFreight:                  $0.00\nSales tax:                $0.00\nINVOICE TOTAL:        $5,680.00\n\nPlease remit to Tarnwell Motion, San Jose, CA, quoting invoice TM-24417.\n================================================================================\n\nSample document. Every name and number is made up.\n",
+  "D-1003": "From: billing@wexbywheel.example\nTo: ap@halden-robotics.example\nDate: Oct 10, 2026\nSubject: Wexby Wheel Co. invoice WX-3308 / PO-1193\n\nHi Halden Robotics AP,\n\nOur invoice WX-3308 for your PO-1193 is below. Terms are Net 30.\n\n  Invoice: WX-3308\n  Date: Oct 10, 2026\n  Your PO: PO-1193\n\n  - WX-WHL-200 | Wheel, 200 mm, polyurethane | 200 EA @ $27.40 = $5,480.00\n\n  Invoice total: $5,480.00\n\nRemaining 80 wheels to follow by October 30.\n\nThanks for the order,\nTrina\nBilling, Wexby Wheel Co.\nSacramento, CA\n\nSample document. Every name and number is made up.\n",
+  "D-1004": "FERROW CIRCUITS\nFremont, CA\n(510) 555-0138\n\nINVOICE\n\nInvoice No.:    FC-2291\nInvoice Date:   2026-10-11\nTerms:          Net 30\nCustomer PO:    PO-1195\n\nBill to: Halden Robotics, Oakland, CA\n\nItem        Description                    Qty  Unit   Unit Price      Amount\n----------  -----------------------------  ---  ----  -----------  ----------\nFC-MB-R4    Main board assembly, rev 4      12  EA        $185.00   $2,220.00\n\n                                               Subtotal:   $2,220.00\n                                               Freight:        $0.00\n                                               Tax:            $0.00\n                                               Total:      $2,220.00\n\nRemit to: Ferrow Circuits, Accounts Receivable, Fremont, CA\nPlease reference the invoice number with your payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1005": "From: ar@ferrowcircuits.example\nTo: ap@halden-robotics.example\nDate: 2026-10-21\nSubject: Resending invoice FC-2291 (PO-1195)\n\nHello,\n\nWe are resending invoice FC-2291 below in case the first copy did not reach you. Could you let us know whether it was received?\n\nInvoice No.:  FC-2291\nCustomer PO:  PO-1195\nTerms:        Net 30\n\nItem      Description                  Qty  Unit  Unit Price     Amount\nFC-MB-R4  Main board assembly, rev 4    12  EA       $185.00  $2,220.00\n\nTotal: $2,220.00\n\nThank you,\nAccounts Receivable\nFerrow Circuits\nFremont, CA\n\nSample document. Every name and number is made up.\n",
+  "D-1006": "BRIGHTCUT METALWORKS\nHayward, CA  |  (510) 555-0142\n\n                                                        INVOICE\nInvoice No:    BM-7811\nInvoice Date:  Oct 12, 2026\nTerms:         Net 30\nCustomer PO:   PO-1149\n\nBill to: Halden Robotics, Oakland, CA\n\nItem No.     Description                    Qty  U/M  Unit Price      Amount\n-----------  ---------------------------  -----  ---  ----------  ----------\nBC-ENC-AL3   Enclosure, aluminum, rev 3     40  EA      $238.00   $9,520.00\n\n                                               Subtotal            $9,520.00\n                                               Freight                 $0.00\n                                               Sales Tax               $0.00\n                                               Invoice Total       $9,520.00\n\nRemit to: Brightcut Metalworks, Hayward, CA. Please reference the invoice number.\nThank you for your business.\n\nSample document. Every name and number is made up.\n",
+  "D-1007": "From: billing@lanyard-interconnect.example\nTo: ap@halden-robotics.example\nDate: 2026-10-13\nSubject: Invoice LI-60418 - Lanyard Interconnect\n\nHello,\n\nPlease find invoice LI-60418 below, dated 2026-10-13. Terms Net 30.\n\nPart No.    Description                Qty  Unit  Unit Price  Amount\nLI-CON-8P   Connector, 8-pin, sealed   150  EA    $4.20       $630.00\n\nTotal due: $630.00\n\nRush order placed by phone on October 9, as discussed with your shop.\n\nRemit to Lanyard Interconnect, Santa Clara, CA, per the details on file.\n\nThanks,\nBilling, Lanyard Interconnect\nSanta Clara, CA | (408) 555-0118\n\nSample document. Every name and number is made up.\n",
+  "D-1008": "\"Doc Type\",\"Doc No\",\"Doc Date\",\"Bill To\",\"Description\",\"SKU\",\"Quantity\",\"Unit\",\"Unit Cost\",\"Line Total\",\"Terms\",\"Balance Due\"\n\"Invoice\",\"SCX-1182\",\"10/18/2026\",\"Halden Robotics, Oakland, CA\",\"Compute module, 8 GB\",\"SC-CM-NX8\",\"6\",\"EA\",\"$389.00\",\"$2,334.00\",\"Net 30\",\"$2,334.00\"\n\nSample document. Every name and number is made up.\n",
+  "D-1009": "BRIGHTCUT METALWORKS\nHayward, CA  |  (510) 555-0142\n\n                                                        INVOICE\nInvoice No:    BM-7836\nInvoice Date:  Oct 14, 2026\nTerms:         Net 30\nCustomer PO:   PO-1199\n\nBill to: Halden Robotics, Oakland, CA\n\nItem No.     Description                    Qty  U/M  Unit Price      Amount\n-----------  ---------------------------  -----  ---  ----------  ----------\nBC-ENC-AL3   Enclosure, aluminum, rev 3     30  EA      $238.00   $7,140.00\n\n                                               Subtotal            $7,140.00\n                                               Freight               $165.00\n                                               Sales Tax               $0.00\n                                               Invoice Total       $7,305.00\n\nRemit to: Brightcut Metalworks, Hayward, CA. Please reference the invoice number.\nThank you for your business.\n\nSample document. Every name and number is made up.\n",
+  "D-1010": "FERROW CIRCUITS\nFremont, CA\n(510) 555-0138\n\nINVOICE\n\nInvoice No.:    FC-2318\nInvoice Date:   2026-10-15\nTerms:          Net 30\nCustomer PO:    PO-1203\n\nBill to: Halden Robotics, Oakland, CA\n\nItem        Description                        Qty  Unit   Unit Price      Amount\n----------  ---------------------------------  ---  ----  -----------  ----------\nFC-PDB-R2   Power distribution board, rev 2     25  EA         $48.00   $1,200.00\n\n                                                   Subtotal:   $1,200.00\n                                                   Freight:        $0.00\n                                                   Tax:          $105.00\n                                                   Total:      $1,305.00\n\nRemit to: Ferrow Circuits, Accounts Receivable, Fremont, CA\nPlease reference the invoice number with your payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1011": "\"Invoice\",\"Invoice Date\",\"Customer\",\"Your PO\",\"Terms\",\"Ln\",\"Qty Shipped\",\"UOM\",\"Item\",\"Description\",\"Price\",\"Extension\",\"Invoice Total\"\n\"KF-11207\",\"2026-10-13\",\"Halden Robotics\",\"PO-1205\",\"Net 30\",\"1\",\"12\",\"BX\",\"KF-NUT-M4\",\"Nut, M4, stainless\",\"$4.00\",\"$48.00\",\"$48.00\"\n\nSample document. Every name and number is made up.\n",
+  "D-1012": "Calvane Optics\nPortland, OR\n---------------------------------------------------------------\n                                                 I N V O I C E\n\nBill to: Halden Robotics, Oakland, CA\n\nInvoice #      CV-55120\nDate           Oct 16, 2026\nYour order     PO-1206\nTerms          Net 30\n\nLn  Description                                   Part #          Qty  UOM    Each     Line Total\n--  --------------------------------------------  ------------  -----  ---  -------  -----------\n1   Camera module, 8 MP, global shutter (rev B)   CV-CAM-8MP-B     24  EA    $96.50    $2,316.00\n\nCV-CAM-8MP-B replaces CV-CAM-8MP-A, which has reached end of life. Same price and fit.\n\n                                                                    Subtotal        $2,316.00\n                                                                    Freight             $0.00\n                                                                    Tax                 $0.00\n                                                                    Invoice total   $2,316.00\n\nRemit to Calvane Optics, Portland, OR. Questions: (503) 555-0163.\n\nSample document. Every name and number is made up.\n",
+  "D-1013": "Calvane Optics\nPortland, OR\n---------------------------------------------------------------\n                                           C R E D I T   N O T E\n\nBill to: Halden Robotics, Oakland, CA\n\nCredit note #  CV-CN-0098\nDate           Oct 17, 2026\nYour order     PO-1160\nTerms          Net 30\n\nLn  Description                                     Part #          Qty  UOM    Each     Line Total\n--  ----------------------------------------------  ------------  -----  ---  -------  -----------\n1   Camera module, 8 MP, global shutter, returned   CV-CAM-8MP-A     -2  EA    $96.50     -$193.00\n\nCredit for RMA-CV-3317, two modules returned on October 3.\n\n                                                                    Subtotal         -$193.00\n                                                                    Freight             $0.00\n                                                                    Tax                 $0.00\n                                                                    Credit total     -$193.00\n\nThis credit may be applied against open Calvane Optics invoices. Questions: (503) 555-0163.\n\nSample document. Every name and number is made up.\n",
+  "D-1014": "From: billing@wexbywheel.example\nTo: ap@halden-robotics.example\nDate: Oct 20, 2026\nSubject: Wexby Wheel Co. statement of account STMT-2026-10\n\nHi Halden Robotics AP,\n\nYour statement of account is below. This is a statement only, not a new invoice.\n\n  Statement: STMT-2026-10\n  Date: Oct 20, 2026\n  Terms: Net 30\n\n  - WX-3290 | paid\n  - WX-3308 | $5,480.00 | open\n\n  Balance due: $5,480.00\n\nThanks,\nTrina\nBilling, Wexby Wheel Co.\nSacramento, CA\n\nSample document. Every name and number is made up.\n",
+  "D-1015": "Scarrow Compute\nAustin, TX\n\nPRO FORMA INVOICE\n\nPro forma no.    PF-SC-2207\nDate             10/21/2026\nTerms            30% deposit before shipment, balance Net 30\nBill to: Halden Robotics, Oakland, CA\n\nThis is a pro forma invoice for a future order. It is not a bill for goods shipped.\n\nDescription            SKU          Quantity  Unit  Unit Cost  Line Total\n---------------------  -----------  --------  ----  ---------  ----------\nCompute module, 8 GB   SC-CM-NX8          10  EA      $389.00   $3,890.00\n\nSubtotal                 $3,890.00\nFreight                      $0.00\nTax                          $0.00\nPro forma total          $3,890.00\n\nWe ask for a 30% deposit before this order ships. The order is released once the deposit is received.\nRemit to Scarrow Compute, Austin, TX.\n\nSample document. Every name and number is made up.\n",
+  "D-1016": "From: accounts@ostrandercells.example\nTo: ap@halden-robotics.example\nDate: 10/22/2026\nSubject: Change of bank - Ostrander Cells\n\nHello Halden Robotics accounts team,\n\nOstrander Cells has changed banks. Please send all future payments to our new account details, which are attached to this email.\n\nPlease update your vendor records before your next payment run. Payments already in progress do not need to be changed.\n\nAttachment: new account details attached\n\nRegards,\nAccounts Team\nOstrander Cells, Reno, NV\n\nSample document. Every name and number is made up.\n",
+  "D-1017": "TALLOWMERE WORKSHOPS\nOakland, CA\n\nRent Invoice TW-2026-10\nIssued: Oct 1, 2026\nTerms: Net 30\n\nBill to: Halden Robotics, Oakland, CA\n\nDescription                                Quantity  Unit       Rate      Amount\nWorkshop and office rent, October 2026            1  MO    $6,400.00   $6,400.00\n\nSubtotal:   $6,400.00\nFreight:        $0.00\nTax:            $0.00\nTotal due:  $6,400.00\n\nPlease make rent payable to Tallowmere Workshops, Oakland, CA.\n\nSample document. Every name and number is made up.\n",
+  "D-1018": "From: billing@partwise.example\nTo: ap@halden-robotics.example\nDate: 2026-10-02\nSubject: Your Partwise invoice PW-88213\n\nHi Halden Robotics,\n\nHere is your invoice for this month.\n\nInvoice: PW-88213\nInvoice date: 2026-10-02\nPayment terms: Net 30\n\nItem                          Qty   Unit   Price     Amount\nPartwise Team plan, October   1     MO     $490.00   $490.00\n\nTotal: $490.00\n\nPartwise, Denver, CO\n\nSample document. Every name and number is made up.\n",
+  "D-1019": "From: billing@booksmere.example\nTo: ap@halden-robotics.example\nDate: Oct 2, 2026\nSubject: Your Booksmere invoice BS-41190\n\nHi Halden Robotics,\n\nYour Booksmere invoice for October is ready.\n\nInvoice number:  BS-41190\nInvoice date:    Oct 2, 2026\nPayment terms:   Net 30\n\nDescription                       Qty  Unit  Rate     Amount\nBooksmere Growth plan, October      1  MO    $320.00  $320.00\n\nTotal due: $320.00\n\nQuestions about this invoice? Just reply to this email.\n\nBooksmere Billing\nBoston, MA\n\nSample document. Every name and number is made up.\n",
+  "D-1020": "LANYARD INTERCONNECT\nSanta Clara, CA | (408) 555-0118\n\nINVOICE\n\nInvoice No:    LI-60442\nInvoice Date:  2026-10-19\nTerms:         Net 30\nCustomer PO:   PO-1209\n\nBill to: Halden Robotics, Oakland, CA\n\nPart No.    Description                  Qty  Unit  Unit Price     Amount\n----------  ---------------------------  ---  ----  ----------  ---------\nLI-HRN-24   Wiring harness, main, 24 V    50  EA        $31.00  $1,550.00\n\n                                                 Subtotal   $1,550.00\n                                                  Freight       $0.00\n                                                      Tax       $0.00\n                                                    TOTAL   $1,550.00\n\nRemit to: Lanyard Interconnect, Santa Clara, CA. Payment by ACH or check per the details on file.\n\nSample document. Every name and number is made up.\n",
+  "D-1021": "LANYARD INTERCONNECT\nSanta Clara, CA | (408) 555-0118\n\nPACKING SLIP\n\nSlip No:       PS-60442\nShip Date:     2026-10-16\nCustomer PO:   PO-1209\n\nShip to: Halden Robotics, Oakland, CA\n\nPart No.    Description                  Qty Shipped  Unit\n----------  ---------------------------  -----------  ----\nLI-HRN-24   Wiring harness, main, 24 V            50  EA\n\nShipped 2026-10-16. Please check contents on receipt.\nInvoice follows separately.\n\nSample document. Every name and number is made up.\n",
+  "D-1022": "ONDREY SUPPLY | Phoenix, AZ | (602) 555-0167\nDistributor invoice, billed on behalf of the manufacturer\n------------------------------------------------------------------------------\nInvoice #: OS-778201                      Invoice date: 10/22/2026\nTerms: Net 30\nBill to: Halden Robotics, Oakland, CA\n------------------------------------------------------------------------------\nLine  Part Number    Qty  UM  Description                               Each   Extended\n   1  CV-CAM-8MP-A    16  EA  Camera module, 8 MP, global shutter     $96.50  $1,544.00\n------------------------------------------------------------------------------\nSubtotal      $1,544.00\nFreight           $0.00\nTax               $0.00\nAmount Due    $1,544.00\n\nRemit to Ondrey Supply, Phoenix, AZ. Please include the invoice number with payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1023": "From: billing@wexbywheel.example\nTo: ap@halden-robotics.example\nDate: Oct 12, 2026\nSubject: Wexby Wheel Co. invoice WX-3315 / PO-1196\n\nHi Halden Robotics AP,\n\nOur invoice WX-3315 for your PO-1196 is below. Terms are Net 30.\n\n  Invoice: WX-3315\n  Date: Oct 12, 2026\n  Your PO: PO-1196\n\n  - Polyurethane drive wheel, 200mm dia. | 80 EA @ $27.40 = $2,192.00\n\n  Invoice total: $2,192.00\n\nThanks for the order,\nTrina\nBilling, Wexby Wheel Co.\nSacramento, CA\n\nSample document. Every name and number is made up.\n",
+  "D-1024": "KESTWICK FASTENERS                                     INVOICE KF-11219\nStockton, CA\n==========================================================================\nInvoice Date : 2026-10-14\nTerms        : Net 30\nYour PO      : PO-1190, PO-1207\nBill to: Halden Robotics, Oakland, CA\n==========================================================================\nLn  Qty Shipped  UOM  Item          Description                 Price  Extension\n--  -----------  ---  ------------  -------------------------  ------  ---------\n 1          800  EA   KF-SCR-M412   Screw, M4 x 12, stainless   $0.06     $48.00\n 2          400  EA   KF-SCR-M412   Screw, M4 x 12, stainless   $0.06     $24.00\n==========================================================================\n                                                     Subtotal      $72.00\n                                                     Freight        $0.00\n                                                     Tax            $0.00\n                                                     TOTAL DUE     $72.00\n\nMake checks payable to Kestwick Fasteners, Stockton, CA.\n\nSample document. Every name and number is made up.\n",
+  "D-1025": "\"Invoice\",\"Invoice Date\",\"Customer\",\"Your PO\",\"Terms\",\"Ln\",\"Qty Shipped\",\"UOM\",\"Item\",\"Description\",\"Price\",\"Extension\",\"Invoice Total\"\n\"KF-11236\",\"2026-10-17\",\"Halden Robotics\",\"PO-1212\",\"Net 30\",\"1\",\"5\",\"BX\",\"KF-SCR-M412\",\"Screw, M4 x 12, stainless\",\"$6.00\",\"$30.00\",\"$30.00\"\n\nSample document. Every name and number is made up.\n",
+  "D-1026": "FERROW CIRCUITS\nFremont, CA\n(510) 555-0138\n\nINVOICE\n\nInvoice No.:    FC-2330\nInvoice Date:   2026-10-21\nTerms:          Net 30\nCustomer PO:    PO-1213\n\nBill to: Halden Robotics, Oakland, CA\n\nItem        Description                    Qty  Unit   Unit Price      Amount\n----------  -----------------------------  ---  ----  -----------  ----------\nFC-MB-R4    Main board assembly, rev 4      11  EA        $187.78   $2,065.58\n\n                                               Subtotal:   $2,065.58\n                                               Freight:        $0.00\n                                               Tax:            $0.00\n                                               Total:      $2,065.58\n\nRemit to: Ferrow Circuits, Accounts Receivable, Fremont, CA\nPlease reference the invoice number with your payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1027": "From: billing@brightcut-metalworks.example\nTo: ap@halden-robotics.example\nDate: Oct 22, 2026\nSubject: Invoice BM-7852 from Brightcut Metalworks\n\nHello,\n\nOur invoice BM-7852 for the steel brackets is below.\n\nInvoice No:    BM-7852\nInvoice Date:  Oct 22, 2026\nTerms:         Net 30\n\nItem No.    Description               Qty  U/M  Unit Price     Amount\nBC-BRK-12   Mounting bracket, steel   300  EA        $6.80  $2,040.00\n\nInvoice Total: $2,040.00\n\nRemit to Brightcut Metalworks, Hayward, CA. Reply here if you would like a printed copy.\n\nThanks,\nAccounts Receivable\nBrightcut Metalworks\nHayward, CA\n\nSample document. Every name and number is made up.\n",
+  "D-1028": "LANYARD INTERCONNECT\nSanta Clara, CA | (408) 555-0118\n\nINVOICE\n\nInvoice No:    LI-60455\nInvoice Date:  2026-10-23\nTerms:         Net 30\nCustomer PO:   PO-1216\n\nBill to: Halden Robotics, Oakland, CA\n\nPart No.    Description                  Qty  Unit  Unit Price     Amount\n----------  ---------------------------  ---  ----  ----------  ---------\nLI-HRN-24   Wiring harness, main, 24 V    60  EA        $30.00  $1,800.00\n\n                                                 Subtotal   $1,800.00\n                                                  Freight       $0.00\n                                                      Tax       $0.00\n                                                    TOTAL   $1,800.00\n\nRemit to: Lanyard Interconnect, Santa Clara, CA. Payment by ACH or check per the details on file.\n\nSample document. Every name and number is made up.\n",
+  "D-1029": "FERROW CIRCUITS\nFremont, CA\n(510) 555-0138\n\nINVOICE\n\nInvoice No.:    FC-2341\nInvoice Date:   2026-10-23\nTerms:          Net 30\nCustomer PO:    PO-1217\n\nBill to: Halden Robotics, Oakland, CA\n\nItem        Description                        Qty  Unit   Unit Price      Amount\n----------  ---------------------------------  ---  ----  -----------  ----------\nFC-PDB-R2   Power distribution board, rev 2     20  EA         $48.00     $960.00\n\n                                                   Subtotal:     $960.00\n                                                   Freight:        $0.00\n                                                   Tax:            $0.00\n                                                   Total:        $960.00\n\nRemit to: Ferrow Circuits, Accounts Receivable, Fremont, CA\nPlease reference the invoice number with your payment.\n\nSample document. Every name and number is made up.\n",
+  "D-1030": "Tarnwell Motion  |  San Jose, CA\n================================================================================\nINVOICE TM-24471\n\nDate: 10/24/2026                         Terms: Net 30\nYour order: PO-1219\n\nBill to: Halden Robotics, Oakland, CA\n\nQuantity  UOM  Part Number    Description                      Price Each    Extended\n--------  ---  -------------  -------------------------------  ----------  ----------\n      30  EA   TM-BL48-220    Brushless motor, 48 V, 220 W        $142.00   $4,260.00\n\nMerchandise total:    $4,260.00\nFreight:                  $0.00\nSales tax:                $0.00\nINVOICE TOTAL:        $4,260.00\n\nPlease remit to Tarnwell Motion, San Jose, CA, quoting invoice TM-24471.\n================================================================================\n\nSample document. Every name and number is made up.\n",
+  "D-1031": "From: invoices@calvane-optics.example\nTo: ap@halden-robotics.example\nDate: Oct 25, 2026\nSubject: Calvane Optics invoice CV-55188 (your order PO-1220)\n\nHi,\n\nInvoice CV-55188 dated Oct 25, 2026 for your order PO-1220. Terms Net 30.\n\n  1. Camera module, 8 MP, global shutter\n     Part # CV-CAM-8MP-A\n     Qty 20 EA @ $96.50 = $1,930.00\n\nInvoice total: $1,930.00\n\nRemit to Calvane Optics, Portland, OR.\n\nCalvane Optics Billing\nPortland, OR | (503) 555-0163\n\nSample document. Every name and number is made up.\n",
+  "D-1032": "BRIGHTCUT METALWORKS\nHayward, CA  |  (510) 555-0142\n\n                                                        INVOICE\nInvoice No:    BM-7869\nInvoice Date:  Oct 27, 2026\nTerms:         Net 30\nCustomer PO:   PO-1221\n\nBill to: Halden Robotics, Oakland, CA\n\nItem No.     Description                    Qty  U/M  Unit Price      Amount\n-----------  ---------------------------  -----  ---  ----------  ----------\nBC-ENC-AL3   Enclosure, aluminum, rev 3     10  EA      $238.00   $2,380.00\nBC-BRK-12    Mounting bracket, steel        120  EA        $6.80     $816.00\n\n                                               Subtotal            $3,196.00\n                                               Freight                 $0.00\n                                               Sales Tax               $0.00\n                                               Invoice Total       $3,196.00\n\nRemit to: Brightcut Metalworks, Hayward, CA. Please reference the invoice number.\nThank you for your business.\n\nSample document. Every name and number is made up.\n",
+  "D-1033": "\"Invoice No\",\"Invoice Date\",\"PO Number\",\"Terms\",\"Item\",\"Description\",\"Quantity\",\"UOM\",\"Price Each\",\"Extended\",\"Freight\",\"Sales Tax\",\"Amount Due\"\n\"OC-90288\",\"10/28/2026\",\"PO-1222\",\"Net 30\",\"OC-LFP-2420\",\"Battery pack, 24 V 20 Ah, LFP\",\"12\",\"EA\",\"$410.00\",\"$4,920.00\",\"$0.00\",\"$0.00\",\"$4,920.00\"\nSample document. Every name and number is made up.\n",
+  "D-1034": "BRIGHTCUT METALWORKS\nHayward, CA  |  (510) 555-0142\n\n                                                        INVOICE\nInvoice No:    BM-7861\nInvoice Date:  Oct 24, 2026\nTerms:         Net 30\nCustomer PO:   PO-1218\n\nBill to: Halden Robotics, Oakland, CA\n\nItem No.     Description                    Qty  U/M  Unit Price      Amount\n-----------  ---------------------------  -----  ---  ----------  ----------\nBC-ENC-AL3   Enclosure, aluminum, rev 3     20  EA      $251.00   $5,020.00\n\n                                               Subtotal            $5,020.00\n                                               Freight                 $0.00\n                                               Sales Tax               $0.00\n                                               Invoice Total       $5,020.00\n\nRemit to: Brightcut Metalworks, Hayward, CA. Please reference the invoice number.\nThank you for your business.\n\nSample document. Every name and number is made up.\n",
+  "D-1035": "From: payables@pellnorris.example\nTo: ap@halden-robotics.example\nDate: 10/30/2026\nSubject: Remittance advice, invoice INV-2062\n\nHello,\n\nPell & Norris Inspection sent a payment of $23,800.00 today for invoice INV-2062.\n\nWe have deducted $1,200.00 for the damaged bumper reported on delivery.\n\n  Payment date: 10/30/2026\n  Invoice paid: INV-2062\n  Amount paid:  $23,800.00\n\nRegards,\nAccounts Payable\nPell & Norris Inspection\nTulsa, OK\n\nSample document. Every name and number is made up.\n",
+  "D-1036": "Posted Date,Payer,Amount,Reference\n10/29/2026,Ashlowe Field Services,\"$6,000.00\",ACH CREDIT ASHLOWE FIELD SVCS\n\nSample document. Every name and number is made up.\n",
+  "D-1037": "From: payables@astersurvey.example\nTo: ap@halden-robotics.example\nDate: Oct 31, 2026\nSubject: Remittance advice - INV-2041\n\nHello,\n\nWe sent a payment of $2,520.00 to Halden Robotics today, Oct 31, 2026, by ACH.\n\nInvoice paid: INV-2041\nAmount: $2,520.00\n\nThank you,\nAccounts Payable\nAster Survey Co., Boise, ID\n\nSample document. Every name and number is made up.\n",
+  "D-1038": "From: accounts@pembrellfacilities.example\nTo: ap@halden-robotics.example\nDate: Oct 28, 2026\nSubject: Payment sent - INV-2064\n\nHi,\n\nJust a note that we paid invoice INV-2064 today, $6,000.00 by ACH.\n\nThanks,\nAccounts Payable\nPembrell Facilities\nTucson, AZ\n\nSample document. Every name and number is made up.\n",
+  "D-1039": "Posted Date,Payer,Amount,Reference\n10/30/2026,Ashlowe Field Services,$840.00,ACH CREDIT ASHLOWE FIELD SVCS INV-2065\n\nSample document. Every name and number is made up.\n",
+  "D-1040": "From: payables@kettleby-labs.example\nTo: ap@halden-robotics.example\nDate: Oct 31, 2026\nSubject: Payment sent for INV-2067\n\nHello,\n\nWe sent a payment of $1,680.00 today for invoice INV-2067.\n\nThanks,\nAccounts Payable\nKettleby Labs\nSeattle, WA\n\nSample document. Every name and number is made up.\n",
+  "D-1041": "From: ap@brackwell-utilities.example\nTo: ap@halden-robotics.example\nDate: 10/16/2026\nSubject: Payment issued: INV-2052\n\nHalden Robotics,\n\nBrackwell Utilities issued payment on 10/16/2026.\n\n  Payment amount:  $840.00\n  Applied to:      INV-2052\n  Method:          ACH\n\nRegards,\nBrackwell Utilities Accounts Payable\nSpokane, WA\n\nSample document. Every name and number is made up.\n",
+  "D-1042": "Date,Payer,Amount,Reference\n10/20/2026,PELL & NORRIS INSPECTION,\"$6,000.00\",INV-2055 PELL NORRIS PMT\nSample document. Every name and number is made up.\n"
+ },
+ "inputs": {
+  "books": {
+   "company": {
+    "name": "Halden Robotics",
+    "city": "Oakland, CA",
+    "makes": "wheeled inspection robots with two cameras"
+   },
+   "run_date": "2026-11-03",
+   "suppliers": {
+    "tarnwell": {
+     "name": "Tarnwell Motion",
+     "sells": "motors",
+     "city": "San Jose, CA",
+     "billing": "po"
+    },
+    "ostrander": {
+     "name": "Ostrander Cells",
+     "sells": "battery packs",
+     "city": "Reno, NV",
+     "billing": "po"
+    },
+    "calvane": {
+     "name": "Calvane Optics",
+     "sells": "camera modules",
+     "city": "Portland, OR",
+     "billing": "po"
+    },
+    "brightcut": {
+     "name": "Brightcut Metalworks",
+     "sells": "sheet-metal enclosures and brackets",
+     "city": "Hayward, CA",
+     "billing": "po"
+    },
+    "ferrow": {
+     "name": "Ferrow Circuits",
+     "sells": "circuit boards",
+     "city": "Fremont, CA",
+     "billing": "po"
+    },
+    "wexby": {
+     "name": "Wexby Wheel Co.",
+     "sells": "wheels",
+     "city": "Sacramento, CA",
+     "billing": "po"
+    },
+    "kestwick": {
+     "name": "Kestwick Fasteners",
+     "sells": "screws and nuts",
+     "city": "Stockton, CA",
+     "billing": "po"
+    },
+    "lanyard": {
+     "name": "Lanyard Interconnect",
+     "sells": "cables, harnesses and connectors",
+     "city": "Santa Clara, CA",
+     "billing": "po"
+    },
+    "scarrow": {
+     "name": "Scarrow Compute",
+     "sells": "compute modules",
+     "city": "Austin, TX",
+     "billing": "po"
+    },
+    "ondrey": {
+     "name": "Ondrey Supply",
+     "sells": "electronic parts (a distributor)",
+     "city": "Phoenix, AZ",
+     "billing": "po",
+     "distributes_for": [
+      "calvane"
+     ]
+    },
+    "tallowmere": {
+     "name": "Tallowmere Workshops",
+     "sells": "workshop and office space",
+     "city": "Oakland, CA",
+     "billing": "no_po"
+    },
+    "partwise": {
+     "name": "Partwise",
+     "sells": "parts-list software, monthly",
+     "city": "Denver, CO",
+     "billing": "no_po"
+    },
+    "booksmere": {
+     "name": "Booksmere",
+     "sells": "accounting software, monthly",
+     "city": "Boston, MA",
+     "billing": "no_po"
+    }
+   },
+   "customers": {
+    "kettleby": {
+     "name": "Kettleby Labs",
+     "city": "Seattle, WA"
+    },
+    "ashlowe": {
+     "name": "Ashlowe Field Services",
+     "city": "Houston, TX"
+    },
+    "brackwell": {
+     "name": "Brackwell Utilities",
+     "city": "Spokane, WA"
+    },
+    "aster": {
+     "name": "Aster Survey Co.",
+     "city": "Boise, ID"
+    },
+    "pellnorris": {
+     "name": "Pell & Norris Inspection",
+     "city": "Tulsa, OK"
+    },
+    "pembrell": {
+     "name": "Pembrell Facilities",
+     "city": "Tucson, AZ"
+    }
+   },
+   "items": {
+    "TM-BL48-220": {
+     "name": "Brushless motor, 48 V, 220 W",
+     "short": "motors",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "tarnwell",
+     "price": 14200
+    },
+    "OC-LFP-2420": {
+     "name": "Battery pack, 24 V 20 Ah, LFP",
+     "short": "battery packs",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "ostrander",
+     "price": 41000
+    },
+    "CV-CAM-8MP-A": {
+     "name": "Camera module, 8 MP, global shutter",
+     "short": "camera modules",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "calvane",
+     "price": 9650
+    },
+    "CV-CAM-8MP-B": {
+     "name": "Camera module, 8 MP, global shutter (rev B)",
+     "short": "camera modules (rev B)",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "calvane",
+     "price": 9650
+    },
+    "BC-ENC-AL3": {
+     "name": "Enclosure, aluminum, rev 3",
+     "short": "enclosures",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "brightcut",
+     "price": 23800
+    },
+    "BC-BRK-12": {
+     "name": "Mounting bracket, steel",
+     "short": "brackets",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "brightcut",
+     "price": 680
+    },
+    "FC-MB-R4": {
+     "name": "Main board assembly, rev 4",
+     "short": "main boards",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "ferrow",
+     "price": 18500
+    },
+    "FC-PDB-R2": {
+     "name": "Power distribution board, rev 2",
+     "short": "power boards",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "ferrow",
+     "price": 4800
+    },
+    "WX-WHL-200": {
+     "name": "Wheel, 200 mm, polyurethane",
+     "short": "wheels",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "wexby",
+     "price": 2740
+    },
+    "KF-SCR-M412": {
+     "name": "Screw, M4 x 12, stainless",
+     "short": "screws",
+     "unit": "EA",
+     "pack": 100,
+     "supplier": "kestwick",
+     "price": 6
+    },
+    "KF-NUT-M4": {
+     "name": "Nut, M4, stainless",
+     "short": "nuts",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "kestwick",
+     "price": 4
+    },
+    "LI-HRN-24": {
+     "name": "Wiring harness, main, 24 V",
+     "short": "harnesses",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "lanyard",
+     "price": 3100
+    },
+    "LI-CON-8P": {
+     "name": "Connector, 8-pin, sealed",
+     "short": "connectors",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "lanyard",
+     "price": 420
+    },
+    "SC-CM-NX8": {
+     "name": "Compute module, 8 GB",
+     "short": "compute modules",
+     "unit": "EA",
+     "pack": null,
+     "supplier": "scarrow",
+     "price": 38900
+    }
+   },
+   "products": {
+    "HR-1": {
+     "name": "HR-1 inspection robot",
+     "plural": "HR-1 inspection robots",
+     "price": 1250000
+    },
+    "EVAL-2W": {
+     "name": "Two-week field evaluation",
+     "plural": "two-week field evaluations",
+     "price": 600000
+    },
+    "SPK-1": {
+     "name": "Spare parts kit, HR-1",
+     "plural": "HR-1 spare parts kits",
+     "price": 84000
+    }
+   },
+   "purchase_orders": [
+    {
+     "id": "PO-1149",
+     "supplier": "brightcut",
+     "date": "2026-08-05",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 40,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-08-22"
+      }
+     ]
+    },
+    {
+     "id": "PO-1150",
+     "supplier": "ferrow",
+     "date": "2026-08-06",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-PDB-R2",
+       "qty": 20,
+       "unit": "EA",
+       "price": 4800,
+       "due": "2026-08-20"
+      }
+     ]
+    },
+    {
+     "id": "PO-1188",
+     "supplier": "tarnwell",
+     "date": "2026-09-22",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "TM-BL48-220",
+       "qty": 40,
+       "unit": "EA",
+       "price": 14200,
+       "due": "2026-10-06"
+      }
+     ]
+    },
+    {
+     "id": "PO-1191",
+     "supplier": "ostrander",
+     "date": "2026-09-24",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "OC-LFP-2420",
+       "qty": 10,
+       "unit": "EA",
+       "price": 41000,
+       "due": "2026-10-08"
+      }
+     ]
+    },
+    {
+     "id": "PO-1193",
+     "supplier": "wexby",
+     "date": "2026-09-25",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "WX-WHL-200",
+       "qty": 200,
+       "unit": "EA",
+       "price": 2740,
+       "due": "2026-10-09"
+      }
+     ]
+    },
+    {
+     "id": "PO-1195",
+     "supplier": "ferrow",
+     "date": "2026-09-26",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-MB-R4",
+       "qty": 12,
+       "unit": "EA",
+       "price": 18500,
+       "due": "2026-10-10"
+      }
+     ]
+    },
+    {
+     "id": "PO-1199",
+     "supplier": "brightcut",
+     "date": "2026-09-29",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 30,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-10-13"
+      }
+     ]
+    },
+    {
+     "id": "PO-1201",
+     "supplier": "scarrow",
+     "date": "2026-09-30",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "SC-CM-NX8",
+       "qty": 6,
+       "unit": "EA",
+       "price": 38900,
+       "due": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "id": "PO-1214",
+     "supplier": "scarrow",
+     "date": "2026-10-07",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "SC-CM-NX8",
+       "qty": 6,
+       "unit": "EA",
+       "price": 38900,
+       "due": "2026-10-17"
+      }
+     ]
+    },
+    {
+     "id": "PO-1203",
+     "supplier": "ferrow",
+     "date": "2026-10-01",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-PDB-R2",
+       "qty": 25,
+       "unit": "EA",
+       "price": 4800,
+       "due": "2026-10-14"
+      }
+     ]
+    },
+    {
+     "id": "PO-1205",
+     "supplier": "kestwick",
+     "date": "2026-10-01",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-NUT-M4",
+       "qty": 1200,
+       "unit": "EA",
+       "price": 4,
+       "due": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "id": "PO-1206",
+     "supplier": "calvane",
+     "date": "2026-10-02",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 24,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "id": "PO-1160",
+     "supplier": "calvane",
+     "date": "2026-08-28",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 20,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-09-12"
+      }
+     ]
+    },
+    {
+     "id": "PO-1209",
+     "supplier": "lanyard",
+     "date": "2026-10-03",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "LI-HRN-24",
+       "qty": 50,
+       "unit": "EA",
+       "price": 3100,
+       "due": "2026-10-17"
+      }
+     ]
+    },
+    {
+     "id": "PO-1211",
+     "supplier": "calvane",
+     "date": "2026-10-05",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 16,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "id": "PO-1196",
+     "supplier": "wexby",
+     "date": "2026-09-28",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "WX-WHL-200",
+       "qty": 80,
+       "unit": "EA",
+       "price": 2740,
+       "due": "2026-10-10"
+      }
+     ]
+    },
+    {
+     "id": "PO-1190",
+     "supplier": "kestwick",
+     "date": "2026-09-23",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-SCR-M412",
+       "qty": 800,
+       "unit": "EA",
+       "price": 6,
+       "due": "2026-10-05"
+      }
+     ]
+    },
+    {
+     "id": "PO-1207",
+     "supplier": "kestwick",
+     "date": "2026-10-02",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-SCR-M412",
+       "qty": 400,
+       "unit": "EA",
+       "price": 6,
+       "due": "2026-10-12"
+      },
+      {
+       "line": 2,
+       "item": "KF-NUT-M4",
+       "qty": 400,
+       "unit": "EA",
+       "price": 4,
+       "due": "2026-10-12"
+      }
+     ]
+    },
+    {
+     "id": "PO-1212",
+     "supplier": "kestwick",
+     "date": "2026-10-06",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-SCR-M412",
+       "qty": 500,
+       "unit": "EA",
+       "price": 6,
+       "due": "2026-10-16"
+      }
+     ]
+    },
+    {
+     "id": "PO-1213",
+     "supplier": "ferrow",
+     "date": "2026-10-06",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-MB-R4",
+       "qty": 11,
+       "unit": "EA",
+       "price": 18500,
+       "due": "2026-10-20"
+      }
+     ]
+    },
+    {
+     "id": "PO-1215",
+     "supplier": "brightcut",
+     "date": "2026-10-07",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-BRK-12",
+       "qty": 300,
+       "unit": "EA",
+       "price": 680,
+       "due": "2026-10-21"
+      }
+     ]
+    },
+    {
+     "id": "PO-1216",
+     "supplier": "lanyard",
+     "date": "2026-10-08",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "LI-HRN-24",
+       "qty": 60,
+       "unit": "EA",
+       "price": 3100,
+       "due": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "id": "PO-1217",
+     "supplier": "ferrow",
+     "date": "2026-10-08",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-PDB-R2",
+       "qty": 20,
+       "unit": "EA",
+       "price": 4800,
+       "due": "2026-10-22"
+      }
+     ]
+    },
+    {
+     "id": "PO-1218",
+     "supplier": "brightcut",
+     "date": "2026-10-09",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 20,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "id": "PO-1219",
+     "supplier": "tarnwell",
+     "date": "2026-10-09",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "TM-BL48-220",
+       "qty": 30,
+       "unit": "EA",
+       "price": 14200,
+       "due": "2026-10-23"
+      }
+     ]
+    },
+    {
+     "id": "PO-1220",
+     "supplier": "calvane",
+     "date": "2026-10-10",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 20,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "PO-1221",
+     "supplier": "brightcut",
+     "date": "2026-10-12",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 10,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-10-26"
+      },
+      {
+       "line": 2,
+       "item": "BC-BRK-12",
+       "qty": 120,
+       "unit": "EA",
+       "price": 680,
+       "due": "2026-10-26"
+      }
+     ]
+    },
+    {
+     "id": "PO-1222",
+     "supplier": "ostrander",
+     "date": "2026-10-13",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "OC-LFP-2420",
+       "qty": 12,
+       "unit": "EA",
+       "price": 41000,
+       "due": "2026-10-27"
+      }
+     ]
+    },
+    {
+     "id": "PO-1161",
+     "supplier": "tarnwell",
+     "date": "2026-08-25",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "TM-BL48-220",
+       "qty": 20,
+       "unit": "EA",
+       "price": 14200,
+       "due": "2026-09-08"
+      }
+     ]
+    },
+    {
+     "id": "PO-1162",
+     "supplier": "ostrander",
+     "date": "2026-08-26",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "OC-LFP-2420",
+       "qty": 8,
+       "unit": "EA",
+       "price": 41000,
+       "due": "2026-09-09"
+      }
+     ]
+    },
+    {
+     "id": "PO-1163",
+     "supplier": "wexby",
+     "date": "2026-08-27",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "WX-WHL-200",
+       "qty": 120,
+       "unit": "EA",
+       "price": 2740,
+       "due": "2026-09-10"
+      }
+     ]
+    },
+    {
+     "id": "PO-1164",
+     "supplier": "ferrow",
+     "date": "2026-08-28",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-MB-R4",
+       "qty": 10,
+       "unit": "EA",
+       "price": 18500,
+       "due": "2026-09-11"
+      },
+      {
+       "line": 2,
+       "item": "FC-PDB-R2",
+       "qty": 10,
+       "unit": "EA",
+       "price": 4800,
+       "due": "2026-09-11"
+      }
+     ]
+    },
+    {
+     "id": "PO-1165",
+     "supplier": "brightcut",
+     "date": "2026-08-29",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-BRK-12",
+       "qty": 200,
+       "unit": "EA",
+       "price": 680,
+       "due": "2026-09-12"
+      }
+     ]
+    },
+    {
+     "id": "PO-1166",
+     "supplier": "lanyard",
+     "date": "2026-08-30",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "LI-HRN-24",
+       "qty": 30,
+       "unit": "EA",
+       "price": 3100,
+       "due": "2026-09-13"
+      }
+     ]
+    },
+    {
+     "id": "PO-1167",
+     "supplier": "kestwick",
+     "date": "2026-09-01",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-SCR-M412",
+       "qty": 1000,
+       "unit": "EA",
+       "price": 6,
+       "due": "2026-09-12"
+      }
+     ]
+    },
+    {
+     "id": "PO-1168",
+     "supplier": "scarrow",
+     "date": "2026-09-02",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "SC-CM-NX8",
+       "qty": 4,
+       "unit": "EA",
+       "price": 38900,
+       "due": "2026-09-16"
+      }
+     ]
+    },
+    {
+     "id": "PO-1169",
+     "supplier": "calvane",
+     "date": "2026-09-03",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 12,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-09-17"
+      }
+     ]
+    },
+    {
+     "id": "PO-1170",
+     "supplier": "tarnwell",
+     "date": "2026-09-04",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "TM-BL48-220",
+       "qty": 24,
+       "unit": "EA",
+       "price": 14200,
+       "due": "2026-09-18"
+      }
+     ]
+    },
+    {
+     "id": "PO-1171",
+     "supplier": "ostrander",
+     "date": "2026-09-05",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "OC-LFP-2420",
+       "qty": 6,
+       "unit": "EA",
+       "price": 41000,
+       "due": "2026-09-19"
+      }
+     ]
+    },
+    {
+     "id": "PO-1172",
+     "supplier": "brightcut",
+     "date": "2026-09-06",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 15,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-09-20"
+      }
+     ]
+    },
+    {
+     "id": "PO-1173",
+     "supplier": "wexby",
+     "date": "2026-09-08",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "WX-WHL-200",
+       "qty": 60,
+       "unit": "EA",
+       "price": 2740,
+       "due": "2026-09-22"
+      }
+     ]
+    },
+    {
+     "id": "PO-1174",
+     "supplier": "kestwick",
+     "date": "2026-09-09",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "KF-SCR-M412",
+       "qty": 300,
+       "unit": "EA",
+       "price": 6,
+       "due": "2026-09-20"
+      },
+      {
+       "line": 2,
+       "item": "KF-NUT-M4",
+       "qty": 300,
+       "unit": "EA",
+       "price": 4,
+       "due": "2026-09-20"
+      }
+     ]
+    },
+    {
+     "id": "PO-1175",
+     "supplier": "ferrow",
+     "date": "2026-09-10",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "FC-MB-R4",
+       "qty": 8,
+       "unit": "EA",
+       "price": 18500,
+       "due": "2026-09-24"
+      }
+     ]
+    },
+    {
+     "id": "PO-1176",
+     "supplier": "lanyard",
+     "date": "2026-09-11",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "LI-CON-8P",
+       "qty": 200,
+       "unit": "EA",
+       "price": 420,
+       "due": "2026-09-25"
+      }
+     ]
+    },
+    {
+     "id": "PO-1177",
+     "supplier": "calvane",
+     "date": "2026-09-12",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "CV-CAM-8MP-A",
+       "qty": 10,
+       "unit": "EA",
+       "price": 9650,
+       "due": "2026-09-26"
+      }
+     ]
+    },
+    {
+     "id": "PO-1178",
+     "supplier": "scarrow",
+     "date": "2026-09-13",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "SC-CM-NX8",
+       "qty": 4,
+       "unit": "EA",
+       "price": 38900,
+       "due": "2026-09-27"
+      }
+     ]
+    },
+    {
+     "id": "PO-1179",
+     "supplier": "brightcut",
+     "date": "2026-09-15",
+     "freight": "not on the order",
+     "freight_estimate": null,
+     "tax": "none",
+     "lines": [
+      {
+       "line": 1,
+       "item": "BC-ENC-AL3",
+       "qty": 12,
+       "unit": "EA",
+       "price": 23800,
+       "due": "2026-09-29"
+      },
+      {
+       "line": 2,
+       "item": "BC-BRK-12",
+       "qty": 100,
+       "unit": "EA",
+       "price": 680,
+       "due": "2026-09-29"
+      }
+     ]
+    }
+   ],
+   "receipts": [
+    {
+     "id": "RC-5390",
+     "po": "PO-1149",
+     "line": 1,
+     "qty": 40,
+     "date": "2026-08-21"
+    },
+    {
+     "id": "RC-5391",
+     "po": "PO-1150",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-08-19"
+    },
+    {
+     "id": "RC-5521",
+     "po": "PO-1188",
+     "line": 1,
+     "qty": 36,
+     "date": "2026-10-07"
+    },
+    {
+     "id": "RC-5524",
+     "po": "PO-1191",
+     "line": 1,
+     "qty": 10,
+     "date": "2026-10-08"
+    },
+    {
+     "id": "RC-5527",
+     "po": "PO-1193",
+     "line": 1,
+     "qty": 120,
+     "date": "2026-10-09"
+    },
+    {
+     "id": "RC-5531",
+     "po": "PO-1195",
+     "line": 1,
+     "qty": 12,
+     "date": "2026-10-10"
+    },
+    {
+     "id": "RC-5536",
+     "po": "PO-1199",
+     "line": 1,
+     "qty": 30,
+     "date": "2026-10-13"
+    },
+    {
+     "id": "RC-5540",
+     "po": "PO-1201",
+     "line": 1,
+     "qty": 6,
+     "date": "2026-10-14"
+    },
+    {
+     "id": "RC-5551",
+     "po": "PO-1214",
+     "line": 1,
+     "qty": 6,
+     "date": "2026-10-17"
+    },
+    {
+     "id": "RC-5542",
+     "po": "PO-1203",
+     "line": 1,
+     "qty": 25,
+     "date": "2026-10-14"
+    },
+    {
+     "id": "RC-5544",
+     "po": "PO-1205",
+     "line": 1,
+     "qty": 1200,
+     "date": "2026-10-12"
+    },
+    {
+     "id": "RC-5546",
+     "po": "PO-1206",
+     "line": 1,
+     "qty": 24,
+     "date": "2026-10-15"
+    },
+    {
+     "id": "RC-5420",
+     "po": "PO-1160",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-09-11"
+    },
+    {
+     "id": "RC-5549",
+     "po": "PO-1209",
+     "line": 1,
+     "qty": 40,
+     "date": "2026-10-17"
+    },
+    {
+     "id": "RC-5553",
+     "po": "PO-1211",
+     "line": 1,
+     "qty": 16,
+     "date": "2026-10-20"
+    },
+    {
+     "id": "RC-5533",
+     "po": "PO-1196",
+     "line": 1,
+     "qty": 80,
+     "date": "2026-10-10"
+    },
+    {
+     "id": "RC-5523",
+     "po": "PO-1190",
+     "line": 1,
+     "qty": 800,
+     "date": "2026-10-05"
+    },
+    {
+     "id": "RC-5547",
+     "po": "PO-1207",
+     "line": 1,
+     "qty": 400,
+     "date": "2026-10-12"
+    },
+    {
+     "id": "RC-5548",
+     "po": "PO-1207",
+     "line": 2,
+     "qty": 400,
+     "date": "2026-10-12"
+    },
+    {
+     "id": "RC-5554",
+     "po": "PO-1212",
+     "line": 1,
+     "qty": 500,
+     "date": "2026-10-16"
+    },
+    {
+     "id": "RC-5556",
+     "po": "PO-1213",
+     "line": 1,
+     "qty": 11,
+     "date": "2026-10-20"
+    },
+    {
+     "id": "RC-5558",
+     "po": "PO-1215",
+     "line": 1,
+     "qty": 300,
+     "date": "2026-10-21"
+    },
+    {
+     "id": "RC-5559",
+     "po": "PO-1216",
+     "line": 1,
+     "qty": 60,
+     "date": "2026-10-22"
+    },
+    {
+     "id": "RC-5560",
+     "po": "PO-1217",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-10-22"
+    },
+    {
+     "id": "RC-5561",
+     "po": "PO-1218",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-10-23"
+    },
+    {
+     "id": "RC-5562",
+     "po": "PO-1219",
+     "line": 1,
+     "qty": 30,
+     "date": "2026-10-23"
+    },
+    {
+     "id": "RC-5563",
+     "po": "PO-1220",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-10-24"
+    },
+    {
+     "id": "RC-5564",
+     "po": "PO-1221",
+     "line": 1,
+     "qty": 10,
+     "date": "2026-10-26"
+    },
+    {
+     "id": "RC-5565",
+     "po": "PO-1221",
+     "line": 2,
+     "qty": 120,
+     "date": "2026-10-26"
+    },
+    {
+     "id": "RC-5566",
+     "po": "PO-1222",
+     "line": 1,
+     "qty": 12,
+     "date": "2026-10-27"
+    },
+    {
+     "id": "RC-5422",
+     "po": "PO-1161",
+     "line": 1,
+     "qty": 20,
+     "date": "2026-09-08"
+    },
+    {
+     "id": "RC-5423",
+     "po": "PO-1162",
+     "line": 1,
+     "qty": 8,
+     "date": "2026-09-09"
+    },
+    {
+     "id": "RC-5424",
+     "po": "PO-1163",
+     "line": 1,
+     "qty": 120,
+     "date": "2026-09-10"
+    },
+    {
+     "id": "RC-5425",
+     "po": "PO-1164",
+     "line": 1,
+     "qty": 10,
+     "date": "2026-09-11"
+    },
+    {
+     "id": "RC-5426",
+     "po": "PO-1164",
+     "line": 2,
+     "qty": 10,
+     "date": "2026-09-11"
+    },
+    {
+     "id": "RC-5427",
+     "po": "PO-1165",
+     "line": 1,
+     "qty": 200,
+     "date": "2026-09-12"
+    },
+    {
+     "id": "RC-5428",
+     "po": "PO-1166",
+     "line": 1,
+     "qty": 30,
+     "date": "2026-09-13"
+    },
+    {
+     "id": "RC-5429",
+     "po": "PO-1167",
+     "line": 1,
+     "qty": 1000,
+     "date": "2026-09-12"
+    },
+    {
+     "id": "RC-5430",
+     "po": "PO-1168",
+     "line": 1,
+     "qty": 4,
+     "date": "2026-09-16"
+    },
+    {
+     "id": "RC-5431",
+     "po": "PO-1169",
+     "line": 1,
+     "qty": 12,
+     "date": "2026-09-17"
+    },
+    {
+     "id": "RC-5432",
+     "po": "PO-1170",
+     "line": 1,
+     "qty": 18,
+     "date": "2026-09-18"
+    },
+    {
+     "id": "RC-5433",
+     "po": "PO-1171",
+     "line": 1,
+     "qty": 6,
+     "date": "2026-09-19"
+    },
+    {
+     "id": "RC-5434",
+     "po": "PO-1172",
+     "line": 1,
+     "qty": 15,
+     "date": "2026-09-20"
+    },
+    {
+     "id": "RC-5435",
+     "po": "PO-1173",
+     "line": 1,
+     "qty": 60,
+     "date": "2026-09-22"
+    },
+    {
+     "id": "RC-5436",
+     "po": "PO-1174",
+     "line": 1,
+     "qty": 300,
+     "date": "2026-09-20"
+    },
+    {
+     "id": "RC-5437",
+     "po": "PO-1174",
+     "line": 2,
+     "qty": 300,
+     "date": "2026-09-20"
+    },
+    {
+     "id": "RC-5438",
+     "po": "PO-1175",
+     "line": 1,
+     "qty": 8,
+     "date": "2026-09-24"
+    },
+    {
+     "id": "RC-5439",
+     "po": "PO-1176",
+     "line": 1,
+     "qty": 200,
+     "date": "2026-09-25"
+    },
+    {
+     "id": "RC-5440",
+     "po": "PO-1177",
+     "line": 1,
+     "qty": 10,
+     "date": "2026-09-26"
+    },
+    {
+     "id": "RC-5441",
+     "po": "PO-1178",
+     "line": 1,
+     "qty": 4,
+     "date": "2026-09-27"
+    },
+    {
+     "id": "RC-5442",
+     "po": "PO-1179",
+     "line": 1,
+     "qty": 12,
+     "date": "2026-09-29"
+    },
+    {
+     "id": "RC-5443",
+     "po": "PO-1179",
+     "line": 2,
+     "qty": 100,
+     "date": "2026-09-29"
+    }
+   ],
+   "price_changes": [
+    {
+     "supplier": "brightcut",
+     "item": "BC-ENC-AL3",
+     "po": "PO-1218",
+     "old": 23800,
+     "new": 25100,
+     "from": "2026-10-09",
+     "logged_by": "purchasing",
+     "logged": "2026-10-15",
+     "why": "aluminum surcharge on PO-1218, agreed by phone"
+    }
+   ],
+   "returns": [
+    {
+     "id": "RMA-CV-3317",
+     "supplier": "calvane",
+     "item": "CV-CAM-8MP-A",
+     "qty": 2,
+     "date": "2026-10-03",
+     "po": "PO-1160",
+     "amount": 19300,
+     "why": "two modules failed first power-on"
+    }
+   ],
+   "bills_entered": [
+    {
+     "supplier": "brightcut",
+     "number": "BM-7730",
+     "date": "2026-08-27",
+     "po": "PO-1149",
+     "po_line": 1,
+     "qty": 40,
+     "amount": 952000,
+     "status": "paid"
+    },
+    {
+     "supplier": "ferrow",
+     "number": "FC-2204",
+     "date": "2026-08-25",
+     "po": "PO-1150",
+     "po_line": 1,
+     "qty": 20,
+     "amount": 96000,
+     "status": "paid"
+    },
+    {
+     "supplier": "tarnwell",
+     "number": "TM-24302",
+     "date": "2026-09-09",
+     "po": "PO-1161",
+     "po_line": 1,
+     "qty": 20,
+     "amount": 284000,
+     "status": "paid"
+    },
+    {
+     "supplier": "wexby",
+     "number": "WX-3262",
+     "date": "2026-09-11",
+     "po": "PO-1163",
+     "po_line": 1,
+     "qty": 120,
+     "amount": 328800,
+     "status": "paid"
+    },
+    {
+     "supplier": "ferrow",
+     "number": "FC-2240",
+     "date": "2026-09-12",
+     "po": "PO-1164",
+     "po_line": 1,
+     "qty": 10,
+     "amount": 185000,
+     "status": "paid"
+    },
+    {
+     "supplier": "ferrow",
+     "number": "FC-2240",
+     "date": "2026-09-12",
+     "po": "PO-1164",
+     "po_line": 2,
+     "qty": 10,
+     "amount": 48000,
+     "status": "paid"
+    },
+    {
+     "supplier": "brightcut",
+     "number": "BM-7741",
+     "date": "2026-09-13",
+     "po": "PO-1165",
+     "po_line": 1,
+     "qty": 200,
+     "amount": 136000,
+     "status": "paid"
+    },
+    {
+     "supplier": "lanyard",
+     "number": "LI-60310",
+     "date": "2026-09-14",
+     "po": "PO-1166",
+     "po_line": 1,
+     "qty": 30,
+     "amount": 91500,
+     "status": "paid"
+    },
+    {
+     "supplier": "kestwick",
+     "number": "KF-11102",
+     "date": "2026-09-13",
+     "po": "PO-1167",
+     "po_line": 1,
+     "qty": 1000,
+     "amount": 6000,
+     "status": "paid"
+    },
+    {
+     "supplier": "scarrow",
+     "number": "SCX-1120",
+     "date": "2026-09-17",
+     "po": "PO-1168",
+     "po_line": 1,
+     "qty": 4,
+     "amount": 155600,
+     "status": "paid"
+    },
+    {
+     "supplier": "calvane",
+     "number": "CV-55010",
+     "date": "2026-09-18",
+     "po": "PO-1169",
+     "po_line": 1,
+     "qty": 12,
+     "amount": 115800,
+     "status": "paid"
+    },
+    {
+     "supplier": "wexby",
+     "number": "WX-3290",
+     "date": "2026-09-23",
+     "po": "PO-1173",
+     "po_line": 1,
+     "qty": 60,
+     "amount": 164400,
+     "status": "paid"
+    },
+    {
+     "supplier": "kestwick",
+     "number": "KF-11140",
+     "date": "2026-09-21",
+     "po": "PO-1174",
+     "po_line": 1,
+     "qty": 300,
+     "amount": 1800,
+     "status": "paid"
+    },
+    {
+     "supplier": "kestwick",
+     "number": "KF-11140",
+     "date": "2026-09-21",
+     "po": "PO-1174",
+     "po_line": 2,
+     "qty": 300,
+     "amount": 1200,
+     "status": "paid"
+    },
+    {
+     "supplier": "ferrow",
+     "number": "FC-2266",
+     "date": "2026-09-25",
+     "po": "PO-1175",
+     "po_line": 1,
+     "qty": 8,
+     "amount": 148000,
+     "status": "paid"
+    },
+    {
+     "supplier": "lanyard",
+     "number": "LI-60366",
+     "date": "2026-09-26",
+     "po": "PO-1176",
+     "po_line": 1,
+     "qty": 200,
+     "amount": 84000,
+     "status": "paid"
+    },
+    {
+     "supplier": "calvane",
+     "number": "CV-55041",
+     "date": "2026-09-27",
+     "po": "PO-1177",
+     "po_line": 1,
+     "qty": 10,
+     "amount": 96500,
+     "status": "paid"
+    },
+    {
+     "supplier": "scarrow",
+     "number": "SCX-1141",
+     "date": "2026-09-28",
+     "po": "PO-1178",
+     "po_line": 1,
+     "qty": 4,
+     "amount": 155600,
+     "status": "paid"
+    },
+    {
+     "supplier": "brightcut",
+     "number": "BM-7778",
+     "date": "2026-09-30",
+     "po": "PO-1179",
+     "po_line": 1,
+     "qty": 12,
+     "amount": 285600,
+     "status": "paid"
+    },
+    {
+     "supplier": "brightcut",
+     "number": "BM-7778",
+     "date": "2026-09-30",
+     "po": "PO-1179",
+     "po_line": 2,
+     "qty": 100,
+     "amount": 68000,
+     "status": "paid"
+    },
+    {
+     "supplier": "calvane",
+     "number": "CV-54980",
+     "date": "2026-09-14",
+     "po": "PO-1160",
+     "po_line": 1,
+     "qty": 20,
+     "amount": 193000,
+     "status": "paid"
+    }
+   ],
+   "sales_orders": [
+    {
+     "id": "SO-410",
+     "customer": "aster",
+     "date": "2026-08-30",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-421",
+     "customer": "kettleby",
+     "date": "2026-09-30",
+     "lines": [
+      {
+       "line": 1,
+       "product": "HR-1",
+       "qty": 1,
+       "price": 1250000
+      }
+     ]
+    },
+    {
+     "id": "SO-424",
+     "customer": "brackwell",
+     "date": "2026-10-02",
+     "lines": [
+      {
+       "line": 1,
+       "product": "HR-1",
+       "qty": 3,
+       "price": 1250000
+      }
+     ]
+    },
+    {
+     "id": "SO-418",
+     "customer": "ashlowe",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000
+      }
+     ]
+    },
+    {
+     "id": "SO-419",
+     "customer": "aster",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 3,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-420",
+     "customer": "pellnorris",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "HR-1",
+       "qty": 2,
+       "price": 1250000
+      }
+     ]
+    },
+    {
+     "id": "SO-422",
+     "customer": "pembrell",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000
+      }
+     ]
+    },
+    {
+     "id": "SO-423",
+     "customer": "ashlowe",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-425",
+     "customer": "kettleby",
+     "date": "2026-09-26",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-415",
+     "customer": "brackwell",
+     "date": "2026-09-10",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-416",
+     "customer": "pellnorris",
+     "date": "2026-09-12",
+     "lines": [
+      {
+       "line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000
+      }
+     ]
+    },
+    {
+     "id": "SO-405",
+     "customer": "ashlowe",
+     "date": "2026-08-20",
+     "lines": [
+      {
+       "line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000
+      }
+     ]
+    },
+    {
+     "id": "SO-406",
+     "customer": "pembrell",
+     "date": "2026-08-21",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-407",
+     "customer": "kettleby",
+     "date": "2026-08-22",
+     "lines": [
+      {
+       "line": 1,
+       "product": "HR-1",
+       "qty": 1,
+       "price": 1250000
+      }
+     ]
+    },
+    {
+     "id": "SO-408",
+     "customer": "pellnorris",
+     "date": "2026-08-23",
+     "lines": [
+      {
+       "line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000
+      }
+     ]
+    },
+    {
+     "id": "SO-409",
+     "customer": "brackwell",
+     "date": "2026-08-24",
+     "lines": [
+      {
+       "line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000
+      }
+     ]
+    }
+   ],
+   "deliveries": [
+    {
+     "id": "DL-810",
+     "so": "SO-410",
+     "line": 1,
+     "qty": 2,
+     "date": "2026-09-04"
+    },
+    {
+     "id": "DL-822",
+     "so": "SO-421",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-10-27"
+    },
+    {
+     "id": "DL-825",
+     "so": "SO-424",
+     "line": 1,
+     "qty": 2,
+     "date": "2026-10-16"
+    },
+    {
+     "id": "DL-830",
+     "so": "SO-418",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-10-03"
+    },
+    {
+     "id": "DL-831",
+     "so": "SO-419",
+     "line": 1,
+     "qty": 3,
+     "date": "2026-10-06"
+    },
+    {
+     "id": "DL-832",
+     "so": "SO-420",
+     "line": 1,
+     "qty": 2,
+     "date": "2026-10-08"
+    },
+    {
+     "id": "DL-833",
+     "so": "SO-422",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-10-14"
+    },
+    {
+     "id": "DL-834",
+     "so": "SO-423",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-10-15"
+    },
+    {
+     "id": "DL-835",
+     "so": "SO-425",
+     "line": 1,
+     "qty": 2,
+     "date": "2026-10-21"
+    },
+    {
+     "id": "DL-815",
+     "so": "SO-415",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-09-18"
+    },
+    {
+     "id": "DL-816",
+     "so": "SO-416",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-09-21"
+    },
+    {
+     "id": "DL-805",
+     "so": "SO-405",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-08-31"
+    },
+    {
+     "id": "DL-806",
+     "so": "SO-406",
+     "line": 1,
+     "qty": 2,
+     "date": "2026-09-02"
+    },
+    {
+     "id": "DL-807",
+     "so": "SO-407",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-09-05"
+    },
+    {
+     "id": "DL-808",
+     "so": "SO-408",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-09-08"
+    },
+    {
+     "id": "DL-809",
+     "so": "SO-409",
+     "line": 1,
+     "qty": 1,
+     "date": "2026-09-09"
+    }
+   ],
+   "invoices_out": [
+    {
+     "id": "INV-2041",
+     "customer": "aster",
+     "so": "SO-410",
+     "date": "2026-09-05",
+     "total": 168000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000,
+       "amount": 168000
+      }
+     ]
+    },
+    {
+     "id": "INV-2063",
+     "customer": "kettleby",
+     "so": "SO-421",
+     "date": "2026-10-20",
+     "total": 1250000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "HR-1",
+       "qty": 1,
+       "price": 1250000,
+       "amount": 1250000
+      }
+     ]
+    },
+    {
+     "id": "INV-2066",
+     "customer": "brackwell",
+     "so": "SO-424",
+     "date": "2026-10-17",
+     "total": 3750000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "HR-1",
+       "qty": 3,
+       "price": 1250000,
+       "amount": 3750000
+      }
+     ]
+    },
+    {
+     "id": "INV-2060",
+     "customer": "ashlowe",
+     "so": "SO-418",
+     "date": "2026-10-03",
+     "total": 600000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000,
+       "amount": 600000
+      }
+     ]
+    },
+    {
+     "id": "INV-2061",
+     "customer": "aster",
+     "so": "SO-419",
+     "date": "2026-10-07",
+     "total": 252000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 3,
+       "price": 84000,
+       "amount": 252000
+      }
+     ]
+    },
+    {
+     "id": "INV-2062",
+     "customer": "pellnorris",
+     "so": "SO-420",
+     "date": "2026-10-09",
+     "total": 2500000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "HR-1",
+       "qty": 2,
+       "price": 1250000,
+       "amount": 2500000
+      }
+     ]
+    },
+    {
+     "id": "INV-2064",
+     "customer": "pembrell",
+     "so": "SO-422",
+     "date": "2026-10-14",
+     "total": 600000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000,
+       "amount": 600000
+      }
+     ]
+    },
+    {
+     "id": "INV-2065",
+     "customer": "ashlowe",
+     "so": "SO-423",
+     "date": "2026-10-15",
+     "total": 84000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000,
+       "amount": 84000
+      }
+     ]
+    },
+    {
+     "id": "INV-2067",
+     "customer": "kettleby",
+     "so": "SO-425",
+     "date": "2026-10-22",
+     "total": 168000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000,
+       "amount": 168000
+      }
+     ]
+    },
+    {
+     "id": "INV-2052",
+     "customer": "brackwell",
+     "so": "SO-415",
+     "date": "2026-09-19",
+     "total": 84000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000,
+       "amount": 84000
+      }
+     ]
+    },
+    {
+     "id": "INV-2055",
+     "customer": "pellnorris",
+     "so": "SO-416",
+     "date": "2026-09-22",
+     "total": 600000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000,
+       "amount": 600000
+      }
+     ]
+    },
+    {
+     "id": "INV-2030",
+     "customer": "ashlowe",
+     "so": "SO-405",
+     "date": "2026-09-01",
+     "total": 600000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000,
+       "amount": 600000
+      }
+     ]
+    },
+    {
+     "id": "INV-2033",
+     "customer": "pembrell",
+     "so": "SO-406",
+     "date": "2026-09-03",
+     "total": 168000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 2,
+       "price": 84000,
+       "amount": 168000
+      }
+     ]
+    },
+    {
+     "id": "INV-2036",
+     "customer": "kettleby",
+     "so": "SO-407",
+     "date": "2026-09-05",
+     "total": 1250000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "HR-1",
+       "qty": 1,
+       "price": 1250000,
+       "amount": 1250000
+      }
+     ]
+    },
+    {
+     "id": "INV-2038",
+     "customer": "pellnorris",
+     "so": "SO-408",
+     "date": "2026-09-08",
+     "total": 84000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "SPK-1",
+       "qty": 1,
+       "price": 84000,
+       "amount": 84000
+      }
+     ]
+    },
+    {
+     "id": "INV-2039",
+     "customer": "brackwell",
+     "so": "SO-409",
+     "date": "2026-09-09",
+     "total": 600000,
+     "due_days": 30,
+     "lines": [
+      {
+       "so_line": 1,
+       "product": "EVAL-2W",
+       "qty": 1,
+       "price": 600000,
+       "amount": 600000
+      }
+     ]
+    }
+   ],
+   "bank_lines": [
+    {
+     "id": "BK-1035",
+     "date": "2026-10-30",
+     "from": "pellnorris",
+     "amount": 2380000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1036",
+     "date": "2026-10-29",
+     "from": "ashlowe",
+     "amount": 600000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1037",
+     "date": "2026-10-31",
+     "from": "aster",
+     "amount": 252000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1038",
+     "date": "2026-10-28",
+     "from": "pembrell",
+     "amount": 600000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1039",
+     "date": "2026-10-30",
+     "from": "ashlowe",
+     "amount": 84000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1040",
+     "date": "2026-10-31",
+     "from": "kettleby",
+     "amount": 168000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1041",
+     "date": "2026-10-16",
+     "from": "brackwell",
+     "amount": 84000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-1042",
+     "date": "2026-10-20",
+     "from": "pellnorris",
+     "amount": 600000,
+     "applied_to": null
+    },
+    {
+     "id": "BK-0925",
+     "date": "2026-09-24",
+     "from": "ashlowe",
+     "amount": 600000,
+     "applied_to": "INV-2030"
+    },
+    {
+     "id": "BK-0926",
+     "date": "2026-09-25",
+     "from": "pembrell",
+     "amount": 138000,
+     "applied_to": "INV-2033"
+    },
+    {
+     "id": "BK-0927",
+     "date": "2026-09-26",
+     "from": "kettleby",
+     "amount": 1250000,
+     "applied_to": "INV-2036"
+    },
+    {
+     "id": "BK-0928",
+     "date": "2026-09-27",
+     "from": "pellnorris",
+     "amount": 84000,
+     "applied_to": "INV-2038"
+    },
+    {
+     "id": "BK-0929",
+     "date": "2026-09-29",
+     "from": "brackwell",
+     "amount": 600000,
+     "applied_to": "INV-2039"
+    },
+    {
+     "id": "BK-0930",
+     "date": "2026-09-28",
+     "from": "aster",
+     "amount": 168000,
+     "applied_to": "INV-2041"
+    }
+   ]
+  },
+  "docs": [
+   {
+    "doc": "D-1001",
+    "kind": "supplier",
+    "from": "ostrander",
+    "from_name": "Ostrander Cells",
+    "format": "printed",
+    "received": "2026-10-09",
+    "invoice": null
+   },
+   {
+    "doc": "D-1002",
+    "kind": "supplier",
+    "from": "tarnwell",
+    "from_name": "Tarnwell Motion",
+    "format": "printed",
+    "received": "2026-10-08",
+    "invoice": null
+   },
+   {
+    "doc": "D-1003",
+    "kind": "supplier",
+    "from": "wexby",
+    "from_name": "Wexby Wheel Co.",
+    "format": "email",
+    "received": "2026-10-10",
+    "invoice": null
+   },
+   {
+    "doc": "D-1004",
+    "kind": "supplier",
+    "from": "ferrow",
+    "from_name": "Ferrow Circuits",
+    "format": "printed",
+    "received": "2026-10-11",
+    "invoice": null
+   },
+   {
+    "doc": "D-1005",
+    "kind": "supplier",
+    "from": "ferrow",
+    "from_name": "Ferrow Circuits",
+    "format": "email",
+    "received": "2026-10-21",
+    "invoice": null
+   },
+   {
+    "doc": "D-1006",
+    "kind": "supplier",
+    "from": "brightcut",
+    "from_name": "Brightcut Metalworks",
+    "format": "printed",
+    "received": "2026-10-12",
+    "invoice": null
+   },
+   {
+    "doc": "D-1007",
+    "kind": "supplier",
+    "from": "lanyard",
+    "from_name": "Lanyard Interconnect",
+    "format": "email",
+    "received": "2026-10-13",
+    "invoice": null
+   },
+   {
+    "doc": "D-1008",
+    "kind": "supplier",
+    "from": "scarrow",
+    "from_name": "Scarrow Compute",
+    "format": "sheet",
+    "received": "2026-10-18",
+    "invoice": null
+   },
+   {
+    "doc": "D-1009",
+    "kind": "supplier",
+    "from": "brightcut",
+    "from_name": "Brightcut Metalworks",
+    "format": "printed",
+    "received": "2026-10-14",
+    "invoice": null
+   },
+   {
+    "doc": "D-1010",
+    "kind": "supplier",
+    "from": "ferrow",
+    "from_name": "Ferrow Circuits",
+    "format": "printed",
+    "received": "2026-10-15",
+    "invoice": null
+   },
+   {
+    "doc": "D-1011",
+    "kind": "supplier",
+    "from": "kestwick",
+    "from_name": "Kestwick Fasteners",
+    "format": "sheet",
+    "received": "2026-10-13",
+    "invoice": null
+   },
+   {
+    "doc": "D-1012",
+    "kind": "supplier",
+    "from": "calvane",
+    "from_name": "Calvane Optics",
+    "format": "printed",
+    "received": "2026-10-16",
+    "invoice": null
+   },
+   {
+    "doc": "D-1013",
+    "kind": "supplier",
+    "from": "calvane",
+    "from_name": "Calvane Optics",
+    "format": "printed",
+    "received": "2026-10-17",
+    "invoice": null
+   },
+   {
+    "doc": "D-1014",
+    "kind": "supplier",
+    "from": "wexby",
+    "from_name": "Wexby Wheel Co.",
+    "format": "email",
+    "received": "2026-10-20",
+    "invoice": null
+   },
+   {
+    "doc": "D-1015",
+    "kind": "supplier",
+    "from": "scarrow",
+    "from_name": "Scarrow Compute",
+    "format": "printed",
+    "received": "2026-10-21",
+    "invoice": null
+   },
+   {
+    "doc": "D-1016",
+    "kind": "supplier",
+    "from": "ostrander",
+    "from_name": "Ostrander Cells",
+    "format": "email",
+    "received": "2026-10-22",
+    "invoice": null
+   },
+   {
+    "doc": "D-1017",
+    "kind": "supplier",
+    "from": "tallowmere",
+    "from_name": "Tallowmere Workshops",
+    "format": "printed",
+    "received": "2026-10-01",
+    "invoice": null
+   },
+   {
+    "doc": "D-1018",
+    "kind": "supplier",
+    "from": "partwise",
+    "from_name": "Partwise",
+    "format": "email",
+    "received": "2026-10-02",
+    "invoice": null
+   },
+   {
+    "doc": "D-1019",
+    "kind": "supplier",
+    "from": "booksmere",
+    "from_name": "Booksmere",
+    "format": "email",
+    "received": "2026-10-02",
+    "invoice": null
+   },
+   {
+    "doc": "D-1020",
+    "kind": "supplier",
+    "from": "lanyard",
+    "from_name": "Lanyard Interconnect",
+    "format": "printed",
+    "received": "2026-10-19",
+    "invoice": null
+   },
+   {
+    "doc": "D-1021",
+    "kind": "supplier",
+    "from": "lanyard",
+    "from_name": "Lanyard Interconnect",
+    "format": "printed",
+    "received": "2026-10-16",
+    "invoice": null
+   },
+   {
+    "doc": "D-1022",
+    "kind": "supplier",
+    "from": "ondrey",
+    "from_name": "Ondrey Supply",
+    "format": "printed",
+    "received": "2026-10-22",
+    "invoice": null
+   },
+   {
+    "doc": "D-1023",
+    "kind": "supplier",
+    "from": "wexby",
+    "from_name": "Wexby Wheel Co.",
+    "format": "email",
+    "received": "2026-10-12",
+    "invoice": null
+   },
+   {
+    "doc": "D-1024",
+    "kind": "supplier",
+    "from": "kestwick",
+    "from_name": "Kestwick Fasteners",
+    "format": "printed",
+    "received": "2026-10-14",
+    "invoice": null
+   },
+   {
+    "doc": "D-1025",
+    "kind": "supplier",
+    "from": "kestwick",
+    "from_name": "Kestwick Fasteners",
+    "format": "sheet",
+    "received": "2026-10-17",
+    "invoice": null
+   },
+   {
+    "doc": "D-1026",
+    "kind": "supplier",
+    "from": "ferrow",
+    "from_name": "Ferrow Circuits",
+    "format": "printed",
+    "received": "2026-10-21",
+    "invoice": null
+   },
+   {
+    "doc": "D-1027",
+    "kind": "supplier",
+    "from": "brightcut",
+    "from_name": "Brightcut Metalworks",
+    "format": "email",
+    "received": "2026-10-22",
+    "invoice": null
+   },
+   {
+    "doc": "D-1028",
+    "kind": "supplier",
+    "from": "lanyard",
+    "from_name": "Lanyard Interconnect",
+    "format": "printed",
+    "received": "2026-10-23",
+    "invoice": null
+   },
+   {
+    "doc": "D-1029",
+    "kind": "supplier",
+    "from": "ferrow",
+    "from_name": "Ferrow Circuits",
+    "format": "printed",
+    "received": "2026-10-23",
+    "invoice": null
+   },
+   {
+    "doc": "D-1030",
+    "kind": "supplier",
+    "from": "tarnwell",
+    "from_name": "Tarnwell Motion",
+    "format": "printed",
+    "received": "2026-10-24",
+    "invoice": null
+   },
+   {
+    "doc": "D-1031",
+    "kind": "supplier",
+    "from": "calvane",
+    "from_name": "Calvane Optics",
+    "format": "email",
+    "received": "2026-10-25",
+    "invoice": null
+   },
+   {
+    "doc": "D-1032",
+    "kind": "supplier",
+    "from": "brightcut",
+    "from_name": "Brightcut Metalworks",
+    "format": "printed",
+    "received": "2026-10-27",
+    "invoice": null
+   },
+   {
+    "doc": "D-1033",
+    "kind": "supplier",
+    "from": "ostrander",
+    "from_name": "Ostrander Cells",
+    "format": "sheet",
+    "received": "2026-10-28",
+    "invoice": null
+   },
+   {
+    "doc": "D-1034",
+    "kind": "supplier",
+    "from": "brightcut",
+    "from_name": "Brightcut Metalworks",
+    "format": "printed",
+    "received": "2026-10-24",
+    "invoice": null
+   },
+   {
+    "doc": "D-1035",
+    "kind": "payment",
+    "from": "pellnorris",
+    "from_name": "Pell & Norris Inspection",
+    "format": "email",
+    "received": "2026-10-30",
+    "invoice": null
+   },
+   {
+    "doc": "D-1036",
+    "kind": "payment",
+    "from": "ashlowe",
+    "from_name": "Ashlowe Field Services",
+    "format": "sheet",
+    "received": "2026-10-29",
+    "invoice": null
+   },
+   {
+    "doc": "D-1037",
+    "kind": "payment",
+    "from": "aster",
+    "from_name": "Aster Survey Co.",
+    "format": "email",
+    "received": "2026-10-31",
+    "invoice": null
+   },
+   {
+    "doc": "D-1038",
+    "kind": "payment",
+    "from": "pembrell",
+    "from_name": "Pembrell Facilities",
+    "format": "email",
+    "received": "2026-10-28",
+    "invoice": null
+   },
+   {
+    "doc": "D-1039",
+    "kind": "payment",
+    "from": "ashlowe",
+    "from_name": "Ashlowe Field Services",
+    "format": "sheet",
+    "received": "2026-10-30",
+    "invoice": null
+   },
+   {
+    "doc": "D-1040",
+    "kind": "payment",
+    "from": "kettleby",
+    "from_name": "Kettleby Labs",
+    "format": "email",
+    "received": "2026-10-31",
+    "invoice": null
+   },
+   {
+    "doc": "D-1041",
+    "kind": "payment",
+    "from": "brackwell",
+    "from_name": "Brackwell Utilities",
+    "format": "email",
+    "received": "2026-10-16",
+    "invoice": null
+   },
+   {
+    "doc": "D-1042",
+    "kind": "payment",
+    "from": "pellnorris",
+    "from_name": "Pell & Norris Inspection",
+    "format": "sheet",
+    "received": "2026-10-20",
+    "invoice": null
+   },
+   {
+    "doc": "O-INV-2060",
+    "kind": "own_invoice",
+    "from": "ashlowe",
+    "from_name": "Ashlowe Field Services",
+    "format": "own system",
+    "received": "2026-10-03",
+    "invoice": "INV-2060"
+   },
+   {
+    "doc": "O-INV-2061",
+    "kind": "own_invoice",
+    "from": "aster",
+    "from_name": "Aster Survey Co.",
+    "format": "own system",
+    "received": "2026-10-07",
+    "invoice": "INV-2061"
+   },
+   {
+    "doc": "O-INV-2062",
+    "kind": "own_invoice",
+    "from": "pellnorris",
+    "from_name": "Pell & Norris Inspection",
+    "format": "own system",
+    "received": "2026-10-09",
+    "invoice": "INV-2062"
+   },
+   {
+    "doc": "O-INV-2063",
+    "kind": "own_invoice",
+    "from": "kettleby",
+    "from_name": "Kettleby Labs",
+    "format": "own system",
+    "received": "2026-10-20",
+    "invoice": "INV-2063"
+   },
+   {
+    "doc": "O-INV-2064",
+    "kind": "own_invoice",
+    "from": "pembrell",
+    "from_name": "Pembrell Facilities",
+    "format": "own system",
+    "received": "2026-10-14",
+    "invoice": "INV-2064"
+   },
+   {
+    "doc": "O-INV-2065",
+    "kind": "own_invoice",
+    "from": "ashlowe",
+    "from_name": "Ashlowe Field Services",
+    "format": "own system",
+    "received": "2026-10-15",
+    "invoice": "INV-2065"
+   },
+   {
+    "doc": "O-INV-2066",
+    "kind": "own_invoice",
+    "from": "brackwell",
+    "from_name": "Brackwell Utilities",
+    "format": "own system",
+    "received": "2026-10-17",
+    "invoice": "INV-2066"
+   },
+   {
+    "doc": "O-INV-2067",
+    "kind": "own_invoice",
+    "from": "kettleby",
+    "from_name": "Kettleby Labs",
+    "format": "own system",
+    "received": "2026-10-22",
+    "invoice": "INV-2067"
+   }
+  ],
+  "reads": {
+   "D-1017": {
+    "from": "tallowmere",
+    "date": "2026-10-01",
+    "kind": "bill",
+    "number": "TW-2026-10",
+    "total": 640000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": null,
+      "qty": 1,
+      "unit": "MO",
+      "price": 640000,
+      "amount": 640000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1018": {
+    "from": "partwise",
+    "date": "2026-10-02",
+    "kind": "bill",
+    "number": "PW-88213",
+    "total": 49000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [],
+    "explanation_line": null,
+    "terms_days": 30,
+    "unsure": "the quantity on line 15"
+   },
+   "D-1019": {
+    "from": "booksmere",
+    "date": "2026-10-02",
+    "kind": "bill",
+    "number": "BS-41190",
+    "total": 32000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [],
+    "explanation_line": null,
+    "terms_days": 30,
+    "unsure": "the quantity on line 15"
+   },
+   "D-1002": {
+    "from": "tarnwell",
+    "date": "2026-10-08",
+    "kind": "bill",
+    "number": "TM-24417",
+    "total": 568000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1188",
+      "po_line": 1,
+      "item": "TM-BL48-220",
+      "qty": 40,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 568000
+     }
+    ],
+    "explanation_line": "4 units on backorder, expected to ship the week of November 2.",
+    "terms_days": 30
+   },
+   "D-1001": {
+    "from": "ostrander",
+    "date": "2026-10-09",
+    "kind": "bill",
+    "number": "OC-90231",
+    "total": 431000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1191",
+      "po_line": 1,
+      "item": "OC-LFP-2420",
+      "qty": 10,
+      "unit": "EA",
+      "price": 43100,
+      "amount": 431000
+     }
+    ],
+    "explanation_line": "Prices reflect the cell surcharge in effect from October 1.",
+    "terms_days": 30
+   },
+   "D-1003": {
+    "from": "wexby",
+    "date": "2026-10-10",
+    "kind": "bill",
+    "number": "WX-3308",
+    "total": 548000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1193",
+      "po_line": 1,
+      "item": "WX-WHL-200",
+      "qty": 200,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 548000
+     }
+    ],
+    "explanation_line": "Remaining 80 wheels to follow by October 30.",
+    "terms_days": 30
+   },
+   "D-1004": {
+    "from": "ferrow",
+    "date": "2026-10-11",
+    "kind": "bill",
+    "number": "FC-2291",
+    "total": 222000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1195",
+      "po_line": 1,
+      "item": "FC-MB-R4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1006": {
+    "from": "brightcut",
+    "date": "2026-10-12",
+    "kind": "bill",
+    "number": "BM-7811",
+    "total": 952000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1149",
+      "po_line": 1,
+      "item": "BC-ENC-AL3",
+      "qty": 40,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 952000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1023": {
+    "from": "wexby",
+    "date": "2026-10-12",
+    "kind": "bill",
+    "number": "WX-3315",
+    "total": 219200,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1196",
+      "po_line": 1,
+      "item": "WX-WHL-200",
+      "qty": 80,
+      "unit": "EA",
+      "price": 2740,
+      "amount": 219200
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1007": {
+    "from": "lanyard",
+    "date": "2026-10-13",
+    "kind": "bill",
+    "number": "LI-60418",
+    "total": 63000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": null,
+      "po_line": null,
+      "item": "LI-CON-8P",
+      "qty": 150,
+      "unit": "EA",
+      "price": 420,
+      "amount": 63000
+     }
+    ],
+    "explanation_line": "Rush order placed by phone on October 9, as discussed with your shop.",
+    "terms_days": 30
+   },
+   "D-1011": {
+    "from": "kestwick",
+    "date": "2026-10-13",
+    "kind": "bill",
+    "number": "KF-11207",
+    "total": 4800,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1205",
+      "po_line": 1,
+      "item": "KF-NUT-M4",
+      "qty": 12,
+      "unit": "BX",
+      "price": 400,
+      "amount": 4800
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1009": {
+    "from": "brightcut",
+    "date": "2026-10-14",
+    "kind": "bill",
+    "number": "BM-7836",
+    "total": 730500,
+    "freight": 16500,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1199",
+      "po_line": 1,
+      "item": "BC-ENC-AL3",
+      "qty": 30,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 714000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1024": {
+    "from": "kestwick",
+    "date": "2026-10-14",
+    "kind": "bill",
+    "number": "KF-11219",
+    "total": 7200,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1190",
+      "po_line": 1,
+      "item": "KF-SCR-M412",
+      "qty": 800,
+      "unit": "EA",
+      "price": 6,
+      "amount": 4800
+     },
+     {
+      "po": "PO-1207",
+      "po_line": 1,
+      "item": "KF-SCR-M412",
+      "qty": 400,
+      "unit": "EA",
+      "price": 6,
+      "amount": 2400
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1010": {
+    "from": "ferrow",
+    "date": "2026-10-15",
+    "kind": "bill",
+    "number": "FC-2318",
+    "total": 130500,
+    "freight": 0,
+    "tax": 10500,
+    "lines": [
+     {
+      "po": "PO-1203",
+      "po_line": 1,
+      "item": "FC-PDB-R2",
+      "qty": 25,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 120000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1012": {
+    "from": "calvane",
+    "date": "2026-10-16",
+    "kind": "bill",
+    "number": "CV-55120",
+    "total": 231600,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1206",
+      "po_line": 1,
+      "item": "CV-CAM-8MP-B",
+      "qty": 24,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 231600
+     }
+    ],
+    "explanation_line": "CV-CAM-8MP-B replaces CV-CAM-8MP-A, which has reached end of life. Same price and fit.",
+    "terms_days": 30,
+    "unsure": "line 17"
+   },
+   "D-1021": {
+    "from": "lanyard",
+    "date": "2026-10-16",
+    "kind": "packing_slip",
+    "number": "PS-60442",
+    "total": null,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1209",
+      "po_line": 1,
+      "item": "LI-HRN-24",
+      "qty": 50,
+      "unit": "EA",
+      "price": 0,
+      "amount": 0
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": null
+   },
+   "D-1041": {
+    "kind": "payment",
+    "from": "brackwell",
+    "date": "2026-10-16",
+    "amount": 84000,
+    "invoices_named": [
+     "INV-2052"
+    ],
+    "explanation_line": null
+   },
+   "D-1013": {
+    "from": "calvane",
+    "date": "2026-10-17",
+    "kind": "credit_note",
+    "number": "CV-CN-0098",
+    "total": -19300,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1160",
+      "po_line": 1,
+      "item": "CV-CAM-8MP-A",
+      "qty": -2,
+      "unit": "EA",
+      "price": 9650,
+      "amount": -19300
+     }
+    ],
+    "explanation_line": "Credit for RMA-CV-3317, two modules returned on October 3.",
+    "terms_days": 30
+   },
+   "D-1025": {
+    "from": "kestwick",
+    "date": "2026-10-17",
+    "kind": "bill",
+    "number": "KF-11236",
+    "total": 3000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [],
+    "explanation_line": null,
+    "terms_days": 30,
+    "unsure": "the part on line 2"
+   },
+   "D-1008": {
+    "from": "scarrow",
+    "date": "2026-10-18",
+    "kind": "bill",
+    "number": "SCX-1182",
+    "total": 233400,
+    "freight": 0,
+    "tax": 0,
+    "order_ambiguous": [
+     "PO-1201",
+     "PO-1214"
+    ],
+    "lines": [
+     {
+      "po": "PO-1201",
+      "po_line": 1,
+      "item": "SC-CM-NX8",
+      "qty": 6,
+      "unit": "EA",
+      "price": 38900,
+      "amount": 233400
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1020": {
+    "from": "lanyard",
+    "date": "2026-10-19",
+    "kind": "bill",
+    "number": "LI-60442",
+    "total": 155000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1209",
+      "po_line": 1,
+      "item": "LI-HRN-24",
+      "qty": 50,
+      "unit": "EA",
+      "price": 3100,
+      "amount": 155000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1014": {
+    "from": "wexby",
+    "date": "2026-10-20",
+    "kind": "statement",
+    "lines": [],
+    "number": "",
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null
+   },
+   "D-1042": {
+    "kind": "payment",
+    "from": "pellnorris",
+    "date": "2026-10-20",
+    "amount": 600000,
+    "invoices_named": [
+     "INV-2055"
+    ],
+    "explanation_line": null
+   },
+   "D-1005": {
+    "from": "ferrow",
+    "date": "2026-10-21",
+    "kind": "bill",
+    "number": "FC-2291",
+    "total": 222000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1195",
+      "po_line": 1,
+      "item": "FC-MB-R4",
+      "qty": 12,
+      "unit": "EA",
+      "price": 18500,
+      "amount": 222000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1015": {
+    "from": "scarrow",
+    "date": "2026-10-21",
+    "kind": "pro_forma",
+    "lines": [],
+    "number": "",
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null
+   },
+   "D-1026": {
+    "from": "ferrow",
+    "date": "2026-10-21",
+    "kind": "bill",
+    "number": "FC-2330",
+    "total": 206558,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1213",
+      "po_line": 1,
+      "item": "FC-MB-R4",
+      "qty": 11,
+      "unit": "EA",
+      "price": 18778,
+      "amount": 206558
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1016": {
+    "from": "ostrander",
+    "date": "2026-10-22",
+    "kind": "bank_change",
+    "asks_bank_change": true,
+    "lines": [],
+    "number": "",
+    "total": 0,
+    "freight": 0,
+    "tax": 0,
+    "explanation_line": null
+   },
+   "D-1022": {
+    "from": "ondrey",
+    "date": "2026-10-22",
+    "kind": "bill",
+    "number": "OS-778201",
+    "total": 154400,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1211",
+      "po_line": 1,
+      "item": "CV-CAM-8MP-A",
+      "qty": 16,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 154400
+     }
+    ],
+    "explanation_line": "Distributor invoice, billed on behalf of the manufacturer",
+    "terms_days": 30
+   },
+   "D-1027": {
+    "from": "brightcut",
+    "date": "2026-10-22",
+    "kind": "bill",
+    "number": "BM-7852",
+    "total": 204000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1215",
+      "po_line": 1,
+      "item": "BC-BRK-12",
+      "qty": 300,
+      "unit": "EA",
+      "price": 680,
+      "amount": 204000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1028": {
+    "from": "lanyard",
+    "date": "2026-10-23",
+    "kind": "bill",
+    "number": "LI-60455",
+    "total": 180000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1216",
+      "po_line": 1,
+      "item": "LI-HRN-24",
+      "qty": 60,
+      "unit": "EA",
+      "price": 3000,
+      "amount": 180000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1029": {
+    "from": "ferrow",
+    "date": "2026-10-23",
+    "kind": "bill",
+    "number": "FC-2341",
+    "total": 96000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1217",
+      "po_line": 1,
+      "item": "FC-PDB-R2",
+      "qty": 20,
+      "unit": "EA",
+      "price": 4800,
+      "amount": 96000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1030": {
+    "from": "tarnwell",
+    "date": "2026-10-24",
+    "kind": "bill",
+    "number": "TM-24471",
+    "total": 426000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1219",
+      "po_line": 1,
+      "item": "TM-BL48-220",
+      "qty": 30,
+      "unit": "EA",
+      "price": 14200,
+      "amount": 426000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1034": {
+    "from": "brightcut",
+    "date": "2026-10-24",
+    "kind": "bill",
+    "number": "BM-7861",
+    "total": 502000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1218",
+      "po_line": 1,
+      "item": "BC-ENC-AL3",
+      "qty": 20,
+      "unit": "EA",
+      "price": 25100,
+      "amount": 502000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1031": {
+    "from": "calvane",
+    "date": "2026-10-25",
+    "kind": "bill",
+    "number": "CV-55188",
+    "total": 193000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1220",
+      "po_line": 1,
+      "item": "CV-CAM-8MP-A",
+      "qty": 20,
+      "unit": "EA",
+      "price": 9650,
+      "amount": 193000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1032": {
+    "from": "brightcut",
+    "date": "2026-10-27",
+    "kind": "bill",
+    "number": "BM-7869",
+    "total": 319600,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1221",
+      "po_line": 1,
+      "item": "BC-ENC-AL3",
+      "qty": 10,
+      "unit": "EA",
+      "price": 23800,
+      "amount": 238000
+     },
+     {
+      "po": "PO-1221",
+      "po_line": 2,
+      "item": "BC-BRK-12",
+      "qty": 120,
+      "unit": "EA",
+      "price": 680,
+      "amount": 81600
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1033": {
+    "from": "ostrander",
+    "date": "2026-10-28",
+    "kind": "bill",
+    "number": "OC-90288",
+    "total": 492000,
+    "freight": 0,
+    "tax": 0,
+    "lines": [
+     {
+      "po": "PO-1222",
+      "po_line": 1,
+      "item": "OC-LFP-2420",
+      "qty": 12,
+      "unit": "EA",
+      "price": 41000,
+      "amount": 492000
+     }
+    ],
+    "explanation_line": null,
+    "terms_days": 30
+   },
+   "D-1038": {
+    "kind": "payment",
+    "from": "pembrell",
+    "date": "2026-10-28",
+    "amount": 600000,
+    "invoices_named": [
+     "INV-2064"
+    ],
+    "explanation_line": null
+   },
+   "D-1036": {
+    "kind": "payment",
+    "from": "ashlowe",
+    "date": "2026-10-29",
+    "amount": 600000,
+    "invoices_named": [],
+    "explanation_line": null
+   },
+   "D-1035": {
+    "kind": "payment",
+    "from": "pellnorris",
+    "date": "2026-10-30",
+    "amount": 2380000,
+    "invoices_named": [
+     "INV-2062"
+    ],
+    "explanation_line": "We have deducted $1,200.00 for the damaged bumper reported on delivery."
+   },
+   "D-1039": {
+    "kind": "payment",
+    "from": "ashlowe",
+    "date": "2026-10-30",
+    "amount": 84000,
+    "invoices_named": [
+     "INV-2065"
+    ],
+    "explanation_line": null
+   },
+   "D-1037": {
+    "kind": "payment",
+    "from": "aster",
+    "date": "2026-10-31",
+    "amount": 252000,
+    "invoices_named": [
+     "INV-2041"
+    ],
+    "explanation_line": null
+   },
+   "D-1040": {
+    "kind": "payment",
+    "from": "kettleby",
+    "date": "2026-10-31",
+    "amount": 168000,
+    "invoices_named": [
+     "INV-2067"
+    ],
+    "explanation_line": null
+   }
+  },
+  "rules": {
+   "what_this_is": "The rules Recon decides with. A person can change any of these; recon rules prints them; every run uses them as they are.",
+   "price": {
+    "hold_if_over_percent": 2,
+    "hold_if_over_dollars_per_line": 50,
+    "under_the_order": "clear with a note"
+   },
+   "quantity": {
+    "rule": "never pay for more than has arrived: what is billed on an order line can't exceed what was received on it"
+   },
+   "freight": {
+    "not_on_the_order_hold_over_dollars": 100,
+    "on_the_order": "same rule as price, against the order's estimate"
+   },
+   "tax": {
+    "rule": "never computed; tax on a bill whose order expected none is held"
+   },
+   "total": {
+    "rule": "lines plus freight plus tax equal the stated total, to the cent"
+   },
+   "payments": {
+    "rule": "a payment must name its invoice and match it to the cent; a payment that names none is held, with the matching invoice suggested"
+   },
+   "duplicates": {
+    "rule": "same supplier and the same number (ignoring spaces, dashes and leading zeros); or the same supplier, order line and amount with no new delivery since"
+   },
+   "different_payee": {
+    "rule": "a bill from a company other than the one the order was placed with is never cleared"
+   },
+   "ai": {
+    "rule": "the AI reads each document twice; an answer counts only when both readings agree and the AI is sure, and anything else is held for a person"
+   },
+   "no_order_suppliers": {
+    "rule": "a supplier on file as always billing without an order (rent, software) is set aside for a person; Recon does not match it"
+   },
+   "cleared_means": "ready for a person to pay; Recon pays nothing and sends nothing"
+  },
+  "wording": {
+   "what_this_is": "Every sentence Recon builds from data: the short reason on a held row, the full reason, and the drafted note. Code fills the [names]; the AI writes none of these.",
+   "reasons": {
+    "price_over": {
+     "row": "price over the order",
+     "full": "Unit price [price], the order says [order_price]."
+    },
+    "qty_over_received": {
+     "row": "billed [billed], [received] arrived",
+     "full": "Billed [billed] on [po], [received] have arrived."
+    },
+    "duplicate_same_number": {
+     "row": "sent twice",
+     "full": "Sent again: [original] came in [received]."
+    },
+    "duplicate_new_number": {
+     "row": "same bill, new number",
+     "full": "Same order line and amount as [original_number], with no new delivery since."
+    },
+    "no_order": {
+     "row": "no order for these parts",
+     "full": "No open order with any supplier fits these parts."
+    },
+    "ambiguous_order": {
+     "row": "fits two orders",
+     "full": "Fits two open orders: [a] and [b]."
+    },
+    "freight_not_ordered": {
+     "row": "freight not on the order",
+     "full": "Freight of [freight] is not on the order."
+    },
+    "tax_not_expected": {
+     "row": "tax added",
+     "full": "Tax of [tax] added; the order expected none."
+    },
+    "unit_unknown": {
+     "row": "billed in [unit]",
+     "full": "Billed [boxes] [unit]; the order is in pieces ([order_qty]), and the box size isn't on file."
+    },
+    "substituted_part": {
+     "row": "different part",
+     "full": "Billed [billed_part]; the order has [ordered_part]."
+    },
+    "credit_available": {
+     "row": "credit available",
+     "full": "Credit of [credit] for return [return]."
+    },
+    "credit_no_return": {
+     "row": "credit with no return logged",
+     "full": "A credit note with no return logged against it."
+    },
+    "statement": {
+     "row": "statement, not a bill",
+     "full": "A statement listing earlier bills, not a new bill."
+    },
+    "pro_forma": {
+     "row": "pro forma, not a bill",
+     "full": "A pro forma asking for a deposit. Nothing has arrived."
+    },
+    "packing_slip": {
+     "row": "packing slip, not a bill",
+     "full": "A packing slip, not a bill. Used to check [for_doc]."
+    },
+    "bank_details_change": {
+     "row": "asks to change bank details",
+     "full": "Asks to send payments to new bank details."
+    },
+    "no_po_supplier": {
+     "row": "billed without an order, as usual",
+     "full": "This supplier bills every month without an order."
+    },
+    "receipt_not_logged": {
+     "row": "receipt not logged yet",
+     "full": "Billed [billed], [received] logged as arrived."
+    },
+    "different_payee": {
+     "row": "billed by a different company",
+     "full": "Billed by [supplier] for order [po], which was placed with [maker]."
+    },
+    "arithmetic": {
+     "row": "lines don't add up",
+     "full": "The lines, freight and tax add up to [sum], the bill says [total]."
+    },
+    "no_lines": {
+     "row": "no lines read",
+     "full": "No billed line could be read."
+    },
+    "ai_unsure": {
+     "row": "AI wasn't sure",
+     "full": "The AI wasn't sure about [what]."
+    },
+    "invoiced_before_delivery": {
+     "row": "invoiced before delivery",
+     "full": "Invoiced [invoiced], delivered [delivered]."
+    },
+    "invoiced_more_than_delivered": {
+     "row": "invoiced [invoiced], [delivered] delivered",
+     "full": "Invoiced [invoiced], [delivered] delivered."
+    },
+    "paid_short": {
+     "row": "paid [short_by_dollars] short",
+     "full": "Paid [short_by] less than [invoice]."
+    },
+    "paid_over": {
+     "row": "paid [over_by_dollars] over",
+     "full": "Paid [over_by] more than [invoice]."
+    },
+    "names_no_invoice": {
+     "row": "names no invoice",
+     "full": "The payment names no invoice. The amount matches [suggested]."
+    },
+    "names_paid_invoice": {
+     "row": "names a paid invoice",
+     "full": "Names [named], already paid. The amount matches [suggested]."
+    },
+    "paid_twice": {
+     "row": "paid twice",
+     "full": "[invoice] was already paid [paid_on]."
+    },
+    "unknown_supplier": {
+     "row": "not a supplier on file",
+     "full": "Not from a supplier on file."
+    },
+    "unknown_customer": {
+     "row": "not a customer on file",
+     "full": "Not from a customer on file."
+    },
+    "line_amount": {
+     "row": "a line doesn't add up",
+     "full": "Line [n]: [qty] × [price] is [should], the bill says [amount]."
+    },
+    "unknown_order": {
+     "row": "order not on file",
+     "full": "Names order [po], which isn't in the books."
+    },
+    "billed_beyond_received": {
+     "row": "billed [billed], [received] arrived",
+     "full": "With this bill, [billed] are billed on [po] and [received] have arrived."
+    },
+    "freight_over_estimate": {
+     "row": "freight over the estimate",
+     "full": "Freight of [freight]; the order estimated [estimate]."
+    },
+    "credit_mismatch": {
+     "row": "credit doesn't match the return",
+     "full": "Credit of [credit] for return [return], which was for [return_amount]."
+    },
+    "credit_used": {
+     "row": "return already credited",
+     "full": "Return [return] already has a credit this month."
+    },
+    "unknown_invoice": {
+     "row": "names an unknown invoice",
+     "full": "Names [named], which isn't one of our invoices."
+    },
+    "other_customer_invoice": {
+     "row": "names another customer's invoice",
+     "full": "Names [named], which was billed to [billed_to]."
+    },
+    "duplicate_entered": {
+     "row": "already in the books",
+     "full": "Sent again: [original] was entered [received] and is already in the books."
+    },
+    "negative_amounts": {
+     "row": "zero or negative amounts",
+     "full": "A zero or negative quantity, price or total on a bill."
+    },
+    "billed_beyond_ordered": {
+     "row": "billed past the order",
+     "full": "With this bill, [billed] are billed on [po]; the order is for [ordered]."
+    },
+    "corrected_bill": {
+     "row": "same number, new total",
+     "full": "Same number as [original] ([received]) with a different total. Is it a corrected bill?"
+    },
+    "names_no_invoice_unmatched": {
+     "row": "names no invoice",
+     "full": "The payment names no invoice, and no open invoice has this amount."
+    },
+    "invoice_differs": {
+     "row": "invoice differs from the sales order",
+     "full": "The [what] on the invoice is [invoiced]; the sales order says [ordered]."
+    },
+    "could_not_decide": {
+     "row": "couldn't be decided",
+     "full": "Recon couldn't decide this one. Held for a person."
+    }
+   },
+   "cleared_notes": {
+    "price_within_rule": "Price [pct] over the order, inside the rule.",
+    "price_under": "Price under the order.",
+    "price_change_logged": "New price logged by [logged_by] on [logged].",
+    "freight_small": "Freight of [freight] not on the order, under the limit."
+   },
+   "notes": {
+    "price_over": "Hi [supplier],\nThanks for bill [number]. Our order [po] has [item] at [order_price] each, and the bill shows [price]. Could you send a corrected bill, or the notice for the new price?\nBest,\nAccounts payable, Halden Robotics",
+    "qty_over_received": "Hi [supplier],\nThanks for bill [number]. So far [received] of the [billed] [item] on [po] have arrived. We'll hold this bill until the rest arrive, or you can send a bill for the [received] now.\nBest,\nAccounts payable, Halden Robotics",
+    "duplicate_same_number": "Hi [supplier],\nWe already have bill [number] in our books, so there's no need to send it again.\nBest,\nAccounts payable, Halden Robotics",
+    "duplicate_new_number": "Hi [supplier],\nBill [number] is for the same order line and amount as [original_number], and we haven't had a new delivery since. Is it a copy of [original_number], or for a delivery we haven't received?\nBest,\nAccounts payable, Halden Robotics",
+    "no_order": "Hi [supplier],\nWe can't find an order for bill [number]. Could you tell us who on our side placed it? We'll process the bill once we find the order.\nBest,\nAccounts payable, Halden Robotics",
+    "ambiguous_order": "Hi [supplier],\nBill [number] doesn't show an order number, and it fits two of our orders. Which order is it for?\nBest,\nAccounts payable, Halden Robotics",
+    "freight_not_ordered": "Hi [supplier],\nBill [number] adds [freight] of freight, which isn't on our order [po]. Could you tell us who agreed to it, or send a bill without it?\nBest,\nAccounts payable, Halden Robotics",
+    "tax_not_expected": "Hi [supplier],\nBill [number] adds [tax] of tax, and our order [po] expected none. Could you send a bill without the tax, or tell us why it applies?\nBest,\nAccounts payable, Halden Robotics",
+    "unit_unknown": "Hi [supplier],\nBill [number] is in boxes, and our order [po] is in pieces. How many are in a box?\nBest,\nAccounts payable, Halden Robotics",
+    "substituted_part": "Hi [supplier],\nBill [number] is for [billed_part], and our order [po] is for [ordered_part]. We're checking the change with our engineers and will come back to you.\nBest,\nAccounts payable, Halden Robotics",
+    "credit_no_return": "Hi [supplier],\nWe have credit note [number] but no return logged against it. Which return is it for?\nBest,\nAccounts payable, Halden Robotics",
+    "receipt_not_logged": "Note for receiving: the packing slip for [po] says [slip_shipped] [item] shipped on [slip_date], and [received] are logged. Please check the shelf and log what arrived.",
+    "different_payee": "Note for purchasing: [supplier] billed for parts on order [po], which was placed with [maker]. Before paying, confirm with [maker] that [supplier] may bill for it.",
+    "bank_details_change": "Note for finance: call [supplier] on the number already on file before changing anything. Don't use contact details from the email.",
+    "invoiced_before_delivery": "Note for billing: [invoice] went out on [invoiced], and the delivery was on [delivered]. Check whether the customer agreed to be billed early.",
+    "invoiced_more_than_delivered": "Note for billing: [invoice] bills [invoiced] [item], and [delivered] have been delivered. Send a corrected invoice for the [delivered] and bill the rest on delivery.",
+    "paid_short": "Hi [customer],\nThanks for your payment against [invoice]. It came in [short_by] short, and we've seen your note about the deduction. We'll look into it and come back to you.\nBest,\nAccounts receivable, Halden Robotics",
+    "names_no_invoice": "Hi [customer],\nThanks for your payment of [amount]. It doesn't name an invoice. Is it for [suggested]?\nBest,\nAccounts receivable, Halden Robotics",
+    "names_paid_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which was already paid. Is it for [suggested]?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_twice": "Hi [customer],\nWe received a second payment for [invoice], which was already paid. Would you like a refund or a credit?\nBest,\nAccounts receivable, Halden Robotics",
+    "arithmetic": "Note for a person: the lines read on bill [number] add up to [sum], and its total is [total]. Check the bill for a fee or charge not on the order before writing to the supplier.",
+    "freight_over_estimate": "Hi [supplier],\nBill [number] has [freight] of freight, and our order [po] estimated [estimate]. Could you tell us what changed?\nBest,\nAccounts payable, Halden Robotics",
+    "billed_beyond_received": "Hi [supplier],\nWith bill [number], [billed] [item] are billed on [po] and [received] have arrived. Could you hold the rest until they arrive?\nBest,\nAccounts payable, Halden Robotics",
+    "credit_mismatch": "Hi [supplier],\nCredit note [number] is for [credit], and return [return] was for [return_amount]. Which amount is right?\nBest,\nAccounts payable, Halden Robotics",
+    "credit_used": "Hi [supplier],\nCredit note [number] is for return [return], which already has a credit. Is this a second credit for the same return?\nBest,\nAccounts payable, Halden Robotics",
+    "unknown_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which we can't find. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "other_customer_invoice": "Hi [customer],\nThanks for your payment of [amount]. It names [named], which isn't one of your invoices. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_over": "Hi [customer],\nThanks for your payment against [invoice]. It came in [over_by] over. Would you like a refund or a credit?\nBest,\nAccounts receivable, Halden Robotics",
+    "billed_beyond_ordered": "Hi [supplier],\nWith bill [number], [billed] [item] are billed on [po], and the order is for [ordered]. Could you send a corrected bill for what we ordered?\nBest,\nAccounts payable, Halden Robotics",
+    "corrected_bill": "Hi [supplier],\nBill [number] came in again with a different total. Is it a corrected bill that replaces the first one?\nBest,\nAccounts payable, Halden Robotics",
+    "names_no_invoice_unmatched": "Hi [customer],\nThanks for your payment of [amount]. It doesn't name an invoice. Which invoice is it for?\nBest,\nAccounts receivable, Halden Robotics",
+    "paid_short_no_note": "Hi [customer],\nThanks for your payment against [invoice]. It came in [short_by] short. Could you tell us what the difference is for?\nBest,\nAccounts receivable, Halden Robotics",
+    "invoice_differs": "Note for billing: [invoice] doesn't match its sales order. The [what] is [invoiced], and the order says [ordered]. Send a corrected invoice.",
+    "line_amount": "Hi [supplier],\nOn bill [number], line [n] shows [qty] at [price] as [amount], which comes to [should]. Could you send a corrected bill?\nBest,\nAccounts payable, Halden Robotics"
+   }
+  }
+ },
+ "scores": {
+  "month": "2026-10",
+  "written_by": "score.py",
+  "readers": {
+   "ai": {
+    "reader": "Jev (jev-1.14.0) through ai_read.py",
+    "documents": {
+     "documents": 50,
+     "clean": 24,
+     "clean_cleared": 23,
+     "clean_held": [
+      {
+       "doc": "D-1025",
+       "got": "held",
+       "reason": "ai_unsure",
+       "why": "The AI wasn't sure about the part on line 2."
+      }
+     ],
+     "problems": 26,
+     "right_reason": 23,
+     "other_reason": [
+      {
+       "doc": "D-1012",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "held",
+       "keyed_reason": "substituted_part"
+      },
+      {
+       "doc": "D-1018",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "set_aside",
+       "keyed_reason": "no_po_supplier"
+      },
+      {
+       "doc": "D-1019",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "set_aside",
+       "keyed_reason": "no_po_supplier"
+      }
+     ],
+     "wrongly_cleared": [],
+     "unsure": [
+      {
+       "doc": "D-1012",
+       "what": "line 17"
+      },
+      {
+       "doc": "D-1018",
+       "what": "the quantity on line 15"
+      },
+      {
+       "doc": "D-1019",
+       "what": "the quantity on line 15"
+      },
+      {
+       "doc": "D-1025",
+       "what": "the part on line 2"
+      }
+     ]
+    },
+    "quotes": {
+     "had_one": 8,
+     "quoted": 8,
+     "quoted_where_none": []
+    },
+    "fields": {
+     "kind of document": {
+      "asked": 34,
+      "counted": 34,
+      "wrong": 0,
+      "misses": []
+     },
+     "total": {
+      "asked": 30,
+      "counted": 30,
+      "wrong": 0,
+      "misses": []
+     },
+     "bill number": {
+      "asked": 30,
+      "counted": 30,
+      "wrong": 0,
+      "misses": []
+     },
+     "bill lines (part, order, quantity, unit, price, amount)": {
+      "asked": 30,
+      "counted": 26,
+      "wrong": 0,
+      "misses": []
+     },
+     "the sender's own explaining line": {
+      "asked": 42,
+      "counted": 42,
+      "wrong": 0,
+      "misses": []
+     },
+     "payment amount": {
+      "asked": 8,
+      "counted": 8,
+      "wrong": 0,
+      "misses": []
+     },
+     "invoices named": {
+      "asked": 8,
+      "counted": 8,
+      "wrong": 0,
+      "misses": []
+     }
+    },
+    "steadiness": {
+     "answers": 520,
+     "listed_and_reversed_differ": 0,
+     "examples": []
+    },
+    "run": {
+     "model": "jev-1.14.0",
+     "question_version": "recon-q2",
+     "set": "scored",
+     "month": "2026-10",
+     "documents": 42,
+     "calls": 84,
+     "input_tokens": 209346,
+     "cost_dollars": 0.00879,
+     "spent_so_far_dollars": 0.02201,
+     "cap_dollars": 0.5,
+     "price_per_million": 0.042,
+     "started": "2026-11-23T15:23:48",
+     "finished": "2026-11-23T15:24:13",
+     "problems": [],
+     "locked_commit": "043fce3d2cef482c635d533510fba0187441cd04"
+    }
+   },
+   "no_ai": {
+    "reader": "baseline.py (no AI)",
+    "documents": {
+     "documents": 50,
+     "clean": 24,
+     "clean_cleared": 24,
+     "clean_held": [],
+     "problems": 26,
+     "right_reason": 26,
+     "other_reason": [],
+     "wrongly_cleared": [],
+     "unsure": []
+    },
+    "quotes": {
+     "had_one": 8,
+     "quoted": 0,
+     "quoted_where_none": []
+    }
+   }
+  }
+ },
+ "fair_test": {
+  "set": "holdout",
+  "written_by": "holdout/run_holdout.py with score.py's functions",
+  "readers": {
+   "ai": {
+    "reader": "Jev (jev-1.14.0) through ai_read.py, as locked",
+    "documents": {
+     "documents": 50,
+     "clean": 24,
+     "clean_cleared": 24,
+     "clean_held": [],
+     "problems": 26,
+     "right_reason": 23,
+     "other_reason": [
+      {
+       "doc": "H-1001",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "held",
+       "keyed_reason": "price_over"
+      },
+      {
+       "doc": "H-1012",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "held",
+       "keyed_reason": "substituted_part"
+      },
+      {
+       "doc": "H-1019",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "set_aside",
+       "keyed_reason": "no_po_supplier"
+      }
+     ],
+     "wrongly_cleared": [],
+     "unsure": [
+      {
+       "doc": "H-1001",
+       "what": "the quantity on line 9"
+      },
+      {
+       "doc": "H-1012",
+       "what": "line 13"
+      },
+      {
+       "doc": "H-1019",
+       "what": "the quantity on line 15"
+      }
+     ]
+    },
+    "quotes": {
+     "had_one": 8,
+     "quoted": 7,
+     "quoted_where_none": []
+    },
+    "fields": {
+     "kind of document": {
+      "asked": 34,
+      "counted": 34,
+      "wrong": 0,
+      "misses": []
+     },
+     "total": {
+      "asked": 30,
+      "counted": 30,
+      "wrong": 0,
+      "misses": []
+     },
+     "bill number": {
+      "asked": 30,
+      "counted": 30,
+      "wrong": 0,
+      "misses": []
+     },
+     "bill lines (part, order, quantity, unit, price, amount)": {
+      "asked": 30,
+      "counted": 27,
+      "wrong": 0,
+      "misses": []
+     },
+     "the sender's own explaining line": {
+      "asked": 42,
+      "counted": 42,
+      "wrong": 1,
+      "misses": [
+       {
+        "doc": "H-1007",
+        "got": null,
+        "keyed": "Your shop asked for these by phone on October 9 as a rush."
+       }
+      ]
+     },
+     "payment amount": {
+      "asked": 8,
+      "counted": 8,
+      "wrong": 0,
+      "misses": []
+     },
+     "invoices named": {
+      "asked": 8,
+      "counted": 8,
+      "wrong": 0,
+      "misses": []
+     }
+    },
+    "steadiness": {
+     "answers": 525,
+     "listed_and_reversed_differ": 1,
+     "examples": [
+      {
+       "doc": "H-1022",
+       "question": "L009_order",
+       "listed": "PO-4211",
+       "reversed": "PO-4220"
+      }
+     ]
+    },
+    "run": {
+     "model": "jev-1.14.0",
+     "question_version": "recon-q2",
+     "set": "holdout",
+     "documents": 42,
+     "calls": 84,
+     "input_tokens": 209742,
+     "cost_dollars": 0.00881,
+     "spent_so_far_dollars": 0.03082,
+     "started": "2026-11-23T16:41:42",
+     "finished": "2026-11-23T16:42:05",
+     "problems": []
+    }
+   },
+   "no_ai": {
+    "reader": "baseline.py (no AI), as locked",
+    "documents": {
+     "documents": 50,
+     "clean": 24,
+     "clean_cleared": 24,
+     "clean_held": [],
+     "problems": 26,
+     "right_reason": 24,
+     "other_reason": [
+      {
+       "doc": "H-1001",
+       "got": "held",
+       "reason": "arithmetic",
+       "keyed": "held",
+       "keyed_reason": "price_over"
+      },
+      {
+       "doc": "H-1008",
+       "got": "held",
+       "reason": "ai_unsure",
+       "keyed": "held",
+       "keyed_reason": "ambiguous_order"
+      }
+     ],
+     "wrongly_cleared": [],
+     "unsure": [
+      {
+       "doc": "H-1008",
+       "what": "this document (the no-AI reader stopped with an error)"
+      }
+     ]
+    },
+    "quotes": {
+     "had_one": 8,
+     "quoted": 0,
+     "quoted_where_none": []
+    },
+    "stopped_on": {
+     "H-1008": "ValueError: invalid literal for int() with base 10: '6 EA'"
+    }
+   }
+  }
+ },
+ "version": "fe0d2ab248e1"
+}

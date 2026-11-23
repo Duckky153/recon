@@ -1,0 +1,2438 @@
+{
+ "what_this_is": "Made-up books for the fair-test sample (a second sample of October with every name and code new). Every name, number and date is sample data.",
+ "company": {
+  "name": "Halden Robotics",
+  "city": "Oakland, CA",
+  "makes": "wheeled inspection robots with two cameras"
+ },
+ "run_date": "2026-11-03",
+ "suppliers": {
+  "abernook": {
+   "name": "Abernook Drives",
+   "sells": "motors",
+   "city": "San Jose, CA",
+   "billing": "po"
+  },
+  "pellicor": {
+   "name": "Pellicor Cells",
+   "sells": "battery packs",
+   "city": "Reno, NV",
+   "billing": "po"
+  },
+  "vistrell": {
+   "name": "Vistrell Optics",
+   "sells": "camera modules",
+   "city": "Portland, OR",
+   "billing": "po"
+  },
+  "kelderby": {
+   "name": "Kelderby Forge",
+   "sells": "sheet-metal enclosures and brackets",
+   "city": "Hayward, CA",
+   "billing": "po"
+  },
+  "tamsby": {
+   "name": "Tamsby Circuits",
+   "sells": "circuit boards",
+   "city": "Fremont, CA",
+   "billing": "po"
+  },
+  "corriden": {
+   "name": "Corriden Wheel Co.",
+   "sells": "wheels",
+   "city": "Sacramento, CA",
+   "billing": "po"
+  },
+  "fennick": {
+   "name": "Fennick Fasteners",
+   "sells": "screws and nuts",
+   "city": "Stockton, CA",
+   "billing": "po"
+  },
+  "oxwell": {
+   "name": "Oxwell Interconnect",
+   "sells": "cables, harnesses and connectors",
+   "city": "Santa Clara, CA",
+   "billing": "po"
+  },
+  "ondrel": {
+   "name": "Ondrel Compute",
+   "sells": "compute modules",
+   "city": "Austin, TX",
+   "billing": "po"
+  },
+  "kestlow": {
+   "name": "Kestlow Supply",
+   "sells": "electronic parts (a distributor)",
+   "city": "Phoenix, AZ",
+   "billing": "po",
+   "distributes_for": [
+    "vistrell"
+   ]
+  },
+  "greystable": {
+   "name": "Greystable Works",
+   "sells": "workshop and office space",
+   "city": "Oakland, CA",
+   "billing": "no_po"
+  },
+  "draftwick": {
+   "name": "Draftwick",
+   "sells": "parts-list software, monthly",
+   "city": "Denver, CO",
+   "billing": "no_po"
+  },
+  "sumwick": {
+   "name": "Sumwick",
+   "sells": "accounting software, monthly",
+   "city": "Boston, MA",
+   "billing": "no_po"
+  }
+ },
+ "customers": {
+  "ebberley": {
+   "name": "Ebberley Labs",
+   "city": "Seattle, WA"
+  },
+  "faircombe": {
+   "name": "Faircombe Field Services",
+   "city": "Houston, TX"
+  },
+  "stourton": {
+   "name": "Stourton Utilities",
+   "city": "Spokane, WA"
+  },
+  "quillby": {
+   "name": "Quillby Survey Co.",
+   "city": "Boise, ID"
+  },
+  "vossler": {
+   "name": "Vossler & Kane Inspection",
+   "city": "Tulsa, OK"
+  },
+  "cindral": {
+   "name": "Cindral Facilities",
+   "city": "Tucson, AZ"
+  }
+ },
+ "items": {
+  "AB-BL48-220": {
+   "name": "Brushless motor, 48 V, 220 W",
+   "short": "motors",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "abernook",
+   "price": 14200
+  },
+  "PL-LFP-2420": {
+   "name": "Battery pack, 24 V 20 Ah, LFP",
+   "short": "battery packs",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "pellicor",
+   "price": 41000
+  },
+  "VT-CAM-8MP-A": {
+   "name": "Camera module, 8 MP, global shutter",
+   "short": "camera modules",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "vistrell",
+   "price": 9650
+  },
+  "VT-CAM-8MP-B": {
+   "name": "Camera module, 8 MP, global shutter (rev B)",
+   "short": "camera modules (rev B)",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "vistrell",
+   "price": 9650
+  },
+  "KD-ENC-AL3": {
+   "name": "Enclosure, aluminum, rev 3",
+   "short": "enclosures",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "kelderby",
+   "price": 23800
+  },
+  "KD-BRK-12": {
+   "name": "Mounting bracket, steel",
+   "short": "brackets",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "kelderby",
+   "price": 680
+  },
+  "TB-MB-R4": {
+   "name": "Main board assembly, rev 4",
+   "short": "main boards",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "tamsby",
+   "price": 18500
+  },
+  "TB-PDB-R2": {
+   "name": "Power distribution board, rev 2",
+   "short": "power boards",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "tamsby",
+   "price": 4800
+  },
+  "CR-WHL-200": {
+   "name": "Wheel, 200 mm, polyurethane",
+   "short": "wheels",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "corriden",
+   "price": 2740
+  },
+  "FN-SCR-M412": {
+   "name": "Screw, M4 x 12, stainless",
+   "short": "screws",
+   "unit": "EA",
+   "pack": 100,
+   "supplier": "fennick",
+   "price": 6
+  },
+  "FN-NUT-M4": {
+   "name": "Nut, M4, stainless",
+   "short": "nuts",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "fennick",
+   "price": 4
+  },
+  "OW-HRN-24": {
+   "name": "Wiring harness, main, 24 V",
+   "short": "harnesses",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "oxwell",
+   "price": 3100
+  },
+  "OW-CON-8P": {
+   "name": "Connector, 8-pin, sealed",
+   "short": "connectors",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "oxwell",
+   "price": 420
+  },
+  "ON-CM-NX8": {
+   "name": "Compute module, 8 GB",
+   "short": "compute modules",
+   "unit": "EA",
+   "pack": null,
+   "supplier": "ondrel",
+   "price": 38900
+  }
+ },
+ "products": {
+  "HR-1": {
+   "name": "HR-1 inspection robot",
+   "plural": "HR-1 inspection robots",
+   "price": 1250000
+  },
+  "EVAL-2W": {
+   "name": "Two-week field evaluation",
+   "plural": "two-week field evaluations",
+   "price": 600000
+  },
+  "SPK-1": {
+   "name": "Spare parts kit, HR-1",
+   "plural": "HR-1 spare parts kits",
+   "price": 84000
+  }
+ },
+ "purchase_orders": [
+  {
+   "id": "PO-4149",
+   "supplier": "kelderby",
+   "date": "2026-08-05",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 40,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-08-22"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4150",
+   "supplier": "tamsby",
+   "date": "2026-08-06",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-PDB-R2",
+     "qty": 20,
+     "unit": "EA",
+     "price": 4800,
+     "due": "2026-08-20"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4188",
+   "supplier": "abernook",
+   "date": "2026-09-22",
+   "lines": [
+    {
+     "line": 1,
+     "item": "AB-BL48-220",
+     "qty": 40,
+     "unit": "EA",
+     "price": 14200,
+     "due": "2026-10-06"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4191",
+   "supplier": "pellicor",
+   "date": "2026-09-24",
+   "lines": [
+    {
+     "line": 1,
+     "item": "PL-LFP-2420",
+     "qty": 10,
+     "unit": "EA",
+     "price": 41000,
+     "due": "2026-10-08"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4193",
+   "supplier": "corriden",
+   "date": "2026-09-25",
+   "lines": [
+    {
+     "line": 1,
+     "item": "CR-WHL-200",
+     "qty": 200,
+     "unit": "EA",
+     "price": 2740,
+     "due": "2026-10-09"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4195",
+   "supplier": "tamsby",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-MB-R4",
+     "qty": 12,
+     "unit": "EA",
+     "price": 18500,
+     "due": "2026-10-10"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4199",
+   "supplier": "kelderby",
+   "date": "2026-09-29",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 30,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-10-13"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4201",
+   "supplier": "ondrel",
+   "date": "2026-09-30",
+   "lines": [
+    {
+     "line": 1,
+     "item": "ON-CM-NX8",
+     "qty": 6,
+     "unit": "EA",
+     "price": 38900,
+     "due": "2026-10-14"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4214",
+   "supplier": "ondrel",
+   "date": "2026-10-07",
+   "lines": [
+    {
+     "line": 1,
+     "item": "ON-CM-NX8",
+     "qty": 6,
+     "unit": "EA",
+     "price": 38900,
+     "due": "2026-10-17"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4203",
+   "supplier": "tamsby",
+   "date": "2026-10-01",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-PDB-R2",
+     "qty": 25,
+     "unit": "EA",
+     "price": 4800,
+     "due": "2026-10-14"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4205",
+   "supplier": "fennick",
+   "date": "2026-10-01",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-NUT-M4",
+     "qty": 1200,
+     "unit": "EA",
+     "price": 4,
+     "due": "2026-10-12"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4206",
+   "supplier": "vistrell",
+   "date": "2026-10-02",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 24,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-10-16"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4160",
+   "supplier": "vistrell",
+   "date": "2026-08-28",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 20,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-09-12"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4209",
+   "supplier": "oxwell",
+   "date": "2026-10-03",
+   "lines": [
+    {
+     "line": 1,
+     "item": "OW-HRN-24",
+     "qty": 50,
+     "unit": "EA",
+     "price": 3100,
+     "due": "2026-10-17"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4211",
+   "supplier": "vistrell",
+   "date": "2026-10-05",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 16,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-10-20"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4196",
+   "supplier": "corriden",
+   "date": "2026-09-28",
+   "lines": [
+    {
+     "line": 1,
+     "item": "CR-WHL-200",
+     "qty": 80,
+     "unit": "EA",
+     "price": 2740,
+     "due": "2026-10-10"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4190",
+   "supplier": "fennick",
+   "date": "2026-09-23",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-SCR-M412",
+     "qty": 800,
+     "unit": "EA",
+     "price": 6,
+     "due": "2026-10-05"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4207",
+   "supplier": "fennick",
+   "date": "2026-10-02",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-SCR-M412",
+     "qty": 400,
+     "unit": "EA",
+     "price": 6,
+     "due": "2026-10-12"
+    },
+    {
+     "line": 2,
+     "item": "FN-NUT-M4",
+     "qty": 400,
+     "unit": "EA",
+     "price": 4,
+     "due": "2026-10-12"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4212",
+   "supplier": "fennick",
+   "date": "2026-10-06",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-SCR-M412",
+     "qty": 500,
+     "unit": "EA",
+     "price": 6,
+     "due": "2026-10-16"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4213",
+   "supplier": "tamsby",
+   "date": "2026-10-06",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-MB-R4",
+     "qty": 11,
+     "unit": "EA",
+     "price": 18500,
+     "due": "2026-10-20"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4215",
+   "supplier": "kelderby",
+   "date": "2026-10-07",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-BRK-12",
+     "qty": 300,
+     "unit": "EA",
+     "price": 680,
+     "due": "2026-10-21"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4216",
+   "supplier": "oxwell",
+   "date": "2026-10-08",
+   "lines": [
+    {
+     "line": 1,
+     "item": "OW-HRN-24",
+     "qty": 60,
+     "unit": "EA",
+     "price": 3100,
+     "due": "2026-10-22"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4217",
+   "supplier": "tamsby",
+   "date": "2026-10-08",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-PDB-R2",
+     "qty": 20,
+     "unit": "EA",
+     "price": 4800,
+     "due": "2026-10-22"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4218",
+   "supplier": "kelderby",
+   "date": "2026-10-09",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 20,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-10-23"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4219",
+   "supplier": "abernook",
+   "date": "2026-10-09",
+   "lines": [
+    {
+     "line": 1,
+     "item": "AB-BL48-220",
+     "qty": 30,
+     "unit": "EA",
+     "price": 14200,
+     "due": "2026-10-23"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4220",
+   "supplier": "vistrell",
+   "date": "2026-10-10",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 20,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-10-24"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4221",
+   "supplier": "kelderby",
+   "date": "2026-10-12",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 10,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-10-26"
+    },
+    {
+     "line": 2,
+     "item": "KD-BRK-12",
+     "qty": 120,
+     "unit": "EA",
+     "price": 680,
+     "due": "2026-10-26"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4222",
+   "supplier": "pellicor",
+   "date": "2026-10-13",
+   "lines": [
+    {
+     "line": 1,
+     "item": "PL-LFP-2420",
+     "qty": 12,
+     "unit": "EA",
+     "price": 41000,
+     "due": "2026-10-27"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4161",
+   "supplier": "abernook",
+   "date": "2026-08-25",
+   "lines": [
+    {
+     "line": 1,
+     "item": "AB-BL48-220",
+     "qty": 20,
+     "unit": "EA",
+     "price": 14200,
+     "due": "2026-09-08"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4162",
+   "supplier": "pellicor",
+   "date": "2026-08-26",
+   "lines": [
+    {
+     "line": 1,
+     "item": "PL-LFP-2420",
+     "qty": 8,
+     "unit": "EA",
+     "price": 41000,
+     "due": "2026-09-09"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4163",
+   "supplier": "corriden",
+   "date": "2026-08-27",
+   "lines": [
+    {
+     "line": 1,
+     "item": "CR-WHL-200",
+     "qty": 120,
+     "unit": "EA",
+     "price": 2740,
+     "due": "2026-09-10"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4164",
+   "supplier": "tamsby",
+   "date": "2026-08-28",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-MB-R4",
+     "qty": 10,
+     "unit": "EA",
+     "price": 18500,
+     "due": "2026-09-11"
+    },
+    {
+     "line": 2,
+     "item": "TB-PDB-R2",
+     "qty": 10,
+     "unit": "EA",
+     "price": 4800,
+     "due": "2026-09-11"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4165",
+   "supplier": "kelderby",
+   "date": "2026-08-29",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-BRK-12",
+     "qty": 200,
+     "unit": "EA",
+     "price": 680,
+     "due": "2026-09-12"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4166",
+   "supplier": "oxwell",
+   "date": "2026-08-30",
+   "lines": [
+    {
+     "line": 1,
+     "item": "OW-HRN-24",
+     "qty": 30,
+     "unit": "EA",
+     "price": 3100,
+     "due": "2026-09-13"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4167",
+   "supplier": "fennick",
+   "date": "2026-09-01",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-SCR-M412",
+     "qty": 1000,
+     "unit": "EA",
+     "price": 6,
+     "due": "2026-09-12"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4168",
+   "supplier": "ondrel",
+   "date": "2026-09-02",
+   "lines": [
+    {
+     "line": 1,
+     "item": "ON-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "due": "2026-09-16"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4169",
+   "supplier": "vistrell",
+   "date": "2026-09-03",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 12,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-09-17"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4170",
+   "supplier": "abernook",
+   "date": "2026-09-04",
+   "lines": [
+    {
+     "line": 1,
+     "item": "AB-BL48-220",
+     "qty": 24,
+     "unit": "EA",
+     "price": 14200,
+     "due": "2026-09-18"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4171",
+   "supplier": "pellicor",
+   "date": "2026-09-05",
+   "lines": [
+    {
+     "line": 1,
+     "item": "PL-LFP-2420",
+     "qty": 6,
+     "unit": "EA",
+     "price": 41000,
+     "due": "2026-09-19"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4172",
+   "supplier": "kelderby",
+   "date": "2026-09-06",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 15,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-09-20"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4173",
+   "supplier": "corriden",
+   "date": "2026-09-08",
+   "lines": [
+    {
+     "line": 1,
+     "item": "CR-WHL-200",
+     "qty": 60,
+     "unit": "EA",
+     "price": 2740,
+     "due": "2026-09-22"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4174",
+   "supplier": "fennick",
+   "date": "2026-09-09",
+   "lines": [
+    {
+     "line": 1,
+     "item": "FN-SCR-M412",
+     "qty": 300,
+     "unit": "EA",
+     "price": 6,
+     "due": "2026-09-20"
+    },
+    {
+     "line": 2,
+     "item": "FN-NUT-M4",
+     "qty": 300,
+     "unit": "EA",
+     "price": 4,
+     "due": "2026-09-20"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4175",
+   "supplier": "tamsby",
+   "date": "2026-09-10",
+   "lines": [
+    {
+     "line": 1,
+     "item": "TB-MB-R4",
+     "qty": 8,
+     "unit": "EA",
+     "price": 18500,
+     "due": "2026-09-24"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4176",
+   "supplier": "oxwell",
+   "date": "2026-09-11",
+   "lines": [
+    {
+     "line": 1,
+     "item": "OW-CON-8P",
+     "qty": 200,
+     "unit": "EA",
+     "price": 420,
+     "due": "2026-09-25"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4177",
+   "supplier": "vistrell",
+   "date": "2026-09-12",
+   "lines": [
+    {
+     "line": 1,
+     "item": "VT-CAM-8MP-A",
+     "qty": 10,
+     "unit": "EA",
+     "price": 9650,
+     "due": "2026-09-26"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4178",
+   "supplier": "ondrel",
+   "date": "2026-09-13",
+   "lines": [
+    {
+     "line": 1,
+     "item": "ON-CM-NX8",
+     "qty": 4,
+     "unit": "EA",
+     "price": 38900,
+     "due": "2026-09-27"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  },
+  {
+   "id": "PO-4179",
+   "supplier": "kelderby",
+   "date": "2026-09-15",
+   "lines": [
+    {
+     "line": 1,
+     "item": "KD-ENC-AL3",
+     "qty": 12,
+     "unit": "EA",
+     "price": 23800,
+     "due": "2026-09-29"
+    },
+    {
+     "line": 2,
+     "item": "KD-BRK-12",
+     "qty": 100,
+     "unit": "EA",
+     "price": 680,
+     "due": "2026-09-29"
+    }
+   ],
+   "freight": "not on the order",
+   "freight_estimate": null,
+   "tax": "none"
+  }
+ ],
+ "receipts": [
+  {
+   "id": "RC-8390",
+   "po": "PO-4149",
+   "line": 1,
+   "qty": 40,
+   "date": "2026-08-21"
+  },
+  {
+   "id": "RC-8391",
+   "po": "PO-4150",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-08-19"
+  },
+  {
+   "id": "RC-8521",
+   "po": "PO-4188",
+   "line": 1,
+   "qty": 36,
+   "date": "2026-10-07"
+  },
+  {
+   "id": "RC-8524",
+   "po": "PO-4191",
+   "line": 1,
+   "qty": 10,
+   "date": "2026-10-08"
+  },
+  {
+   "id": "RC-8527",
+   "po": "PO-4193",
+   "line": 1,
+   "qty": 120,
+   "date": "2026-10-09"
+  },
+  {
+   "id": "RC-8531",
+   "po": "PO-4195",
+   "line": 1,
+   "qty": 12,
+   "date": "2026-10-10"
+  },
+  {
+   "id": "RC-8536",
+   "po": "PO-4199",
+   "line": 1,
+   "qty": 30,
+   "date": "2026-10-13"
+  },
+  {
+   "id": "RC-8540",
+   "po": "PO-4201",
+   "line": 1,
+   "qty": 6,
+   "date": "2026-10-14"
+  },
+  {
+   "id": "RC-8551",
+   "po": "PO-4214",
+   "line": 1,
+   "qty": 6,
+   "date": "2026-10-17"
+  },
+  {
+   "id": "RC-8542",
+   "po": "PO-4203",
+   "line": 1,
+   "qty": 25,
+   "date": "2026-10-14"
+  },
+  {
+   "id": "RC-8544",
+   "po": "PO-4205",
+   "line": 1,
+   "qty": 1200,
+   "date": "2026-10-12"
+  },
+  {
+   "id": "RC-8546",
+   "po": "PO-4206",
+   "line": 1,
+   "qty": 24,
+   "date": "2026-10-15"
+  },
+  {
+   "id": "RC-8420",
+   "po": "PO-4160",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-09-11"
+  },
+  {
+   "id": "RC-8549",
+   "po": "PO-4209",
+   "line": 1,
+   "qty": 40,
+   "date": "2026-10-17"
+  },
+  {
+   "id": "RC-8553",
+   "po": "PO-4211",
+   "line": 1,
+   "qty": 16,
+   "date": "2026-10-20"
+  },
+  {
+   "id": "RC-8533",
+   "po": "PO-4196",
+   "line": 1,
+   "qty": 80,
+   "date": "2026-10-10"
+  },
+  {
+   "id": "RC-8523",
+   "po": "PO-4190",
+   "line": 1,
+   "qty": 800,
+   "date": "2026-10-05"
+  },
+  {
+   "id": "RC-8547",
+   "po": "PO-4207",
+   "line": 1,
+   "qty": 400,
+   "date": "2026-10-12"
+  },
+  {
+   "id": "RC-8548",
+   "po": "PO-4207",
+   "line": 2,
+   "qty": 400,
+   "date": "2026-10-12"
+  },
+  {
+   "id": "RC-8554",
+   "po": "PO-4212",
+   "line": 1,
+   "qty": 500,
+   "date": "2026-10-16"
+  },
+  {
+   "id": "RC-8556",
+   "po": "PO-4213",
+   "line": 1,
+   "qty": 11,
+   "date": "2026-10-20"
+  },
+  {
+   "id": "RC-8558",
+   "po": "PO-4215",
+   "line": 1,
+   "qty": 300,
+   "date": "2026-10-21"
+  },
+  {
+   "id": "RC-8559",
+   "po": "PO-4216",
+   "line": 1,
+   "qty": 60,
+   "date": "2026-10-22"
+  },
+  {
+   "id": "RC-8560",
+   "po": "PO-4217",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-10-22"
+  },
+  {
+   "id": "RC-8561",
+   "po": "PO-4218",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-10-23"
+  },
+  {
+   "id": "RC-8562",
+   "po": "PO-4219",
+   "line": 1,
+   "qty": 30,
+   "date": "2026-10-23"
+  },
+  {
+   "id": "RC-8563",
+   "po": "PO-4220",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-10-24"
+  },
+  {
+   "id": "RC-8564",
+   "po": "PO-4221",
+   "line": 1,
+   "qty": 10,
+   "date": "2026-10-26"
+  },
+  {
+   "id": "RC-8565",
+   "po": "PO-4221",
+   "line": 2,
+   "qty": 120,
+   "date": "2026-10-26"
+  },
+  {
+   "id": "RC-8566",
+   "po": "PO-4222",
+   "line": 1,
+   "qty": 12,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "RC-8422",
+   "po": "PO-4161",
+   "line": 1,
+   "qty": 20,
+   "date": "2026-09-08"
+  },
+  {
+   "id": "RC-8423",
+   "po": "PO-4162",
+   "line": 1,
+   "qty": 8,
+   "date": "2026-09-09"
+  },
+  {
+   "id": "RC-8424",
+   "po": "PO-4163",
+   "line": 1,
+   "qty": 120,
+   "date": "2026-09-10"
+  },
+  {
+   "id": "RC-8425",
+   "po": "PO-4164",
+   "line": 1,
+   "qty": 10,
+   "date": "2026-09-11"
+  },
+  {
+   "id": "RC-8426",
+   "po": "PO-4164",
+   "line": 2,
+   "qty": 10,
+   "date": "2026-09-11"
+  },
+  {
+   "id": "RC-8427",
+   "po": "PO-4165",
+   "line": 1,
+   "qty": 200,
+   "date": "2026-09-12"
+  },
+  {
+   "id": "RC-8428",
+   "po": "PO-4166",
+   "line": 1,
+   "qty": 30,
+   "date": "2026-09-13"
+  },
+  {
+   "id": "RC-8429",
+   "po": "PO-4167",
+   "line": 1,
+   "qty": 1000,
+   "date": "2026-09-12"
+  },
+  {
+   "id": "RC-8430",
+   "po": "PO-4168",
+   "line": 1,
+   "qty": 4,
+   "date": "2026-09-16"
+  },
+  {
+   "id": "RC-8431",
+   "po": "PO-4169",
+   "line": 1,
+   "qty": 12,
+   "date": "2026-09-17"
+  },
+  {
+   "id": "RC-8432",
+   "po": "PO-4170",
+   "line": 1,
+   "qty": 18,
+   "date": "2026-09-18"
+  },
+  {
+   "id": "RC-8433",
+   "po": "PO-4171",
+   "line": 1,
+   "qty": 6,
+   "date": "2026-09-19"
+  },
+  {
+   "id": "RC-8434",
+   "po": "PO-4172",
+   "line": 1,
+   "qty": 15,
+   "date": "2026-09-20"
+  },
+  {
+   "id": "RC-8435",
+   "po": "PO-4173",
+   "line": 1,
+   "qty": 60,
+   "date": "2026-09-22"
+  },
+  {
+   "id": "RC-8436",
+   "po": "PO-4174",
+   "line": 1,
+   "qty": 300,
+   "date": "2026-09-20"
+  },
+  {
+   "id": "RC-8437",
+   "po": "PO-4174",
+   "line": 2,
+   "qty": 300,
+   "date": "2026-09-20"
+  },
+  {
+   "id": "RC-8438",
+   "po": "PO-4175",
+   "line": 1,
+   "qty": 8,
+   "date": "2026-09-24"
+  },
+  {
+   "id": "RC-8439",
+   "po": "PO-4176",
+   "line": 1,
+   "qty": 200,
+   "date": "2026-09-25"
+  },
+  {
+   "id": "RC-8440",
+   "po": "PO-4177",
+   "line": 1,
+   "qty": 10,
+   "date": "2026-09-26"
+  },
+  {
+   "id": "RC-8441",
+   "po": "PO-4178",
+   "line": 1,
+   "qty": 4,
+   "date": "2026-09-27"
+  },
+  {
+   "id": "RC-8442",
+   "po": "PO-4179",
+   "line": 1,
+   "qty": 12,
+   "date": "2026-09-29"
+  },
+  {
+   "id": "RC-8443",
+   "po": "PO-4179",
+   "line": 2,
+   "qty": 100,
+   "date": "2026-09-29"
+  }
+ ],
+ "price_changes": [
+  {
+   "supplier": "kelderby",
+   "item": "KD-ENC-AL3",
+   "po": "PO-4218",
+   "old": 23800,
+   "new": 25100,
+   "from": "2026-10-09",
+   "logged_by": "purchasing",
+   "logged": "2026-10-15",
+   "why": "aluminum surcharge on PO-4218, agreed by phone"
+  }
+ ],
+ "returns": [
+  {
+   "id": "RMA-VT-3454",
+   "supplier": "vistrell",
+   "item": "VT-CAM-8MP-A",
+   "qty": 2,
+   "date": "2026-10-03",
+   "po": "PO-4160",
+   "amount": 19300,
+   "why": "two modules failed first power-on"
+  }
+ ],
+ "bills_entered": [
+  {
+   "supplier": "kelderby",
+   "number": "KB-7867",
+   "date": "2026-08-27",
+   "po": "PO-4149",
+   "po_line": 1,
+   "qty": 40,
+   "amount": 952000,
+   "status": "paid"
+  },
+  {
+   "supplier": "tamsby",
+   "number": "TB-2341",
+   "date": "2026-08-25",
+   "po": "PO-4150",
+   "po_line": 1,
+   "qty": 20,
+   "amount": 96000,
+   "status": "paid"
+  },
+  {
+   "supplier": "abernook",
+   "number": "AB-24439",
+   "date": "2026-09-09",
+   "po": "PO-4161",
+   "po_line": 1,
+   "qty": 20,
+   "amount": 284000,
+   "status": "paid"
+  },
+  {
+   "supplier": "corriden",
+   "number": "CR-3399",
+   "date": "2026-09-11",
+   "po": "PO-4163",
+   "po_line": 1,
+   "qty": 120,
+   "amount": 328800,
+   "status": "paid"
+  },
+  {
+   "supplier": "tamsby",
+   "number": "TB-2377",
+   "date": "2026-09-12",
+   "po": "PO-4164",
+   "po_line": 1,
+   "qty": 10,
+   "amount": 185000,
+   "status": "paid"
+  },
+  {
+   "supplier": "tamsby",
+   "number": "TB-2377",
+   "date": "2026-09-12",
+   "po": "PO-4164",
+   "po_line": 2,
+   "qty": 10,
+   "amount": 48000,
+   "status": "paid"
+  },
+  {
+   "supplier": "kelderby",
+   "number": "KB-7878",
+   "date": "2026-09-13",
+   "po": "PO-4165",
+   "po_line": 1,
+   "qty": 200,
+   "amount": 136000,
+   "status": "paid"
+  },
+  {
+   "supplier": "oxwell",
+   "number": "OW-60447",
+   "date": "2026-09-14",
+   "po": "PO-4166",
+   "po_line": 1,
+   "qty": 30,
+   "amount": 91500,
+   "status": "paid"
+  },
+  {
+   "supplier": "fennick",
+   "number": "FN-11239",
+   "date": "2026-09-13",
+   "po": "PO-4167",
+   "po_line": 1,
+   "qty": 1000,
+   "amount": 6000,
+   "status": "paid"
+  },
+  {
+   "supplier": "ondrel",
+   "number": "ONX-1257",
+   "date": "2026-09-17",
+   "po": "PO-4168",
+   "po_line": 1,
+   "qty": 4,
+   "amount": 155600,
+   "status": "paid"
+  },
+  {
+   "supplier": "vistrell",
+   "number": "VT-55147",
+   "date": "2026-09-18",
+   "po": "PO-4169",
+   "po_line": 1,
+   "qty": 12,
+   "amount": 115800,
+   "status": "paid"
+  },
+  {
+   "supplier": "corriden",
+   "number": "CR-3427",
+   "date": "2026-09-23",
+   "po": "PO-4173",
+   "po_line": 1,
+   "qty": 60,
+   "amount": 164400,
+   "status": "paid"
+  },
+  {
+   "supplier": "fennick",
+   "number": "FN-11277",
+   "date": "2026-09-21",
+   "po": "PO-4174",
+   "po_line": 1,
+   "qty": 300,
+   "amount": 1800,
+   "status": "paid"
+  },
+  {
+   "supplier": "fennick",
+   "number": "FN-11277",
+   "date": "2026-09-21",
+   "po": "PO-4174",
+   "po_line": 2,
+   "qty": 300,
+   "amount": 1200,
+   "status": "paid"
+  },
+  {
+   "supplier": "tamsby",
+   "number": "TB-2403",
+   "date": "2026-09-25",
+   "po": "PO-4175",
+   "po_line": 1,
+   "qty": 8,
+   "amount": 148000,
+   "status": "paid"
+  },
+  {
+   "supplier": "oxwell",
+   "number": "OW-60503",
+   "date": "2026-09-26",
+   "po": "PO-4176",
+   "po_line": 1,
+   "qty": 200,
+   "amount": 84000,
+   "status": "paid"
+  },
+  {
+   "supplier": "vistrell",
+   "number": "VT-55178",
+   "date": "2026-09-27",
+   "po": "PO-4177",
+   "po_line": 1,
+   "qty": 10,
+   "amount": 96500,
+   "status": "paid"
+  },
+  {
+   "supplier": "ondrel",
+   "number": "ONX-1278",
+   "date": "2026-09-28",
+   "po": "PO-4178",
+   "po_line": 1,
+   "qty": 4,
+   "amount": 155600,
+   "status": "paid"
+  },
+  {
+   "supplier": "kelderby",
+   "number": "KB-7915",
+   "date": "2026-09-30",
+   "po": "PO-4179",
+   "po_line": 1,
+   "qty": 12,
+   "amount": 285600,
+   "status": "paid"
+  },
+  {
+   "supplier": "kelderby",
+   "number": "KB-7915",
+   "date": "2026-09-30",
+   "po": "PO-4179",
+   "po_line": 2,
+   "qty": 100,
+   "amount": 68000,
+   "status": "paid"
+  },
+  {
+   "supplier": "vistrell",
+   "number": "VT-55117",
+   "date": "2026-09-14",
+   "po": "PO-4160",
+   "po_line": 1,
+   "qty": 20,
+   "amount": 193000,
+   "status": "paid"
+  }
+ ],
+ "sales_orders": [
+  {
+   "id": "SO-710",
+   "customer": "quillby",
+   "date": "2026-08-30",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-721",
+   "customer": "ebberley",
+   "date": "2026-09-30",
+   "lines": [
+    {
+     "line": 1,
+     "product": "HR-1",
+     "qty": 1,
+     "price": 1250000
+    }
+   ]
+  },
+  {
+   "id": "SO-724",
+   "customer": "stourton",
+   "date": "2026-10-02",
+   "lines": [
+    {
+     "line": 1,
+     "product": "HR-1",
+     "qty": 3,
+     "price": 1250000
+    }
+   ]
+  },
+  {
+   "id": "SO-718",
+   "customer": "faircombe",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000
+    }
+   ]
+  },
+  {
+   "id": "SO-719",
+   "customer": "quillby",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 3,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-720",
+   "customer": "vossler",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "HR-1",
+     "qty": 2,
+     "price": 1250000
+    }
+   ]
+  },
+  {
+   "id": "SO-722",
+   "customer": "cindral",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000
+    }
+   ]
+  },
+  {
+   "id": "SO-723",
+   "customer": "faircombe",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-725",
+   "customer": "ebberley",
+   "date": "2026-09-26",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-715",
+   "customer": "stourton",
+   "date": "2026-09-10",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-716",
+   "customer": "vossler",
+   "date": "2026-09-12",
+   "lines": [
+    {
+     "line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000
+    }
+   ]
+  },
+  {
+   "id": "SO-705",
+   "customer": "faircombe",
+   "date": "2026-08-20",
+   "lines": [
+    {
+     "line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000
+    }
+   ]
+  },
+  {
+   "id": "SO-706",
+   "customer": "cindral",
+   "date": "2026-08-21",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-707",
+   "customer": "ebberley",
+   "date": "2026-08-22",
+   "lines": [
+    {
+     "line": 1,
+     "product": "HR-1",
+     "qty": 1,
+     "price": 1250000
+    }
+   ]
+  },
+  {
+   "id": "SO-708",
+   "customer": "vossler",
+   "date": "2026-08-23",
+   "lines": [
+    {
+     "line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000
+    }
+   ]
+  },
+  {
+   "id": "SO-709",
+   "customer": "stourton",
+   "date": "2026-08-24",
+   "lines": [
+    {
+     "line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000
+    }
+   ]
+  }
+ ],
+ "deliveries": [
+  {
+   "id": "DL-610",
+   "so": "SO-710",
+   "line": 1,
+   "qty": 2,
+   "date": "2026-09-04"
+  },
+  {
+   "id": "DL-622",
+   "so": "SO-721",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-10-27"
+  },
+  {
+   "id": "DL-625",
+   "so": "SO-724",
+   "line": 1,
+   "qty": 2,
+   "date": "2026-10-16"
+  },
+  {
+   "id": "DL-630",
+   "so": "SO-718",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-10-03"
+  },
+  {
+   "id": "DL-631",
+   "so": "SO-719",
+   "line": 1,
+   "qty": 3,
+   "date": "2026-10-06"
+  },
+  {
+   "id": "DL-632",
+   "so": "SO-720",
+   "line": 1,
+   "qty": 2,
+   "date": "2026-10-08"
+  },
+  {
+   "id": "DL-633",
+   "so": "SO-722",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-10-14"
+  },
+  {
+   "id": "DL-634",
+   "so": "SO-723",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-10-15"
+  },
+  {
+   "id": "DL-635",
+   "so": "SO-725",
+   "line": 1,
+   "qty": 2,
+   "date": "2026-10-21"
+  },
+  {
+   "id": "DL-615",
+   "so": "SO-715",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-09-18"
+  },
+  {
+   "id": "DL-616",
+   "so": "SO-716",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-09-21"
+  },
+  {
+   "id": "DL-605",
+   "so": "SO-705",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-08-31"
+  },
+  {
+   "id": "DL-606",
+   "so": "SO-706",
+   "line": 1,
+   "qty": 2,
+   "date": "2026-09-02"
+  },
+  {
+   "id": "DL-607",
+   "so": "SO-707",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-09-05"
+  },
+  {
+   "id": "DL-608",
+   "so": "SO-708",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-09-08"
+  },
+  {
+   "id": "DL-609",
+   "so": "SO-709",
+   "line": 1,
+   "qty": 1,
+   "date": "2026-09-09"
+  }
+ ],
+ "invoices_out": [
+  {
+   "id": "INV-5041",
+   "customer": "quillby",
+   "so": "SO-710",
+   "date": "2026-09-05",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000,
+     "amount": 168000
+    }
+   ],
+   "total": 168000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5063",
+   "customer": "ebberley",
+   "so": "SO-721",
+   "date": "2026-10-20",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "HR-1",
+     "qty": 1,
+     "price": 1250000,
+     "amount": 1250000
+    }
+   ],
+   "total": 1250000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5066",
+   "customer": "stourton",
+   "so": "SO-724",
+   "date": "2026-10-17",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "HR-1",
+     "qty": 3,
+     "price": 1250000,
+     "amount": 3750000
+    }
+   ],
+   "total": 3750000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5060",
+   "customer": "faircombe",
+   "so": "SO-718",
+   "date": "2026-10-03",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000,
+     "amount": 600000
+    }
+   ],
+   "total": 600000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5061",
+   "customer": "quillby",
+   "so": "SO-719",
+   "date": "2026-10-07",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 3,
+     "price": 84000,
+     "amount": 252000
+    }
+   ],
+   "total": 252000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5062",
+   "customer": "vossler",
+   "so": "SO-720",
+   "date": "2026-10-09",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "HR-1",
+     "qty": 2,
+     "price": 1250000,
+     "amount": 2500000
+    }
+   ],
+   "total": 2500000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5064",
+   "customer": "cindral",
+   "so": "SO-722",
+   "date": "2026-10-14",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000,
+     "amount": 600000
+    }
+   ],
+   "total": 600000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5065",
+   "customer": "faircombe",
+   "so": "SO-723",
+   "date": "2026-10-15",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000,
+     "amount": 84000
+    }
+   ],
+   "total": 84000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5067",
+   "customer": "ebberley",
+   "so": "SO-725",
+   "date": "2026-10-22",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000,
+     "amount": 168000
+    }
+   ],
+   "total": 168000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5052",
+   "customer": "stourton",
+   "so": "SO-715",
+   "date": "2026-09-19",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000,
+     "amount": 84000
+    }
+   ],
+   "total": 84000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5055",
+   "customer": "vossler",
+   "so": "SO-716",
+   "date": "2026-09-22",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000,
+     "amount": 600000
+    }
+   ],
+   "total": 600000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5030",
+   "customer": "faircombe",
+   "so": "SO-705",
+   "date": "2026-09-01",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000,
+     "amount": 600000
+    }
+   ],
+   "total": 600000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5033",
+   "customer": "cindral",
+   "so": "SO-706",
+   "date": "2026-09-03",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 2,
+     "price": 84000,
+     "amount": 168000
+    }
+   ],
+   "total": 168000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5036",
+   "customer": "ebberley",
+   "so": "SO-707",
+   "date": "2026-09-05",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "HR-1",
+     "qty": 1,
+     "price": 1250000,
+     "amount": 1250000
+    }
+   ],
+   "total": 1250000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5038",
+   "customer": "vossler",
+   "so": "SO-708",
+   "date": "2026-09-08",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "SPK-1",
+     "qty": 1,
+     "price": 84000,
+     "amount": 84000
+    }
+   ],
+   "total": 84000,
+   "due_days": 30
+  },
+  {
+   "id": "INV-5039",
+   "customer": "stourton",
+   "so": "SO-709",
+   "date": "2026-09-09",
+   "lines": [
+    {
+     "so_line": 1,
+     "product": "EVAL-2W",
+     "qty": 1,
+     "price": 600000,
+     "amount": 600000
+    }
+   ],
+   "total": 600000,
+   "due_days": 30
+  }
+ ],
+ "bank_lines": [
+  {
+   "id": "BK-7035",
+   "date": "2026-10-30",
+   "from": "vossler",
+   "amount": 2380000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7036",
+   "date": "2026-10-29",
+   "from": "faircombe",
+   "amount": 600000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7037",
+   "date": "2026-10-31",
+   "from": "quillby",
+   "amount": 252000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7038",
+   "date": "2026-10-28",
+   "from": "cindral",
+   "amount": 600000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7039",
+   "date": "2026-10-30",
+   "from": "faircombe",
+   "amount": 84000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7040",
+   "date": "2026-10-31",
+   "from": "ebberley",
+   "amount": 168000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7041",
+   "date": "2026-10-16",
+   "from": "stourton",
+   "amount": 84000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-7042",
+   "date": "2026-10-20",
+   "from": "vossler",
+   "amount": 600000,
+   "applied_to": null
+  },
+  {
+   "id": "BK-6925",
+   "date": "2026-09-24",
+   "from": "faircombe",
+   "amount": 600000,
+   "applied_to": "INV-5030"
+  },
+  {
+   "id": "BK-6926",
+   "date": "2026-09-25",
+   "from": "cindral",
+   "amount": 138000,
+   "applied_to": "INV-5033"
+  },
+  {
+   "id": "BK-6927",
+   "date": "2026-09-26",
+   "from": "ebberley",
+   "amount": 1250000,
+   "applied_to": "INV-5036"
+  },
+  {
+   "id": "BK-6928",
+   "date": "2026-09-27",
+   "from": "vossler",
+   "amount": 84000,
+   "applied_to": "INV-5038"
+  },
+  {
+   "id": "BK-6929",
+   "date": "2026-09-29",
+   "from": "stourton",
+   "amount": 600000,
+   "applied_to": "INV-5039"
+  },
+  {
+   "id": "BK-6930",
+   "date": "2026-09-28",
+   "from": "quillby",
+   "amount": 168000,
+   "applied_to": "INV-5041"
+  }
+ ]
+}
