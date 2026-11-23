@@ -154,11 +154,24 @@
 
   // ---------------------------------------------------------------- the log
   // a line is a list of [text, class] pieces (or nodes)
+  // codes such as PO-1211, D-1022 or TM-BL48-220 never break at their hyphen when a line wraps
+  var CODE = /\b[A-Z][A-Z0-9]*(?:-[A-Z0-9]+)+\b/g;
+  function fill(node, text) {
+    var last = 0, m;
+    CODE.lastIndex = 0;
+    while ((m = CODE.exec(text))) {
+      if (m.index > last) node.appendChild(document.createTextNode(text.slice(last, m.index)));
+      node.appendChild(el("span", "nb", m[0]));
+      last = CODE.lastIndex;
+    }
+    if (last < text.length || !text.length) node.appendChild(document.createTextNode(text.slice(last)));
+  }
   function line(pieces, cls, parent) {
     var d = el("div", "ln" + (cls ? " " + cls : ""));
     (typeof pieces === "string" ? [[pieces]] : pieces).forEach(function (p) {
       if (p instanceof Node) { d.appendChild(p); return; }
-      d.appendChild(p[1] ? el("span", p[1], p[0]) : document.createTextNode(p[0]));
+      var target = p[1] ? d.appendChild(el("span", p[1])) : d;
+      fill(target, String(p[0]));
     });
     (parent || log).appendChild(d);
     return d;
